@@ -40,6 +40,8 @@ the current files are for the sequencer section. there is no PCB layout or fabri
 
 [design notes](DESIGN.md)
 
+[journal](JOURNAL.md)
+
 [Half Life project](https://halflife.hackclub.com/projects/cmvfhc9ih000001o8aysnkf0b)
 
 *made for Hack Club Half Life, music week*
