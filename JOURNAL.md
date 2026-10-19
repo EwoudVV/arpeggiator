@@ -35,3 +35,25 @@ looked into the pitch-voltage parts too. ordinary analog switches can leak enoug
 ![arpeggiator-logic_05](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/2e96a1fdc59e3134bceac272b534890ca64b199a6d6bed82a7cd14eeb40fbfe2.png)
 
 ![arpeggiator-logic_06](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/7dee605eb502951ddd9abf63b8deae53fa63481804465bd96e2485126c97b93c.png)
+
+## October 19, 2026
+
+4 hours
+
+Devlog 02: pitch and sound circuit
+
+added the part that turns the note numbers into sound. the note register selects a voltage from the resistor ladder, and a second switch selects the octave. both go into the AS3340A oscillator, with trimmers for tuning and tracking
+
+the saw and pulse outputs feed an LM13700 amplifier. each note charges an envelope capacitor, then the decay knob controls how quickly it fades. stop discharges that capacitor too. after the amplifier there is a simple tone control, volume knob and a mono line output
+
+i checked the reference and resistor values, and ran models of the envelope and amplifier current source. i also went back through the sequencer checks with the sound circuit connected. the schematic passes ERC. the oscillator will still need tuning and checking once the board exists
+
+next is finishing the power supply and choosing the actual controls and parts before laying out the PCB
+
+![arpeggiator-10_oscillator](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/5bab5607ed1cafcc0af53510267b00c73ed498d59be1f3e56925a7780158311f.png)
+
+![arpeggiator-11_envelope](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/7beec83c31ef23782737abcae0466e96fe464cb95045156b4d98abc053dc0add.png)
+
+![arpeggiator-12_amplifier](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/6f09bcc8a226bab84e07c7f3538d816fd879706715352afc52755cfc94dbd909.png)
+
+![arpeggiator-08_reference](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/4422dca6d49914f7962e57559342c27781d8f3708900a712ffeabb2d0b5f53d7.png)
