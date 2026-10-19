@@ -26,7 +26,17 @@ the controls and connectors will fit into a printed desktop case. the plan is on
 
 ## progress
 
-the controls and octave behaviour are settled. i've checked the note-order model with every combination of note switches and octave ranges. i'm working out the actual logic circuit, sound circuit and power supply before drawing the full schematic. no hardware has been built yet
+the sequencer schematic is drawn. it covers the note switches, octave selector, clocks, input registers, counters, start/stop logic and note LEDs. the pitch is held in a register while the circuit looks for the next selected note
+
+i checked the clocked logic against the expected note patterns, including range changes, empty selections and stopping during a search. KiCad ERC is clean for this section. the oscillator, pitch-voltage circuit, envelope, amplifier and main power supply still need to be added. no hardware has been built yet
+
+![Sequencer schematic](images/sequencer.png)
+
+## files
+
+open [arpeggiator.kicad_pro](arpeggiator.kicad_pro) in KiCad. the [main schematic](arpeggiator.kicad_sch) links the circuit sheets in [schematic](schematic)
+
+the current files are for the sequencer section. there is no PCB layout or fabrication package yet
 
 [design notes](DESIGN.md)
 

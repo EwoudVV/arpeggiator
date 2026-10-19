@@ -1,0 +1,3606 @@
+(kicad_sch
+  (version 20260306)
+  (generator "eeschema")
+  (uuid "42270444-2227-5430-8ce5-9ed8947ba41a")
+  (paper "A3")
+  (title_block
+    (title "Sequencer control gates 02")
+  )
+  (lib_symbols
+    (symbol "74xx:74HC04"
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "U"
+        (at 0 1.27 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "74HC04"
+        (at 0 -1.27 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Description" "Hex Inverter"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_locked" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "HCMOS not inv"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_fp_filters" "DIP*W7.62mm* SSOP?14* TSSOP?14*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "74HC04_1_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC04_2_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC04_3_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC04_4_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC04_5_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC04_6_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC04_7_0"
+        (pin power_in line
+          (at 0 -12.7 90)
+          (length 5.08)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin power_in line
+          (at 0 12.7 270)
+          (length 5.08)
+          (name "VCC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC04_7_1"
+        (rectangle
+          (start -5.08 7.62)
+          (end 5.08 -7.62)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol "power:+5V"
+      (power global)
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (offset 0)
+        (hide yes)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "#PWR"
+        (at 0 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "+5V"
+        (at 0 3.556 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Description" "Power symbol creates a global label with name \"+5V\""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "global power"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line
+          (at 0 0 90)
+          (length 0)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol "power:GND"
+      (power global)
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (offset 0)
+        (hide yes)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "#PWR"
+        (at 0 -6.35 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "GND"
+        (at 0 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "global power"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line
+          (at 0 0 270)
+          (length 0)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+  )
+  (text "Sequencer control gates 02"
+    (at 20.0 18.0 0.0)
+    (effects
+      (font
+        (size 1.8 1.8)
+      )
+      (justify left)
+    )
+    (uuid "62dfc9bf-dfcf-56e6-a2eb-a84c8c25bba5")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 39.37 49.53 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b0443f09-cc6b-5e8b-a1d4-1402494ab94e")
+    (property "Reference" "U405"
+      (at 39.37 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 39.37 42.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 39.37 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 39.37 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U405")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 31.75 49.53)
+      (xy 26.67 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "6c604d0b-8a91-5461-8ebd-038ca5195d9a")
+  )
+  (global_label "CHECK_N"
+    (shape bidirectional)
+    (at 26.67 49.53 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "86b7bb4f-4658-522d-b6ef-b8ecee7ea0b7")
+  )
+  (wire
+    (pts
+      (xy 46.99 49.53)
+      (xy 52.07 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "72403f0b-3c93-565e-924b-37280415c435")
+  )
+  (global_label "CHECK"
+    (shape bidirectional)
+    (at 52.07 49.53 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "9405fc7c-f9e1-5e96-9584-1215e81c6bb1")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 93.98 49.53 0.0)
+    (unit 2)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4b25b474-ff55-52ed-b4aa-684c376329a8")
+    (property "Reference" "U405"
+      (at 93.98 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 93.98 42.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 93.98 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 93.98 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U405")
+          (unit 2)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 86.36 49.53)
+      (xy 81.28 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c2f07438-d3bc-599b-ab30-e4ef351d6dc5")
+  )
+  (global_label "COMMIT_N"
+    (shape bidirectional)
+    (at 81.28 49.53 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "482a8be3-d8ff-5ca2-a5d3-90607d075346")
+  )
+  (wire
+    (pts
+      (xy 101.6 49.53)
+      (xy 106.68 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "6042ee5b-b6fa-5d5c-9364-0090cf098492")
+  )
+  (global_label "COMMIT"
+    (shape bidirectional)
+    (at 106.68 49.53 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "9d966371-5a7b-517e-8b3d-f4281f9e7351")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 148.59 49.53 0.0)
+    (unit 3)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "aa4ce9a2-2512-5200-bc81-a3db754b8862")
+    (property "Reference" "U405"
+      (at 148.59 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 148.59 42.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 148.59 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 148.59 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U405")
+          (unit 3)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 140.97 49.53)
+      (xy 135.89 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "17aa1c64-4304-578e-9538-c189556df3ff")
+  )
+  (global_label "SETTLE_N"
+    (shape bidirectional)
+    (at 135.89 49.53 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "b7b3f869-4b7e-595c-8fe7-d3b80b180134")
+  )
+  (wire
+    (pts
+      (xy 156.21 49.53)
+      (xy 161.29 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "45e88f60-f295-5dd8-b503-a8ee312cce1b")
+  )
+  (global_label "SETTLE"
+    (shape bidirectional)
+    (at 161.29 49.53 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "97c5c28f-2b2b-500a-9337-b40695463747")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 201.93 49.53 0.0)
+    (unit 4)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "57e3c706-9a47-56c0-9ea1-ee6fd53f55f7")
+    (property "Reference" "U405"
+      (at 201.93 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 201.93 42.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 201.93 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 201.93 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U405")
+          (unit 4)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 209.55 49.53)
+      (xy 214.63 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "8b5cef0a-ad17-52fc-b8ce-6db98e6b9790")
+  )
+  (global_label "TRIGGER"
+    (shape bidirectional)
+    (at 214.63 49.53 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "2797205a-c3a2-5de4-a0df-668b002d7d5a")
+  )
+  (wire
+    (pts
+      (xy 194.31 49.53)
+      (xy 189.23 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "4b2abf5e-203f-5a7b-82b0-375cf3bbc9af")
+  )
+  (global_label "TRIGGER_N"
+    (shape bidirectional)
+    (at 189.23 49.53 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "0bfeedb1-baab-59f8-8d18-0ceabc33a343")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 256.54 49.53 0.0)
+    (unit 5)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "a170fc61-bb30-5ab6-a617-134ce16895ae")
+    (property "Reference" "U405"
+      (at 256.54 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 256.54 42.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 256.54 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 256.54 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U405")
+          (unit 5)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 264.16 49.53)
+      (xy 269.24 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "aa7a578c-232c-507e-8bf3-96a1b5c6719c")
+  )
+  (global_label "G028"
+    (shape bidirectional)
+    (at 269.24 49.53 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "ec082ea6-0ff4-538f-a216-1acad956247f")
+  )
+  (wire
+    (pts
+      (xy 248.92 49.53)
+      (xy 243.84 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "5dbc8a72-bb71-51f6-be3e-aed0b960f8a4")
+  )
+  (global_label "BUTTON_LAST"
+    (shape bidirectional)
+    (at 243.84 49.53 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "abf11d51-adb7-5127-91b3-74e46d49f083")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 309.88 49.53 0.0)
+    (unit 6)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b06060d5-b2c4-558c-9f88-529a69af582a")
+    (property "Reference" "U405"
+      (at 309.88 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 309.88 42.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 309.88 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 309.88 40.64 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U405")
+          (unit 6)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 317.5 49.53)
+      (xy 322.58 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f7086e58-4eae-50b3-b395-f0ae6508c0ee")
+  )
+  (global_label "G030"
+    (shape bidirectional)
+    (at 322.58 49.53 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "30312dc7-873d-5396-8332-0290be65e63d")
+  )
+  (wire
+    (pts
+      (xy 302.26 49.53)
+      (xy 297.18 49.53)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "ce6aec2b-55f2-5b63-89a9-a29d27ba8354")
+  )
+  (global_label "TEMPO_LAST"
+    (shape bidirectional)
+    (at 297.18 49.53 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "b5c1f4ce-788d-570d-8c59-e967524d4121")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 364.49 49.53 0.0)
+    (unit 7)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "38e6232e-5a0b-5de2-8492-ba7488b48153")
+    (property "Reference" "U405"
+      (at 368.3 46.99 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "74HC04"
+      (at 368.3 48.99 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 368.3 46.99 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 368.3 46.99 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U405")
+          (unit 7)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 364.49 62.23)
+      (xy 364.49 67.31)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d14dfb96-c19e-593a-9308-e60c0088f134")
+  )
+  (symbol
+    (lib_id "power:GND")
+    (at 364.49 67.31 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "036447e9-d88f-599d-9a18-2b9a27c7e917")
+    (property "Reference" "#PWR9040"
+      (at 364.49 67.31 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "GND"
+      (at 364.49 71.12 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "#PWR9040")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 364.49 36.83)
+      (xy 364.49 31.75)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0a3fcec6-6d5f-52df-b596-5a4b4e8bc6da")
+  )
+  (symbol
+    (lib_id "power:+5V")
+    (at 364.49 31.75 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "f9005421-f5e5-5d2a-ad57-6f0600732ce2")
+    (property "Reference" "#PWR9042"
+      (at 364.49 31.75 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+5V"
+      (at 364.49 27.94 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "#PWR9042")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 39.37 106.68 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f123c67b-d27d-524d-a543-995d5fdf6615")
+    (property "Reference" "U408"
+      (at 39.37 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 39.37 99.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 39.37 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 39.37 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U408")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 31.75 106.68)
+      (xy 26.67 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "5ac3f084-7e8c-5ab2-83dd-f689cb861d50")
+  )
+  (global_label "RUN_LAST"
+    (shape bidirectional)
+    (at 26.67 106.68 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "6ae6ee1a-897f-5133-af59-a92f4346e710")
+  )
+  (wire
+    (pts
+      (xy 46.99 106.68)
+      (xy 52.07 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "ca0af181-0035-584f-93f7-9aed3e2d001b")
+  )
+  (global_label "G033"
+    (shape bidirectional)
+    (at 52.07 106.68 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "b78fe7e9-3cb4-5a5c-8eab-f58fe3125873")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 93.98 106.68 0.0)
+    (unit 2)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6aa54403-567c-5908-9f4b-f9ce8d6d89b0")
+    (property "Reference" "U408"
+      (at 93.98 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 93.98 99.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 93.98 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 93.98 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U408")
+          (unit 2)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 86.36 106.68)
+      (xy 81.28 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "8e1442b4-e16d-542f-b4ce-4588a94e3f0c")
+  )
+  (global_label "IDLE"
+    (shape bidirectional)
+    (at 81.28 106.68 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "de04b41f-b29d-54b1-8aa0-39215a93760f")
+  )
+  (wire
+    (pts
+      (xy 101.6 106.68)
+      (xy 106.68 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "5b7136ae-0842-547e-a6b7-9a2be9b706e4")
+  )
+  (global_label "G037"
+    (shape bidirectional)
+    (at 106.68 106.68 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "9375ef93-e49c-5dfd-9f2f-0bff8df1e74f")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 148.59 106.68 0.0)
+    (unit 3)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f3571945-0018-5416-9bf4-d4330d9327be")
+    (property "Reference" "U408"
+      (at 148.59 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 148.59 99.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 148.59 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 148.59 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U408")
+          (unit 3)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 140.97 106.68)
+      (xy 135.89 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "8c56873b-6185-5ce6-accf-a9e74dd1ea0c")
+  )
+  (global_label "VALID"
+    (shape bidirectional)
+    (at 135.89 106.68 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "54eb38d9-e17c-50bd-aa0a-2170f62bec48")
+  )
+  (wire
+    (pts
+      (xy 156.21 106.68)
+      (xy 161.29 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "a5d0d261-366f-57a2-8c05-fa32c413137c")
+  )
+  (global_label "G054"
+    (shape bidirectional)
+    (at 161.29 106.68 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "bbc23a65-2189-55a1-a1a9-f4f751435804")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 201.93 106.68 0.0)
+    (unit 4)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "81af00bf-038a-5e05-b7aa-0f09e366d47d")
+    (property "Reference" "U408"
+      (at 201.93 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 201.93 99.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 201.93 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 201.93 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U408")
+          (unit 4)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 209.55 106.68)
+      (xy 214.63 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "bbfa96ec-844e-54c3-a18c-a8657be4f8b1")
+  )
+  (global_label "SEED_LOAD_N"
+    (shape bidirectional)
+    (at 214.63 106.68 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "2e8647e1-382d-5496-9a57-d3e30998b30c")
+  )
+  (wire
+    (pts
+      (xy 194.31 106.68)
+      (xy 189.23 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "347f8690-fb6b-5646-9a20-7b5ab41a3b7b")
+  )
+  (global_label "RESEED"
+    (shape bidirectional)
+    (at 189.23 106.68 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "f3e036b0-21ee-5f66-b2e7-60114c03c99c")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 256.54 106.68 0.0)
+    (unit 5)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6372c462-6ad2-55b8-ade9-96216bb6ca33")
+    (property "Reference" "U408"
+      (at 256.54 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 256.54 99.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 256.54 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 256.54 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U408")
+          (unit 5)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 264.16 106.68)
+      (xy 269.24 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "362c1056-e254-5d1e-a18e-e35561d689a3")
+  )
+  (global_label "G058"
+    (shape bidirectional)
+    (at 269.24 106.68 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "f884a115-cd44-5167-a69f-b9fc5e298768")
+  )
+  (wire
+    (pts
+      (xy 248.92 106.68)
+      (xy 243.84 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "1dde1dd5-1d62-51e5-9212-d52a07d0c801")
+  )
+  (global_label "N2"
+    (shape bidirectional)
+    (at 243.84 106.68 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "0deae0a4-d5c3-5c3d-8080-9d6037314887")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 309.88 106.68 0.0)
+    (unit 6)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "773cd16c-81f5-52b6-a70b-91fa2c89e14a")
+    (property "Reference" "U408"
+      (at 309.88 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 309.88 99.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 309.88 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 309.88 97.79 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U408")
+          (unit 6)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 317.5 106.68)
+      (xy 322.58 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f6e8e5eb-a5d3-5e10-8518-607855fd1881")
+  )
+  (global_label "G064"
+    (shape bidirectional)
+    (at 322.58 106.68 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "c374e783-b038-5ffd-a368-695531343074")
+  )
+  (wire
+    (pts
+      (xy 302.26 106.68)
+      (xy 297.18 106.68)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "12d569c8-cef7-5939-b336-0ae112ffccbe")
+  )
+  (global_label "G063"
+    (shape bidirectional)
+    (at 297.18 106.68 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "b8611267-78f3-5487-94c2-0122ec1f072a")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 364.49 106.68 0.0)
+    (unit 7)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b637f27c-49b7-535f-b1aa-645d0760c30d")
+    (property "Reference" "U408"
+      (at 368.3 104.14 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "74HC04"
+      (at 368.3 106.14 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 368.3 104.14 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 368.3 104.14 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U408")
+          (unit 7)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 364.49 119.38)
+      (xy 364.49 124.46)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "cf65d4f4-603c-5ba5-b7bf-689536a701ca")
+  )
+  (symbol
+    (lib_id "power:GND")
+    (at 364.49 124.46 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "7185f701-e1c2-56ab-aa86-bf4db40e14de")
+    (property "Reference" "#PWR9075"
+      (at 364.49 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "GND"
+      (at 364.49 128.26999999999998 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "#PWR9075")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 364.49 93.98)
+      (xy 364.49 88.9)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "65f94a5a-fb77-5836-8c51-eaf6f4f789b1")
+  )
+  (symbol
+    (lib_id "power:+5V")
+    (at 364.49 88.9 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "c9ebd005-51d5-564f-9a9b-38acee3bc9d6")
+    (property "Reference" "#PWR9077"
+      (at 364.49 88.9 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+5V"
+      (at 364.49 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "#PWR9077")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 39.37 163.83 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "926b8781-bffe-5586-814c-864db9d85c27")
+    (property "Reference" "U416"
+      (at 39.37 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 39.37 156.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 39.37 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 39.37 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U416")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 31.75 163.83)
+      (xy 26.67 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "6dcd7c72-b56e-52d4-926b-8328f9ace90c")
+  )
+  (global_label "G065"
+    (shape bidirectional)
+    (at 26.67 163.83 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "5f66411a-2375-52dc-affb-c91e3979a16a")
+  )
+  (wire
+    (pts
+      (xy 46.99 163.83)
+      (xy 52.07 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "f6f10fa2-5c1b-564f-891a-86444127d3db")
+  )
+  (global_label "G066"
+    (shape bidirectional)
+    (at 52.07 163.83 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "5929fb44-cc2c-59cd-9efa-c96ae51fab4a")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 93.98 163.83 0.0)
+    (unit 2)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "8cc00aad-12e0-5cae-819d-45add78552f1")
+    (property "Reference" "U416"
+      (at 93.98 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 93.98 156.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 93.98 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 93.98 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U416")
+          (unit 2)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 86.36 163.83)
+      (xy 81.28 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "04043c2f-a256-59f7-a926-111f929fa130")
+  )
+  (global_label "OCT_EN"
+    (shape bidirectional)
+    (at 81.28 163.83 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "d4bb30a1-1054-5c98-bcee-2392f0684b16")
+  )
+  (wire
+    (pts
+      (xy 101.6 163.83)
+      (xy 106.68 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "1eaae01b-9f71-59e2-bc2d-c7e4803f4752")
+  )
+  (global_label "G068"
+    (shape bidirectional)
+    (at 106.68 163.83 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "70472e54-c200-53da-b901-9cbc8f392da5")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 148.59 163.83 0.0)
+    (unit 3)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "b5f42d1b-6507-5504-9f71-3d78d41a852e")
+    (property "Reference" "U416"
+      (at 148.59 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 148.59 156.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 148.59 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 148.59 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U416")
+          (unit 3)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 140.97 163.83)
+      (xy 135.89 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c00310c4-105a-586b-9c02-cc0880ce7c60")
+  )
+  (global_label "G070"
+    (shape bidirectional)
+    (at 135.89 163.83 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "977cb0de-b712-5f27-bcd4-fbe5389c1a7d")
+  )
+  (wire
+    (pts
+      (xy 156.21 163.83)
+      (xy 161.29 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0898591c-23cc-55a4-ae4f-9e6a0f50b3fd")
+  )
+  (global_label "G071"
+    (shape bidirectional)
+    (at 161.29 163.83 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "ee1ed176-7115-5957-b08d-ba97d7fa9497")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 201.93 163.83 0.0)
+    (unit 4)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "bd84cd14-494e-5ddd-b619-bdd3e99e8c1b")
+    (property "Reference" "U416"
+      (at 201.93 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 201.93 156.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 201.93 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 201.93 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U416")
+          (unit 4)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 209.55 163.83)
+      (xy 214.63 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "53fc0b9f-c373-5fba-b6c5-c5f0b3998714")
+  )
+  (global_label "G073"
+    (shape bidirectional)
+    (at 214.63 163.83 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "c3424a56-fd7d-570f-9705-bee6f261180f")
+  )
+  (wire
+    (pts
+      (xy 194.31 163.83)
+      (xy 189.23 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "300b102f-6ad6-53b5-a7b9-9c3811250762")
+  )
+  (global_label "CAPTURE"
+    (shape bidirectional)
+    (at 189.23 163.83 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "b471adfb-641a-5b3b-844f-a0e6d588f1bc")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 256.54 163.83 0.0)
+    (unit 5)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "79933366-60f6-57bf-afe5-c7ec4c5f360b")
+    (property "Reference" "U416"
+      (at 256.54 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 256.54 156.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 256.54 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 256.54 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U416")
+          (unit 5)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 264.16 163.83)
+      (xy 269.24 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "1b59892e-2649-5291-9802-dfd0a046a312")
+  )
+  (global_label "G076"
+    (shape bidirectional)
+    (at 269.24 163.83 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "319fa2b1-7bf5-5c37-b8f0-7a517bb32af6")
+  )
+  (wire
+    (pts
+      (xy 248.92 163.83)
+      (xy 243.84 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "7092342c-6f54-50dd-a756-9adbf5efafc1")
+  )
+  (global_label "RANGE1"
+    (shape bidirectional)
+    (at 243.84 163.83 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "4cfed6bb-301c-5a8d-848f-4037ebc5d5fd")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 309.88 163.83 0.0)
+    (unit 6)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "9dd43fad-dfd7-52a4-bdd4-5e0dad1991f5")
+    (property "Reference" "U416"
+      (at 309.88 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 309.88 156.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 309.88 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 309.88 154.94 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U416")
+          (unit 6)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 317.5 163.83)
+      (xy 322.58 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "8b1b6876-0cd7-5144-afcb-c7dfad9408aa")
+  )
+  (global_label "G078"
+    (shape bidirectional)
+    (at 322.58 163.83 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "61ef0756-e8bc-5efb-a9d0-5526b4dd32d9")
+  )
+  (wire
+    (pts
+      (xy 302.26 163.83)
+      (xy 297.18 163.83)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "320b109b-4d96-5f9c-b108-ad5c0007079f")
+  )
+  (global_label "RANGE0"
+    (shape bidirectional)
+    (at 297.18 163.83 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "77904f23-c1b7-5bce-9aad-aea6578b193c")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 364.49 163.83 0.0)
+    (unit 7)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "5da06c8a-639e-5047-96c8-a37b3b2c090f")
+    (property "Reference" "U416"
+      (at 368.3 161.29000000000002 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "74HC04"
+      (at 368.3 163.29000000000002 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 368.3 161.29000000000002 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 368.3 161.29000000000002 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U416")
+          (unit 7)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 364.49 176.53)
+      (xy 364.49 181.61)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "97c133ad-7e89-5fd7-a31a-2ab1f329b04e")
+  )
+  (symbol
+    (lib_id "power:GND")
+    (at 364.49 181.61 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "02c686f9-c948-57b6-accb-6c06c8974dc7")
+    (property "Reference" "#PWR9110"
+      (at 364.49 181.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "GND"
+      (at 364.49 185.42000000000002 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "#PWR9110")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 364.49 151.13)
+      (xy 364.49 146.05)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b34cf0d7-8705-5671-a0e0-eceffe0269f9")
+  )
+  (symbol
+    (lib_id "power:+5V")
+    (at 364.49 146.05 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "9a0b47ea-91e2-573b-bf32-2f4f6a44d0a9")
+    (property "Reference" "#PWR9112"
+      (at 364.49 146.05 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+5V"
+      (at 364.49 142.24 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "#PWR9112")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 39.37 220.98 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "da448b88-c29a-5220-827f-92caa6a0d1ad")
+    (property "Reference" "U420"
+      (at 39.37 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 39.37 214.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 39.37 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 39.37 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U420")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 31.75 220.98)
+      (xy 26.67 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "37b7c5b6-afef-5382-b34d-c3e5dc01c3d9")
+  )
+  (global_label "NOTE_HIT"
+    (shape bidirectional)
+    (at 26.67 220.98 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "291195eb-4938-534b-8c29-40799c957217")
+  )
+  (wire
+    (pts
+      (xy 46.99 220.98)
+      (xy 52.07 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "54c3aeee-12b8-5f2c-b6c0-83488a4a5518")
+  )
+  (global_label "G084"
+    (shape bidirectional)
+    (at 52.07 220.98 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "79343647-156e-5823-9403-de3b0a688315")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 93.98 220.98 0.0)
+    (unit 2)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f2321c67-46f6-5e2b-8660-aeec78a141af")
+    (property "Reference" "U420"
+      (at 93.98 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 93.98 214.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 93.98 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 93.98 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U420")
+          (unit 2)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 86.36 220.98)
+      (xy 81.28 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "9fbcb73a-08dc-5f62-9a05-14151db7c37f")
+  )
+  (global_label "ANY_NOTE"
+    (shape bidirectional)
+    (at 81.28 220.98 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "1f7b498b-2e56-5124-83a9-69a664875155")
+  )
+  (wire
+    (pts
+      (xy 101.6 220.98)
+      (xy 106.68 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "6e3081da-b9b3-56e2-8365-6cbfe446f213")
+  )
+  (global_label "G090"
+    (shape bidirectional)
+    (at 106.68 220.98 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "b9df4286-2271-540e-8a13-c40a468fcfc2")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 148.59 220.98 0.0)
+    (unit 3)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6aa32a45-5ef7-56db-98c0-3a1088f650e3")
+    (property "Reference" "U420"
+      (at 148.59 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 148.59 214.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 148.59 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 148.59 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U420")
+          (unit 3)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 140.97 220.98)
+      (xy 135.89 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "0243565c-de8e-5f34-98e6-a31491b06921")
+  )
+  (global_label "ABORT"
+    (shape bidirectional)
+    (at 135.89 220.98 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "9333f85c-1dba-5d18-997b-4d7f5953472a")
+  )
+  (wire
+    (pts
+      (xy 156.21 220.98)
+      (xy 161.29 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c9e257e1-4f52-5ffd-ac3c-d88d7c8d8db7")
+  )
+  (global_label "G096"
+    (shape bidirectional)
+    (at 161.29 220.98 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "3612bde4-2218-5a1c-9fc7-1ede031b1449")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 201.93 220.98 0.0)
+    (unit 4)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "2cef2f94-9fd3-55a6-909e-3da879a25a32")
+    (property "Reference" "U420"
+      (at 201.93 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 201.93 214.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 201.93 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 201.93 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U420")
+          (unit 4)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 209.55 220.98)
+      (xy 214.63 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "bde8f90e-8a16-51de-9247-bff1f733ed1e")
+  )
+  (global_label "STATE_LOAD_N"
+    (shape bidirectional)
+    (at 214.63 220.98 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "3c208c90-fefd-5ab5-8863-33e84e632b8f")
+  )
+  (wire
+    (pts
+      (xy 194.31 220.98)
+      (xy 189.23 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b83fa453-0c9b-5888-be20-700c9444e34f")
+  )
+  (global_label "G100"
+    (shape bidirectional)
+    (at 189.23 220.98 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "a290ce38-2dff-5d46-b1c9-9935776ffe46")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 256.54 220.98 0.0)
+    (unit 5)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "d9863242-7b77-5019-995c-022333d55116")
+    (property "Reference" "U420"
+      (at 256.54 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 256.54 214.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 256.54 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 256.54 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U420")
+          (unit 5)
+        )
+      )
+    )
+  )
+  (no_connect
+    (at 264.16 220.98)
+    (uuid "7cea7967-e610-5dea-aab3-e5d1b002c7ff")
+  )
+  (wire
+    (pts
+      (xy 248.92 220.98)
+      (xy 243.84 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "9165a63c-31d8-54cf-8248-9a4fb77f6feb")
+  )
+  (global_label "GND"
+    (shape bidirectional)
+    (at 243.84 220.98 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "811ad621-79c6-5275-a61c-e3e9fcd468db")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 309.88 220.98 0.0)
+    (unit 6)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "c69464d1-2e41-5430-b79f-e0f6fb110271")
+    (property "Reference" "U420"
+      (at 309.88 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "74HC04"
+      (at 309.88 214.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 309.88 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 309.88 212.08999999999997 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U420")
+          (unit 6)
+        )
+      )
+    )
+  )
+  (no_connect
+    (at 317.5 220.98)
+    (uuid "290de41c-6cc8-5cc0-bf87-172fcce28857")
+  )
+  (wire
+    (pts
+      (xy 302.26 220.98)
+      (xy 297.18 220.98)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "fd80db32-cc47-533f-ae98-fc7418552f25")
+  )
+  (global_label "GND"
+    (shape bidirectional)
+    (at 297.18 220.98 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "e8e3903b-2159-5d1e-963b-950338c72dda")
+  )
+  (symbol
+    (lib_id "74xx:74HC04")
+    (at 364.49 220.98 0.0)
+    (unit 7)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "3f1d535c-6111-5b8a-a997-b24f8f274336")
+    (property "Reference" "U420"
+      (at 368.3 218.44 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "74HC04"
+      (at 368.3 220.44 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+      (at 368.3 218.44 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+      (at 368.3 218.44 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "U420")
+          (unit 7)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 364.49 233.68)
+      (xy 364.49 238.76)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "e6dcd1c4-299a-5513-af0d-64bf21e4dec2")
+  )
+  (symbol
+    (lib_id "power:GND")
+    (at 364.49 238.76 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "ea1dc214-f7be-50b5-8e25-b87af9b640cb")
+    (property "Reference" "#PWR9143"
+      (at 364.49 238.76 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "GND"
+      (at 364.49 242.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "#PWR9143")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 364.49 208.28)
+      (xy 364.49 203.2)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "50db45e4-1000-5a88-8e85-592abb090464")
+  )
+  (symbol
+    (lib_id "power:+5V")
+    (at 364.49 203.2 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "a2600a2b-ee39-56a8-84a9-416744f79bf7")
+    (property "Reference" "#PWR9145"
+      (at 364.49 203.2 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+5V"
+      (at 364.49 199.39 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
+          (reference "#PWR9145")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (embedded_fonts no)
+)

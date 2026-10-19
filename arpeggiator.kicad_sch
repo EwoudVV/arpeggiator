@@ -1,0 +1,738 @@
+(kicad_sch
+  (version 20260306)
+  (generator "eeschema")
+  (uuid "b74f2899-8338-4c76-a1a7-8fd841787321")
+  (paper "A3")
+  (lib_symbols)
+  (text "Arpeggiator / sequencer circuit"
+    (at 20.0 18.0 0.0)
+    (effects
+      (font
+        (size 2.0 2.0)
+      )
+      (justify left)
+    )
+    (uuid "574741fd-3ded-58f8-b3ed-fd3d31f167ab")
+  )
+  (text "Circuit in progress. The oscillator, pitch-voltage selection, envelope and main supply are still to be added."
+    (at 20.0 27.0 0.0)
+    (effects
+      (font
+        (size 1.2 1.2)
+      )
+      (justify left)
+    )
+    (uuid "5f32174e-94f9-59ca-acf6-44c58eb67802")
+  )
+  (sheet
+    (at 20.0 45.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "b3282eab-4454-5c14-a13b-9df84a0b4a64")
+    (property "Sheetname" "01_controls_a"
+      (at 20.0 44.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/01_controls_a.kicad_sch"
+      (at 20.0 77.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "2")
+        )
+      )
+    )
+  )
+  (text "Note switches C to F"
+    (at 23.0 57.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "8d713299-53d8-5fc3-ac7f-277cf04fd3d3")
+  )
+  (sheet
+    (at 118.0 45.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "8fd987d7-0432-53d0-a5aa-54ad6a9ab274")
+    (property "Sheetname" "02_controls_b"
+      (at 118.0 44.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/02_controls_b.kicad_sch"
+      (at 118.0 77.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "3")
+        )
+      )
+    )
+  )
+  (text "Note switches F sharp to B"
+    (at 121.0 57.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "7dfff5d5-841d-5c7f-be5d-0046ea876710")
+  )
+  (sheet
+    (at 216.0 45.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "1d6b0aab-8c51-534e-9000-bc6f11622b6d")
+    (property "Sheetname" "03_clock_range"
+      (at 216.0 44.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/03_clock_range.kicad_sch"
+      (at 216.0 77.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "4")
+        )
+      )
+    )
+  )
+  (text "Clocks, start button and octave range"
+    (at 219.0 57.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "22e7621c-f275-56ee-b202-c69aad98b1f0")
+  )
+  (sheet
+    (at 314.0 45.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "0c0c930f-7e5b-501d-973a-dcfc32ae5961")
+    (property "Sheetname" "04_input_registers"
+      (at 314.0 44.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/04_input_registers.kicad_sch"
+      (at 314.0 77.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "5")
+        )
+      )
+    )
+  )
+  (text "Input synchronizers and step snapshot"
+    (at 317.0 57.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "7284c548-3aaf-5fa3-b0c6-86eacddfd3d1")
+  )
+  (sheet
+    (at 20.0 93.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "6ac93ee4-0038-59ef-870b-cac375cd204c")
+    (property "Sheetname" "05_search_counters"
+      (at 20.0 92.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/05_search_counters.kicad_sch"
+      (at 20.0 125.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "6")
+        )
+      )
+    )
+  )
+  (text "Search counters and state decoder"
+    (at 23.0 105.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "88553248-79ce-53e3-9ee2-728c16d3f53b")
+  )
+  (sheet
+    (at 118.0 93.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "793bd5f8-1006-5d8a-a969-3c846ee1d7a7")
+    (property "Sheetname" "06_pitch_register"
+      (at 118.0 92.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/06_pitch_register.kicad_sch"
+      (at 118.0 125.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "7")
+        )
+      )
+    )
+  )
+  (text "Sounding pitch register and indicators"
+    (at 121.0 105.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "4f2bcc5f-cb51-5e99-a07e-5018734c97e9")
+  )
+  (sheet
+    (at 216.0 93.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "c750d47d-0431-5c42-b07b-fef4078c18cb")
+    (property "Sheetname" "07_power"
+      (at 216.0 92.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/07_power.kicad_sch"
+      (at 216.0 125.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "8")
+        )
+      )
+    )
+  )
+  (text "Logic power and decoupling"
+    (at 219.0 105.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "c683a96f-aef0-5fc3-8fbb-0bab8aecc397")
+  )
+  (sheet
+    (at 314.0 93.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "8e446f9f-853e-5dc3-aed5-d7db298bdb2c")
+    (property "Sheetname" "logic_01"
+      (at 314.0 92.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/logic_01.kicad_sch"
+      (at 314.0 125.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "9")
+        )
+      )
+    )
+  )
+  (text "Sequencer control gates 01"
+    (at 317.0 105.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "d2c59121-1037-520e-b6e0-1b7f045d1388")
+  )
+  (sheet
+    (at 20.0 141.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "bd86ffd0-ccf9-50cc-8174-e4e00513c198")
+    (property "Sheetname" "logic_02"
+      (at 20.0 140.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/logic_02.kicad_sch"
+      (at 20.0 173.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "10")
+        )
+      )
+    )
+  )
+  (text "Sequencer control gates 02"
+    (at 23.0 153.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "31fb1aa1-b7a6-53ca-b3de-9dc8e2665cd1")
+  )
+  (sheet
+    (at 118.0 141.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "bc10b5c0-c5ef-5510-b86a-c987f027fb8d")
+    (property "Sheetname" "logic_03"
+      (at 118.0 140.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/logic_03.kicad_sch"
+      (at 118.0 173.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "11")
+        )
+      )
+    )
+  )
+  (text "Sequencer control gates 03"
+    (at 121.0 153.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "9f0c4486-5058-5ca9-95de-a3ce0026bff7")
+  )
+  (sheet
+    (at 216.0 141.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "298e9d5d-d4c9-54a1-a795-9ab22961f190")
+    (property "Sheetname" "logic_04"
+      (at 216.0 140.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/logic_04.kicad_sch"
+      (at 216.0 173.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "12")
+        )
+      )
+    )
+  )
+  (text "Sequencer control gates 04"
+    (at 219.0 153.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "8e6b83d0-4987-54ca-9371-d1a0b55d5ea8")
+  )
+  (sheet
+    (at 314.0 141.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "5f66bcb5-83fd-577c-917d-f2adb17b4a7b")
+    (property "Sheetname" "logic_05"
+      (at 314.0 140.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/logic_05.kicad_sch"
+      (at 314.0 173.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "13")
+        )
+      )
+    )
+  )
+  (text "Sequencer control gates 05"
+    (at 317.0 153.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "a01b5baa-1ae4-5191-9173-c99f1376e7ea")
+  )
+  (sheet
+    (at 20.0 189.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "ef54dc9a-74df-5839-a8e8-fa97bbe5789d")
+    (property "Sheetname" "logic_06"
+      (at 20.0 188.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/logic_06.kicad_sch"
+      (at 20.0 221.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "14")
+        )
+      )
+    )
+  )
+  (text "Sequencer control gates 06"
+    (at 23.0 201.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "1ca217df-75de-5adf-a5ae-30c23cb82d47")
+  )
+  (sheet
+    (at 118.0 189.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "c79f4253-7072-5222-b1fa-f2c67fce914b")
+    (property "Sheetname" "logic_07"
+      (at 118.0 188.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/logic_07.kicad_sch"
+      (at 118.0 221.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "15")
+        )
+      )
+    )
+  )
+  (text "Sequencer control gates 07"
+    (at 121.0 201.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "bbb429e4-f027-576e-97f9-180c87d7fbf8")
+  )
+  (sheet
+    (at 216.0 189.0)
+    (size 87.0 31.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "964435e8-3666-5cee-b5ce-4ffe22c0f98c")
+    (property "Sheetname" "events"
+      (at 216.0 188.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/events.kicad_sch"
+      (at 216.0 221.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "16")
+        )
+      )
+    )
+  )
+  (text "Start, stop and note-valid registers"
+    (at 219.0 201.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "dd5db9f2-cba7-5378-9beb-f05e725e42c4")
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+  (embedded_fonts no)
+)
