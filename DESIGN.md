@@ -22,11 +22,10 @@ use 1 V per octave for the pitch control. the 12 pitch choices are 0, 1/12, 2/12
 
 the sound circuit uses an analog oscillator with sawtooth and pulse outputs, a retriggerable envelope, a voltage-controlled amplifier, a simple low-pass tone control and an AC-coupled output buffer. the jack is a line output for powered speakers, an amplifier or an audio interface
 
-the starting parts to evaluate are 74HC163 counters, 74HC574 registers, 74HC4067 multiplexers, an AS3340 oscillator and an LM13700 amplifier. exact part numbers and packages need checking against stock before the schematic is final
+the starting parts to evaluate are 74HC163 counters, 74HC574 registers, a 74HC4067 for reading the note switches, an ADG706 precision switch for pitch selection, an AS3340 oscillator and an LM13700 amplifier. use 0.1% resistors for the pitch ladder. exact part numbers and packages need checking against stock before the schematic is final
 
 ## power and case
 
 use an external regulated 12 V DC adapter with a centre-positive barrel connector. use +12 V and -5 V for the analog circuits, with a separate 5 V logic rail. the negative-rail circuit still needs a load and noise calculation. include reverse-polarity protection, decoupling and a power-on reset
 
 one custom PCB carries the circuit and controls. put the audio and power connectors at the back, the note switches in a piano arrangement, and the knobs above them. the case needs screw mounting, knob clearance and access to the calibration trimmers. PLA or PETG on the P1S
-

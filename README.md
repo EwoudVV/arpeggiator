@@ -30,4 +30,6 @@ the controls and octave behaviour are settled. i've checked the note-order model
 
 [design notes](DESIGN.md)
 
+[Half Life project](https://halflife.hackclub.com/projects/cmvfhc9ih000001o8aysnkf0b)
+
 *made for Hack Club Half Life, music week*
