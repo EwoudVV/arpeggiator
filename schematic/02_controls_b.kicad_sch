@@ -1557,7 +1557,7 @@
     (dnp no)
     (uuid "dc4ddb5b-44c1-5c01-a68e-ec68b21d51d6")
     (property "Reference" "R107"
-      (at 74.93 58.419999999999995 0.0)
+      (at 74.93 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -1565,7 +1565,7 @@
       )
     )
     (property "Value" "10k"
-      (at 74.93 60.419999999999995 0.0)
+      (at 74.93 60.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -1573,7 +1573,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 74.93 58.419999999999995 0.0)
+      (at 74.93 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -1582,7 +1582,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 74.93 58.419999999999995 0.0)
+      (at 74.93 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -1895,7 +1895,7 @@
     (dnp no)
     (uuid "ffc9965f-563c-5670-8178-97c80bd6a2b3")
     (property "Reference" "R108"
-      (at 199.39 58.419999999999995 0.0)
+      (at 199.39 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -1903,7 +1903,7 @@
       )
     )
     (property "Value" "10k"
-      (at 199.39 60.419999999999995 0.0)
+      (at 199.39 60.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -1911,7 +1911,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 199.39 58.419999999999995 0.0)
+      (at 199.39 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -1920,7 +1920,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 199.39 58.419999999999995 0.0)
+      (at 199.39 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2233,7 +2233,7 @@
     (dnp no)
     (uuid "11c8fc95-1722-5908-b7a3-8138d539b98f")
     (property "Reference" "R109"
-      (at 325.12 58.419999999999995 0.0)
+      (at 325.12 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2241,7 +2241,7 @@
       )
     )
     (property "Value" "10k"
-      (at 325.12 60.419999999999995 0.0)
+      (at 325.12 60.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2249,7 +2249,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 325.12 58.419999999999995 0.0)
+      (at 325.12 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2258,7 +2258,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 325.12 58.419999999999995 0.0)
+      (at 325.12 58.419999999999995 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2571,7 +2571,7 @@
     (dnp no)
     (uuid "eb63fac7-6223-57c6-b864-f3af9fcd2239")
     (property "Reference" "R110"
-      (at 74.93 168.91 0.0)
+      (at 74.93 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2579,7 +2579,7 @@
       )
     )
     (property "Value" "10k"
-      (at 74.93 170.91 0.0)
+      (at 74.93 170.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2587,7 +2587,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 74.93 168.91 0.0)
+      (at 74.93 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2596,7 +2596,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 74.93 168.91 0.0)
+      (at 74.93 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2909,7 +2909,7 @@
     (dnp no)
     (uuid "0260da28-345a-5a17-8de6-1bd913fc9b8b")
     (property "Reference" "R111"
-      (at 199.39 168.91 0.0)
+      (at 199.39 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2917,7 +2917,7 @@
       )
     )
     (property "Value" "10k"
-      (at 199.39 170.91 0.0)
+      (at 199.39 170.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2925,7 +2925,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 199.39 168.91 0.0)
+      (at 199.39 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -2934,7 +2934,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 199.39 168.91 0.0)
+      (at 199.39 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -3247,7 +3247,7 @@
     (dnp no)
     (uuid "51c7c820-bb29-5b0c-bdec-8d74f8630f21")
     (property "Reference" "R112"
-      (at 325.12 168.91 0.0)
+      (at 325.12 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -3255,7 +3255,7 @@
       )
     )
     (property "Value" "10k"
-      (at 325.12 170.91 0.0)
+      (at 325.12 170.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -3263,7 +3263,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 325.12 168.91 0.0)
+      (at 325.12 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -3272,7 +3272,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 325.12 168.91 0.0)
+      (at 325.12 168.91 90.0)
       (effects
         (font
           (size 1.05 1.05)

@@ -20,9 +20,13 @@ the search is bounded. it must finish in less than 2 ms at the slowest allowed i
 
 use 1 V per octave for the pitch control. the 12 pitch choices are 0, 1/12, 2/12 through 11/12 V. add 0, 1 or 2 V for the octave. a high-input-impedance buffer keeps the analog switch from loading the resistor ladder. provide tuning and scale trimmers, plus pitch and reference test points
 
-the sound circuit uses an analog oscillator with sawtooth and pulse outputs, a retriggerable envelope, a voltage-controlled amplifier, a simple low-pass tone control and an AC-coupled output buffer. the jack is a line output for powered speakers, an amplifier or an audio interface
+the sound circuit uses an analog oscillator with sawtooth and pulse outputs, a decay envelope, a voltage-controlled amplifier, a simple low-pass tone control and an AC-coupled output buffer. the jack is a line output for powered speakers, an amplifier or an audio interface
 
-the starting parts to evaluate are 74HC163 counters, 74HC574 registers, a 74HC4067 for reading the note switches, an ADG706 precision switch for pitch selection, an AS3340 oscillator and an LM13700 amplifier. use 0.1% resistors for the pitch ladder. exact part numbers and packages need checking against stock before the schematic is final
+the sequencer uses 74HC163 counters and HC registers, with a 74HC4067 reading the note switches. pitch selection uses an ADG706, a buffered resistor ladder and a separate octave switch. the oscillator is an AS3340A. each step charges the envelope capacitor, then it decays through the decay knob. the LM13700 controls the volume before the tone control and line buffer
+
+the ladder resistors are 0.1%. the reference divider and pitch input ratios use 0.01% resistors. the oscillator has coarse, scale, temperature-compensation and high-frequency tracking trimmers. these need setting on the finished board, starting at C3 and checking each octave. the front-panel tune knob covers about two semitones in total
+
+this is still unbuilt. the envelope and amplifier have been checked with circuit models, but the oscillator has not been measured or calibrated. the next schematic work is the main power supply and connector protection. the controls, film capacitors and jack still need exact parts and footprints
 
 ## power and case
 

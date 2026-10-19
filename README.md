@@ -26,17 +26,21 @@ the controls and connectors will fit into a printed desktop case. the plan is on
 
 ## progress
 
-the sequencer schematic is drawn. it covers the note switches, octave selector, clocks, input registers, counters, start/stop logic and note LEDs. the pitch is held in a register while the circuit looks for the next selected note
+the sequencer and sound schematics are drawn. the pitch circuit selects a note from the resistor ladder and adds the octave voltage. an AS3340A makes the saw and pulse waves, followed by a decay envelope, LM13700 amplifier and the tone and volume controls
 
-i checked the clocked logic against the expected note patterns, including range changes, empty selections and stopping during a search. KiCad ERC is clean for this section. the oscillator, pitch-voltage circuit, envelope, amplifier and main power supply still need to be added. no hardware has been built yet
+i checked the note logic and ran models of the envelope and amplifier current source. KiCad ERC is clean. the main power supply still needs finishing, and the exact controls and other parts need sourcing before PCB layout. nothing has been built or tuned yet
 
 ![Sequencer schematic](images/sequencer.png)
+
+![Pitch reference and ladder](images/pitch-reference.png)
+
+![Oscillator schematic](images/oscillator.png)
 
 ## files
 
 open [arpeggiator.kicad_pro](arpeggiator.kicad_pro) in KiCad. the [main schematic](arpeggiator.kicad_sch) links the circuit sheets in [schematic](schematic)
 
-the current files are for the sequencer section. there is no PCB layout or fabrication package yet
+the files are still a schematic design in progress. there is no PCB layout, case or fabrication package yet
 
 [design notes](DESIGN.md)
 

@@ -4082,7 +4082,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+    (property "Footprint" ""
       (at 308.61 97.78999999999999 0.0)
       (effects
         (font
@@ -4561,7 +4561,7 @@
     (dnp no)
     (uuid "89d5ab15-9fdb-522e-8e62-6c84759b7627")
     (property "Reference" "R131"
-      (at 119.38 223.52 0.0)
+      (at 119.38 223.52 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -4569,7 +4569,7 @@
       )
     )
     (property "Value" "1k"
-      (at 119.38 225.52 0.0)
+      (at 119.38 225.52 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -4577,7 +4577,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 119.38 223.52 0.0)
+      (at 119.38 223.52 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -4586,7 +4586,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 119.38 223.52 0.0)
+      (at 119.38 223.52 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -5093,7 +5093,7 @@
     (dnp no)
     (uuid "c42a594f-054e-56ff-bdb4-3c1236c3f047")
     (property "Reference" "R142"
-      (at 204.47 163.83 0.0)
+      (at 204.47 163.83 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -5101,7 +5101,7 @@
       )
     )
     (property "Value" "10k"
-      (at 204.47 165.83 0.0)
+      (at 204.47 165.83 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -5109,7 +5109,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 204.47 163.83 0.0)
+      (at 204.47 163.83 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -5118,7 +5118,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 204.47 163.83 0.0)
+      (at 204.47 163.83 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -5437,7 +5437,7 @@
     (dnp no)
     (uuid "6eb13da9-75a9-5d21-bd2d-b3b1c1a6b77e")
     (property "Reference" "R143"
-      (at 204.47 213.36 0.0)
+      (at 204.47 213.36 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -5445,7 +5445,7 @@
       )
     )
     (property "Value" "10k"
-      (at 204.47 215.36 0.0)
+      (at 204.47 215.36 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -5453,7 +5453,7 @@
       )
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-      (at 204.47 213.36 0.0)
+      (at 204.47 213.36 90.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -5462,7 +5462,7 @@
       )
     )
     (property "Datasheet" ""
-      (at 204.47 213.36 0.0)
+      (at 204.47 213.36 90.0)
       (effects
         (font
           (size 1.05 1.05)
