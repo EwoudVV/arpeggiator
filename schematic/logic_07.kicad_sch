@@ -1358,11 +1358,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf"
       (at 39.37 40.64 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC32D,653"
+      (at 39.37 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 39.37 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 39.37 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1476,11 +1503,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf"
       (at 93.98 40.64 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC32D,653"
+      (at 93.98 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 93.98 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 93.98 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1594,11 +1648,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf"
       (at 148.59 40.64 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC32D,653"
+      (at 148.59 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 148.59 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 148.59 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1680,106 +1761,6 @@
   )
   (symbol
     (lib_id "74xx:74LS32")
-    (at 201.93 49.53 0.0)
-    (unit 4)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (uuid "45632ed7-86ce-5026-8468-11f85175a84a")
-    (property "Reference" "U424"
-      (at 201.93 40.64 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-      )
-    )
-    (property "Value" "74HC32"
-      (at 201.93 42.64 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-      )
-    )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-      (at 201.93 40.64 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (hide yes)
-      )
-    )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-      (at 201.93 40.64 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (hide yes)
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c79f4253-7072-5222-b1fa-f2c67fce914b"
-          (reference "U424")
-          (unit 4)
-        )
-      )
-    )
-  )
-  (no_connect
-    (at 209.55 49.53)
-    (uuid "dfe1044d-dc78-5fbf-9b90-9668562dcc1e")
-  )
-  (wire
-    (pts
-      (xy 194.31 46.99)
-      (xy 189.23 46.99)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "69f7cf5a-f2d8-5963-8c9f-4787d1d0a000")
-  )
-  (global_label "GND"
-    (shape bidirectional)
-    (at 189.23 46.99 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "921526ab-a034-538c-a4ec-ecaeb968a147")
-  )
-  (wire
-    (pts
-      (xy 194.31 52.07)
-      (xy 189.23 52.07)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "69508473-9e18-5202-a0e1-427938869658")
-  )
-  (global_label "GND"
-    (shape bidirectional)
-    (at 189.23 52.07 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "0af180ff-c5b0-5cda-bd5a-20bc56cb42b3")
-  )
-  (symbol
-    (lib_id "74xx:74LS32")
     (at 256.54 49.53 0.0)
     (unit 5)
     (exclude_from_sim no)
@@ -1815,13 +1796,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf"
       (at 260.35 46.99 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC32D,653"
+      (at 256.54 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 256.54 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 256.54 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -1854,7 +1862,7 @@
     (on_board no)
     (dnp no)
     (uuid "b9762258-597e-5da5-863e-0d83bfa7b75c")
-    (property "Reference" "#PWR14037"
+    (property "Reference" "#PWR14031"
       (at 256.54 67.31 0.0)
       (effects
         (font
@@ -1874,7 +1882,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c79f4253-7072-5222-b1fa-f2c67fce914b"
-          (reference "#PWR14037")
+          (reference "#PWR14031")
           (unit 1)
         )
       )
@@ -1900,7 +1908,7 @@
     (on_board no)
     (dnp no)
     (uuid "92bac730-b594-515d-b9a6-1d23483a7139")
-    (property "Reference" "#PWR14039"
+    (property "Reference" "#PWR14033"
       (at 256.54 31.75 0.0)
       (effects
         (font
@@ -1920,7 +1928,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c79f4253-7072-5222-b1fa-f2c67fce914b"
-          (reference "#PWR14039")
+          (reference "#PWR14033")
           (unit 1)
         )
       )

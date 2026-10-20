@@ -24,12 +24,14 @@ the sound circuit uses an analog oscillator with sawtooth and pulse outputs, a d
 
 the sequencer uses 74HC163 counters and HC registers, with a 74HC4067 reading the note switches. pitch selection uses an ADG706, a buffered resistor ladder and a separate octave switch. the oscillator is an AS3340A. each step charges the envelope capacitor, then it decays through the decay knob. the LM13700 controls the volume before the tone control and line buffer
 
-the ladder resistors are 0.1%. the reference divider and pitch input ratios use 0.01% resistors. the oscillator has coarse, scale, temperature-compensation and high-frequency tracking trimmers. these need setting on the finished board, starting at C3 and checking each octave. the front-panel tune knob covers about two semitones in total
+the ladder resistors are 0.1%. the reference divider uses 0.1% resistors. the octave gain and pitch input ratios use 0.01% resistors. the initial reference-divider error is set out during scale calibration. the oscillator has coarse, scale, temperature-compensation and high-frequency tracking trimmers. these need setting on the finished board, starting at C3 and checking each octave. the front-panel tune knob covers about two semitones in total
 
-this is still unbuilt. the envelope and amplifier have been checked with circuit models, but the oscillator has not been measured or calibrated. the next schematic work is the main power supply and connector protection. the controls, film capacitors and jack still need exact parts and footprints
+this is still unbuilt. the envelope and amplifier have been checked with circuit models, but the oscillator has not been measured or calibrated. the supply and output protection are drawn too. the controls, film capacitors and jack still need exact parts and footprints
 
 ## power and case
 
-use an external regulated 12 V DC adapter with a centre-positive barrel connector. use +12 V and -5 V for the analog circuits, with a separate 5 V logic rail. the negative-rail circuit still needs a load and noise calculation. include reverse-polarity protection, decoupling and a power-on reset
+use an external regulated 12 V DC adapter with a centre-positive barrel connector. use +12 V and -5 V for the analog circuits, with a separate 5 V logic rail. a 7805 supplies the logic. an LT1054 makes about -9.3 V, followed by a 7905 for the -5 V analog rail. both regulators are TO-220 parts. their tabs are on different nets, so they must not share an uninsulated metal mount
+
+reset checks the 5 V rail, input voltage and negative rail. a TMUX6219 mutes the line output while stopped or held in reset. the output has a series resistor, clamp diodes and an ESD diode at the jack. the envelope mute is powered from 12 V so it can discharge the capacitor if the logic rail fails
 
 one custom PCB carries the circuit and controls. put the audio and power connectors at the back, the note switches in a piano arrangement, and the knobs above them. the case needs screw mounting, knob clearance and access to the calibration trimmers. PLA or PETG on the P1S

@@ -1187,11 +1187,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm4040.pdf"
       (at 74.93 64.77000000000001 90.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "LM4040A25IDBZR"
+      (at 74.93 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 74.93 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 74.93 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1477,7 +1504,7 @@
         (justify left)
       )
     )
-    (property "Value" "15k 0.01% 25ppm/C"
+    (property "Value" "15k 0.1% 25ppm/C"
       (at 158.75 59.15 0.0)
       (effects
         (font
@@ -1555,7 +1582,7 @@
         (justify left)
       )
     )
-    (property "Value" "10k 0.01% 25ppm/C"
+    (property "Value" "10k 0.1% 25ppm/C"
       (at 158.75 104.86999999999999 0.0)
       (effects
         (font
@@ -1686,6 +1713,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "RNCF0805TKY10K0"
+      (at 299.72 134.62 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Stackpole"
+      (at 299.72 134.62 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Mouser"
+      (at 299.72 134.62 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCF0805TKY10K0?qs=FESYatJ8odKPVkqigBJMsg%3D%3D"
+      (at 299.72 134.62 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/182e9b80-2645-590e-8742-564c0f5c7c92"
@@ -1785,6 +1848,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RNCF0805TKY10K0"
+      (at 359.41 110.49 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Stackpole"
+      (at 359.41 110.49 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Mouser"
+      (at 359.41 110.49 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCF0805TKY10K0?qs=FESYatJ8odKPVkqigBJMsg%3D%3D"
+      (at 359.41 110.49 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2508,6 +2607,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "OPA4192IDR"
+      (at 219.71 82.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 219.71 82.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 219.71 82.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2057908.html"
+      (at 219.71 82.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/182e9b80-2645-590e-8742-564c0f5c7c92"
@@ -2556,6 +2691,42 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "OPA4192IDR"
+      (at 330.2 82.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 330.2 82.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 330.2 82.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2057908.html"
+      (at 330.2 82.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )

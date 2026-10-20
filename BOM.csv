@@ -1,0 +1,131 @@
+Value,Quantity,References,MPN,Footprint,Manufacturer,Supplier,Supplier URL,Datasheet,Status
+74HC04,4,"U404, U405, U408, U416","74HC04D,653",Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf,"part selected, quote pending"
+74HC08,8,"U406, U413, U414, U417, U418, U421, U423, U425","74HC08D,653",Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT08.pdf,"part selected, quote pending"
+74HC138,1,U212,"74HC138D,653",Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT138.pdf,"part selected, quote pending"
+74HC14,4,"U401, U402, U403, U420","74HC14D,653",Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf,"part selected, quote pending"
+74HC154,1,U222,"74HC154D,653",Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,Nexperia,LCSC,https://www.lcsc.com/product-detail/C13758.html,https://assets.nexperia.com/documents/data-sheet/74HC_HCT154.pdf,"part selected, quote pending"
+74HC163,4,"U211, U213, U214, U215","74HC163D,653",Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT163.pdf,"part selected, quote pending"
+74HC32,7,"U409, U410, U411, U412, U419, U422, U424","74HC32D,653",Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT32.pdf,"part selected, quote pending"
+74HC377,3,"U205, U206, U221","74HC377D,653",Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,Nexperia,LCSC,https://www.lcsc.com/product-detail/C5639.html,https://assets.nexperia.com/documents/data-sheet/74HC_HCT377.pdf,"part selected, quote pending"
+74HC4051D,1,U503,"74HC4051D,653",Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT4051.pdf,"part selected, quote pending"
+74HC574,4,"U201, U203, U202, U204","74HC574D,653",Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm,Nexperia,LCSC,https://www.lcsc.com/product-detail/C16501.html,https://assets.nexperia.com/documents/data-sheet/74HC_HCT574.pdf,"part selected, quote pending"
+74HC74,3,"U301, U302, U303","74HC74D,653",Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT74.pdf,"part selected, quote pending"
+74HC86,2,"U407, U415","74HC86D,653",Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/74HC_HCT86.pdf,"part selected, quote pending"
+ADG706BRUZ,1,U502,ADG706BRUZ-REEL7,Package_SO:TSSOP-28_4.4x9.7mm_P0.65mm,Analog Devices,LCSC,https://www.lcsc.com/product-detail/C408400.html,https://www.analog.com/media/en/technical-documentation/data-sheets/adg706_707.pdf,"part selected, quote pending"
+AS3340A,1,U504,AS3340A,Package_DIP:DIP-16_W7.62mm,ALFA RPAR,Infinite Machinery,https://infinitemachinery.com/as3340a,https://www.alfatriode.lv/eng/sc/AS3340.pdf,"part selected, quote pending"
+CD74HC4067M,1,U216,CD74HC4067M,Package_SO:SOIC-24W_7.5x15.4mm_P1.27mm,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf,"part selected, quote pending"
+L7805CV,1,U701,L7805CV,Package_TO_SOT_THT:TO-220-3_Vertical,STMicroelectronics,LCSC,https://estore.st.com/en/l7805cv-cpn.html,https://www.st.com/resource/en/datasheet/l78.pdf,"part selected, quote pending"
+L7905CV,1,U706,L7905CV,Package_TO_SOT_THT:TO-220-3_Vertical,STMicroelectronics,LCSC,https://estore.st.com/en/l7905cv-cpn.html,https://www.st.com/resource/en/datasheet/l79.pdf,"part selected, quote pending"
+LM13700M/NOPB,1,U604,LM13700M/NOPB,Package_SO:SOIC-16_3.9x9.9mm_P1.27mm,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/lm13700.pdf,"part selected, quote pending"
+LT1054CP,1,U702,LT1054CP,Package_DIP:DIP-8_W7.62mm,Texas Instruments,Mouser,,https://www.ti.com/lit/ds/symlink/lt1054.pdf,"part selected, quote pending"
+MCP100T-450I/TT,1,U103,MCP100T-450I/TT,Package_TO_SOT_SMD:SOT-23,Microchip,LCSC,,https://www.microchip.com/en-us/product/MCP100,"part selected, quote pending"
+OPA4192IDR,2,"U501, U602",OPA4192IDR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Texas Instruments,LCSC,https://www.lcsc.com/product-detail/C2057908.html,https://www.ti.com/lit/ds/symlink/opa4192.pdf,"part selected, quote pending"
+TL074HIDR,1,U603,TL074HIDR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tl074.pdf,"part selected, quote pending"
+TL431BIDBZR,2,"U703, U704",TL431BIDBZR,Package_TO_SOT_SMD:SOT-23,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tl431.pdf,"part selected, quote pending"
+TLC555IDR,3,"U101, U102, U601",TLC555IDR,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tlc555.pdf,"part selected, quote pending"
+TMUX6219DGKR,1,U705,TMUX6219DGKR,Package_SO:VSSOP-8_3x3mm_P0.65mm,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tmux6219.pdf,"part selected, quote pending"
+100k 0.01% 25ppm/C,4,"R531, R532, R622, R623",RNCF0805TKT100K,Resistor_SMD:R_0805_2012Metric,Stackpole,DigiKey,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0805TKT100K/5014562,,"part selected, quote pending"
+100k coarse trim,1,RV606,3296W-1-104LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+100k offset null,1,RV602,3296W-1-104LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+100u 25V,2,"C701, C707",EEU-FR1E101,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,Panasonic,Mouser,https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FR1E101?qs=Ao3mORb5HCDieoJwtkb8Dw%3D%3D,,"part selected, quote pending"
+10k 0.01% 25ppm/C,4,"R504, R505, R621, R624",RNCF0805TKY10K0,Resistor_SMD:R_0805_2012Metric,Stackpole,Mouser,https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCF0805TKY10K0?qs=FESYatJ8odKPVkqigBJMsg%3D%3D,,"part selected, quote pending"
+10k tempco,1,RV502,3296W-1-103LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+20k HF track,1,RV503,3296W-1-203LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+2N7002,2,"Q601, Q605","2N7002,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/2N7002.pdf,"part selected, quote pending"
+500 scale,1,RV501,3296W-1-501LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+AO3401A,1,Q701,AO3401A,Package_TO_SOT_SMD:SOT-23,Alpha & Omega,LCSC,,https://www.aosmd.com/res/data_sheets/AO3401A.pdf,"part selected, quote pending"
+BAT54GW,2,"D601, D708","BAT54GW,115",Diode_SMD:D_SOD-123,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/BAT54GW.pdf,"part selected, quote pending"
+"BAT54S,215",1,D706,"BAT54S,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf,"part selected, quote pending"
+BSS84,1,Q603,"BSS84,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/BSS84.pdf,"part selected, quote pending"
+BZT52C8V2,1,D701,"BZT52-C8V2,115",Diode_SMD:D_SOD-123,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf,"part selected, quote pending"
+LM4040A25IDBZR,1,D501,LM4040A25IDBZR,Package_TO_SOT_SMD:SOT-23,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/lm4040.pdf,"part selected, quote pending"
+MF-MSMF025-2 / 250mA,1,F701,MF-MSMF025-2,Fuse:Fuse_1812_4532Metric,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/mfmsmf.pdf,"part selected, quote pending"
+MMBT3904,2,"Q602, Q604","MMBT3904,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf,"part selected, quote pending"
+MMBT3906,3,"Q606, Q702, Q703","MMBT3906,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/MMBT3906.pdf,"part selected, quote pending"
+"PESD5V0S1BA,115",1,D705,"PESD5V0S1BA,115",Diode_SMD:D_SOD-323,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA_BB_BL.pdf,"part selected, quote pending"
+PJ-102AH / 12V DC centre +,1,J701,PJ-102AH,Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal,Same Sky,Mouser,,https://www.sameskydevices.com/product/resource/pj-102ah.pdf,"part selected, quote pending"
+SMBJ12A,1,D702,SMBJ12A,Diode_SMD:D_SMB,Littelfuse,LCSC,https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smbj/smbj12a,,"part selected, quote pending"
+SS14,3,"D703, D707, D704",SS14-13-F,Diode_SMD:D_SMA,Diodes Incorporated,LCSC,,https://www.diodes.com/assets/Datasheets/ds23001.pdf,"part selected, quote pending"
+1.1M 1%,1,R633,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1.5M 1%,2,"R534, R542",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1.5k 1%,1,R537,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1.82M 0.1%,1,R620,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+100 0.1%,1,R540,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1000u 25V,1,C708,,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,,,,,"generic component, supplier pending"
+100k 1%,11,"R130, R216, R535, R601, R602, R605, R637, R701, R716, R726, R728",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+100n 5%,1,C601,,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+100n 50V X7R 10%,68,"C130, C140, C141, C901, C902, C903, C904, C905, C906, C907, C908, C909, C910, C911, C912, C913, C914, C915, C916, C917, C918, C919, C920, C921, C922, C923, C924, C925, C926, C927, C928, C929, C930, C931, C932, C933, C934, C935, C936, C937, C938, C939, C940, C941, C942, C943, C944, C945, C501, C532, C551, C552, C553, C554, C555, C556, C557, C558, C559, C560, C561, C562, C661, C703, C706, C717, C715, C716",,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+100p C0G,5,"C502, C503, C621, C713, C714",,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+10k 0.1%,2,"R625, R639",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+10k 0.1% 25ppm/C,1,R503,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+10k 1%,25,"R101, R102, R103, R104, R105, R106, R107, R108, R109, R110, R111, R112, R151, R152, R161, R140, R142, R141, R143, R604, R609, R630, R717, R727, R707",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+10n,6,"C172, C182, C531, C533, C602, C634",,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+10u 16V,1,C150,,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+15k 0.1% 25ppm/C,1,R502,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+174k 0.1%,1,R704,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+18.2k 1%,1,R603,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1M 1%,2,"R541, R629",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1k 0.1%,12,"R511, R512, R513, R514, R515, R516, R517, R518, R519, R520, R521, R522",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1k 1%,6,"R131, R628, R632, R634, R635, R636",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1n C0G,2,"C171, C534",,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+1u 16V,12,"C101, C102, C103, C104, C105, C106, C107, C108, C109, C110, C111, C112",,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+2.2k 1%,14,"R221, R222, R223, R224, R225, R226, R227, R228, R229, R230, R231, R232, R714, R724",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+2.32k 0.1%,1,R712,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+2.49k 1%,1,R501,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+200k 1%,1,R627,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+20k 0.1%,1,R703,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+220 1%,2,"R607, R611",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+22k 1%,1,R608,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+22u 16V,2,"C704, C711",,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,,,,,"generic component, supplier pending"
+22u 25V,1,C705,,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,,,,,"generic component, supplier pending"
+24k 1%,1,R538,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+2k 0.1%,2,"R711, R722",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+2n C0G,1,C709,,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+330k 0.1%,2,"R713, R723",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+330n 50V,1,C702,,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+33k 1%,1,R706,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+33p C0G,1,C622,,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+360k 0.1%,1,R533,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+36k 1%,1,R162,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+4.7 1% 0.25W,1,R702,,Resistor_SMD:R_1206_3216Metric,,,,,"generic component, supplier pending"
+4.7u 25V X7R,1,C635,,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
+470 1%,2,"R536, R543",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+47k 1%,5,"R606, R610, R626, R715, R725",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+5.62k 0.1%,1,R539,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+51k 1%,1,R544,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+6.04k 0.1%,1,R638,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+6.49k 0.1%,1,R721,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+820k 1%,1,R631,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+910 1%,2,"R729, R730",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+copper test pad,6,"TP701, TP702, TP703, TP704, TP705, TP706",,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,,,,,"PCB pad, no component"
+logic test header,1,J202,,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,,,,,"generic component, supplier pending"
+"note LED, 0805",12,"D221, D222, D223, D224, D225, D226, D227, D228, D229, D230, D231, D232",,LED_SMD:LED_0805_2012Metric,,,,,"generic component, supplier pending"
+100k audio volume,1,RV604,,,,,,,exact part and footprint pending
+100k tone,1,RV603,,,,,,,exact part and footprint pending
+100k tune,1,RV605,,,,,,,exact part and footprint pending
+100n 50V X7R 10%,2,"C631, C632",,,,,,,exact part and footprint pending
+1M decay,1,RV601,,,,,,,exact part and footprint pending
+1u film,1,C603,,,,,,,exact part and footprint pending
+2.2u film,1,C181,,,,,,,exact part and footprint pending
+220k linear,1,RV101,,,,,,,exact part and footprint pending
+3.5mm mono line out,1,J601,,,,,,,exact part and footprint pending
+470n film,1,C633,,,,,,,exact part and footprint pending
+A,1,SW110,,,,,,,exact part and footprint pending
+A sharp,1,SW111,,,,,,,exact part and footprint pending
+B,1,SW112,,,,,,,exact part and footprint pending
+C,1,SW101,,,,,,,exact part and footprint pending
+C sharp,1,SW102,,,,,,,exact part and footprint pending
+D,1,SW103,,,,,,,exact part and footprint pending
+D sharp,1,SW104,,,,,,,exact part and footprint pending
+E,1,SW105,,,,,,,exact part and footprint pending
+F,1,SW106,,,,,,,exact part and footprint pending
+F sharp,1,SW107,,,,,,,exact part and footprint pending
+G,1,SW108,,,,,,,exact part and footprint pending
+G sharp,1,SW109,,,,,,,exact part and footprint pending
+octaves: stop at 3,1,SW114,,,,,,,exact part and footprint pending
+saw / pulse,1,SW601,,,,,,,exact part and footprint pending
+start / stop,1,SW113,,,,,,,exact part and footprint pending
+two-layer PCB,1,PCB,,,,,,,layout and quote pending
+printed case,1,CASE,,,,,,,CAD pending
+printed knobs,6,KNOBS,,,,,,,CAD pending
+"regulated 12V DC adapter, >=0.5A, centre +, 5.5/2.1mm",1,PSU,,external,,,,,exact adapter pending

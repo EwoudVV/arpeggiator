@@ -1797,13 +1797,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS163"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT163.pdf"
       (at 46.989999999999995 46.99000000000001 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC163D,653"
+      (at 64.77 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 64.77 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 64.77 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2235,13 +2262,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc238.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT138.pdf"
       (at 181.60999999999999 52.07000000000001 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC138D,653"
+      (at 199.39 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 199.39 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 199.39 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2691,13 +2745,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS163"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT163.pdf"
       (at 46.989999999999995 162.56 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC163D,653"
+      (at 64.77 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 64.77 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 64.77 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3129,13 +3210,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS163"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT163.pdf"
       (at 181.60999999999999 162.56 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC163D,653"
+      (at 199.39 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 199.39 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 199.39 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3567,13 +3675,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS163"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT163.pdf"
       (at 317.5 162.56 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC163D,653"
+      (at 335.28 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 335.28 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 335.28 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -4005,13 +4140,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd74hc4067.pdf"
       (at 317.5 41.91000000000001 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "CD74HC4067M"
+      (at 335.28 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 335.28 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 335.28 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )

@@ -2389,6 +2389,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "OPA4192IDR"
+      (at 105.41 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 105.41 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 105.41 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2057908.html"
+      (at 105.41 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/09acecc4-0399-5f5d-9062-3a1c076f653e"
@@ -2437,6 +2473,42 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "OPA4192IDR"
+      (at 229.87 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 229.87 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 229.87 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2057908.html"
+      (at 229.87 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2537,6 +2609,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "OPA4192IDR"
+      (at 325.12 214.63 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 325.12 214.63 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 325.12 214.63 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2057908.html"
+      (at 325.12 214.63 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/09acecc4-0399-5f5d-9062-3a1c076f653e"
@@ -2612,6 +2720,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RNCF0805TKY10K0"
+      (at 35.56 44.45 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Stackpole"
+      (at 35.56 44.45 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Mouser"
+      (at 35.56 44.45 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCF0805TKY10K0?qs=FESYatJ8odKPVkqigBJMsg%3D%3D"
+      (at 35.56 44.45 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2717,6 +2861,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "RNCF0805TKT100K"
+      (at 35.56 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Stackpole"
+      (at 35.56 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "DigiKey"
+      (at 35.56 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0805TKT100K/5014562"
+      (at 35.56 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/09acecc4-0399-5f5d-9062-3a1c076f653e"
@@ -2819,6 +2999,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "RNCF0805TKT100K"
+      (at 95.25 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Stackpole"
+      (at 95.25 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "DigiKey"
+      (at 95.25 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0805TKT100K/5014562"
+      (at 95.25 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/09acecc4-0399-5f5d-9062-3a1c076f653e"
@@ -2894,6 +3110,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RNCF0805TKY10K0"
+      (at 154.94 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Stackpole"
+      (at 154.94 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Mouser"
+      (at 154.94 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCF0805TKY10K0?qs=FESYatJ8odKPVkqigBJMsg%3D%3D"
+      (at 154.94 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3300,11 +3552,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54GW.pdf"
       (at 384.81 90.17 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "BAT54GW,115"
+      (at 384.81 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 384.81 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 384.81 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -3399,13 +3678,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3906.pdf"
       (at 354.33 62.23 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "MMBT3906,215"
+      (at 350.52 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 350.52 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 350.52 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3555,13 +3861,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm13700.pdf"
       (at 152.4 199.39000000000001 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "LM13700M/NOPB"
+      (at 170.18 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 170.18 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 170.18 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3929,7 +4262,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
       (at 13.970000000000002 246.38 0.0)
       (effects
         (font
@@ -3939,13 +4272,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/3296.pdf"
       (at 13.970000000000002 246.38 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "3296W-1-104LF"
+      (at 44.45 255.27 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Bourns"
+      (at 44.45 255.27 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 44.45 255.27 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )

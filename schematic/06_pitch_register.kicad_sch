@@ -2037,13 +2037,49 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS377"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT377.pdf"
       (at 46.989999999999995 57.15000000000001 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC377D,653"
+      (at 64.77 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 64.77 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 64.77 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C5639.html"
+      (at 64.77 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2581,13 +2617,49 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS154"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT154.pdf"
       (at 191.77 52.07000000000001 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC154D,653"
+      (at 209.55 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 209.55 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 209.55 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C13758.html"
+      (at 209.55 85.09 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )

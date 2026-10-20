@@ -469,6 +469,657 @@
       )
       (embedded_fonts no)
     )
+    (symbol "74xx:74HC14"
+      (pin_names
+        (offset 1.016)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "U"
+        (at 0 1.27 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "74HC14"
+        (at 0 -1.27 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Description" "Hex inverter schmitt trigger"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_locked" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "HCMOS not inverter"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_fp_filters" "DIP*W7.62mm*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "74HC14_1_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC14_1_1"
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 1.27)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 -1.27)
+            (xy -1.905 1.27)
+            (xy -0.635 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "74HC14_2_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC14_2_1"
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 1.27)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 -1.27)
+            (xy -1.905 1.27)
+            (xy -0.635 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "74HC14_3_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC14_3_1"
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 1.27)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 -1.27)
+            (xy -1.905 1.27)
+            (xy -0.635 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "74HC14_4_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "8"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "9"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC14_4_1"
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 1.27)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 -1.27)
+            (xy -1.905 1.27)
+            (xy -0.635 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "74HC14_5_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "10"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "11"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC14_5_1"
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 1.27)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 -1.27)
+            (xy -1.905 1.27)
+            (xy -0.635 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "74HC14_6_0"
+        (polyline
+          (pts
+            (xy -3.81 3.81)
+            (xy -3.81 -3.81)
+            (xy 3.81 0)
+            (xy -3.81 3.81)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (pin output inverted
+          (at 7.62 0 180)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "12"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin input line
+          (at -7.62 0 0)
+          (length 3.81)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "13"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC14_6_1"
+        (polyline
+          (pts
+            (xy -2.54 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 1.27)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -1.905 -1.27)
+            (xy -1.905 1.27)
+            (xy -0.635 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "74HC14_7_0"
+        (pin power_in line
+          (at 0 -12.7 90)
+          (length 5.08)
+          (name "GND"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "7"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin power_in line
+          (at 0 12.7 270)
+          (length 5.08)
+          (name "VCC"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol "74HC14_7_1"
+        (rectangle
+          (start -5.08 7.62)
+          (end 5.08 -7.62)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
     (symbol "power:+5V"
       (power global)
       (pin_numbers
@@ -785,6 +1436,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 39.37 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 39.37 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 39.37 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -877,6 +1555,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 93.98 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 93.98 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 93.98 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -977,6 +1682,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 148.59 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 148.59 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 148.59 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -1069,6 +1801,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 201.93 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 201.93 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 201.93 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1169,6 +1928,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 256.54 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 256.54 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 256.54 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -1261,6 +2047,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 309.88 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 309.88 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 309.88 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1362,6 +2175,33 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 364.49 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 364.49 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 364.49 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -1509,6 +2349,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 39.37 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 39.37 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 39.37 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -1601,6 +2468,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 93.98 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 93.98 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 93.98 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1701,6 +2595,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 148.59 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 148.59 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 148.59 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -1793,6 +2714,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 201.93 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 201.93 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 201.93 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1893,6 +2841,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 256.54 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 256.54 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 256.54 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -1985,6 +2960,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 309.88 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 309.88 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 309.88 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2086,6 +3088,33 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 364.49 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 364.49 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 364.49 106.68 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2233,6 +3262,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 39.37 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 39.37 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 39.37 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -2325,6 +3381,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 93.98 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 93.98 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 93.98 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2425,6 +3508,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 148.59 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 148.59 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 148.59 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -2517,6 +3627,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 201.93 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 201.93 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 201.93 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2617,6 +3754,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "74HC04D,653"
+      (at 256.54 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 256.54 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 256.54 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
@@ -2709,6 +3873,33 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 309.88 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 309.88 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 309.88 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2810,6 +4001,33 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC04D,653"
+      (at 364.49 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 364.49 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 364.49 163.83 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2915,7 +4133,7 @@
     )
   )
   (symbol
-    (lib_id "74xx:74HC04")
+    (lib_id "74xx:74HC14")
     (at 39.37 220.98 0.0)
     (unit 1)
     (exclude_from_sim no)
@@ -2931,7 +4149,7 @@
         )
       )
     )
-    (property "Value" "74HC04"
+    (property "Value" "74HC14"
       (at 39.37 214.08999999999997 0.0)
       (effects
         (font
@@ -2948,11 +4166,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
       (at 39.37 212.08999999999997 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC14D,653"
+      (at 39.37 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 39.37 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 39.37 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -3011,7 +4256,7 @@
     (uuid "79343647-156e-5823-9403-de3b0a688315")
   )
   (symbol
-    (lib_id "74xx:74HC04")
+    (lib_id "74xx:74HC14")
     (at 93.98 220.98 0.0)
     (unit 2)
     (exclude_from_sim no)
@@ -3027,7 +4272,7 @@
         )
       )
     )
-    (property "Value" "74HC04"
+    (property "Value" "74HC14"
       (at 93.98 214.08999999999997 0.0)
       (effects
         (font
@@ -3044,11 +4289,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
       (at 93.98 212.08999999999997 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC14D,653"
+      (at 93.98 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 93.98 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 93.98 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -3107,7 +4379,7 @@
     (uuid "b9df4286-2271-540e-8a13-c40a468fcfc2")
   )
   (symbol
-    (lib_id "74xx:74HC04")
+    (lib_id "74xx:74HC14")
     (at 148.59 220.98 0.0)
     (unit 3)
     (exclude_from_sim no)
@@ -3123,7 +4395,7 @@
         )
       )
     )
-    (property "Value" "74HC04"
+    (property "Value" "74HC14"
       (at 148.59 214.08999999999997 0.0)
       (effects
         (font
@@ -3140,11 +4412,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
       (at 148.59 212.08999999999997 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC14D,653"
+      (at 148.59 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 148.59 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 148.59 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -3203,7 +4502,7 @@
     (uuid "3612bde4-2218-5a1c-9fc7-1ede031b1449")
   )
   (symbol
-    (lib_id "74xx:74HC04")
+    (lib_id "74xx:74HC14")
     (at 201.93 220.98 0.0)
     (unit 4)
     (exclude_from_sim no)
@@ -3219,7 +4518,7 @@
         )
       )
     )
-    (property "Value" "74HC04"
+    (property "Value" "74HC14"
       (at 201.93 214.08999999999997 0.0)
       (effects
         (font
@@ -3236,11 +4535,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
       (at 201.93 212.08999999999997 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC14D,653"
+      (at 201.93 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 201.93 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 201.93 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -3299,163 +4625,7 @@
     (uuid "a290ce38-2dff-5d46-b1c9-9935776ffe46")
   )
   (symbol
-    (lib_id "74xx:74HC04")
-    (at 256.54 220.98 0.0)
-    (unit 5)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (uuid "d9863242-7b77-5019-995c-022333d55116")
-    (property "Reference" "U420"
-      (at 256.54 212.08999999999997 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-      )
-    )
-    (property "Value" "74HC04"
-      (at 256.54 214.08999999999997 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-      )
-    )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-      (at 256.54 212.08999999999997 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (hide yes)
-      )
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-      (at 256.54 212.08999999999997 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (hide yes)
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
-          (reference "U420")
-          (unit 5)
-        )
-      )
-    )
-  )
-  (no_connect
-    (at 264.16 220.98)
-    (uuid "7cea7967-e610-5dea-aab3-e5d1b002c7ff")
-  )
-  (wire
-    (pts
-      (xy 248.92 220.98)
-      (xy 243.84 220.98)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "9165a63c-31d8-54cf-8248-9a4fb77f6feb")
-  )
-  (global_label "GND"
-    (shape bidirectional)
-    (at 243.84 220.98 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "811ad621-79c6-5275-a61c-e3e9fcd468db")
-  )
-  (symbol
-    (lib_id "74xx:74HC04")
-    (at 309.88 220.98 0.0)
-    (unit 6)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (uuid "c69464d1-2e41-5430-b79f-e0f6fb110271")
-    (property "Reference" "U420"
-      (at 309.88 212.08999999999997 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-      )
-    )
-    (property "Value" "74HC04"
-      (at 309.88 214.08999999999997 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-      )
-    )
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-      (at 309.88 212.08999999999997 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (hide yes)
-      )
-    )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-      (at 309.88 212.08999999999997 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (hide yes)
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
-          (reference "U420")
-          (unit 6)
-        )
-      )
-    )
-  )
-  (no_connect
-    (at 317.5 220.98)
-    (uuid "290de41c-6cc8-5cc0-bf87-172fcce28857")
-  )
-  (wire
-    (pts
-      (xy 302.26 220.98)
-      (xy 297.18 220.98)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "fd80db32-cc47-533f-ae98-fc7418552f25")
-  )
-  (global_label "GND"
-    (shape bidirectional)
-    (at 297.18 220.98 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "e8e3903b-2159-5d1e-963b-950338c72dda")
-  )
-  (symbol
-    (lib_id "74xx:74HC04")
+    (lib_id "74xx:74HC14")
     (at 364.49 220.98 0.0)
     (unit 7)
     (exclude_from_sim no)
@@ -3472,7 +4642,7 @@
         (justify left)
       )
     )
-    (property "Value" "74HC04"
+    (property "Value" "74HC14"
       (at 368.3 220.44 0.0)
       (effects
         (font
@@ -3491,13 +4661,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
       (at 368.3 218.44 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC14D,653"
+      (at 364.49 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 364.49 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 364.49 220.98 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3530,7 +4727,7 @@
     (on_board no)
     (dnp no)
     (uuid "ea1dc214-f7be-50b5-8e25-b87af9b640cb")
-    (property "Reference" "#PWR9143"
+    (property "Reference" "#PWR9135"
       (at 364.49 238.76 0.0)
       (effects
         (font
@@ -3550,7 +4747,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
-          (reference "#PWR9143")
+          (reference "#PWR9135")
           (unit 1)
         )
       )
@@ -3576,7 +4773,7 @@
     (on_board no)
     (dnp no)
     (uuid "a2600a2b-ee39-56a8-84a9-416744f79bf7")
-    (property "Reference" "#PWR9145"
+    (property "Reference" "#PWR9137"
       (at 364.49 203.2 0.0)
       (effects
         (font
@@ -3596,7 +4793,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/bd86ffd0-ccf9-50cc-8174-e4e00513c198"
-          (reference "#PWR9145")
+          (reference "#PWR9137")
           (unit 1)
         )
       )

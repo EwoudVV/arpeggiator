@@ -7,7 +7,7 @@
     (title "Oscillator and tuning")
   )
   (lib_symbols
-    (symbol "Arpeggiator:AS3340AD"
+    (symbol "Arpeggiator:AS3340A"
       (pin_names
         (offset 1.016)
       )
@@ -22,7 +22,7 @@
           )
         )
       )
-      (property "Value" "AS3340AD"
+      (property "Value" "AS3340A"
         (at 0.0 2.54 0.0)
         (effects
           (font
@@ -30,7 +30,7 @@
           )
         )
       )
-      (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+      (property "Footprint" "Package_DIP:DIP-16_W7.62mm"
         (at 0.0 0.0 0.0)
         (effects
           (font
@@ -48,7 +48,7 @@
           (hide yes)
         )
       )
-      (symbol "AS3340AD_0_1"
+      (symbol "AS3340A_0_1"
         (rectangle
           (start -15.24 25.4)
           (end 15.24 -25.4)
@@ -61,7 +61,7 @@
           )
         )
       )
-      (symbol "AS3340AD_1_1"
+      (symbol "AS3340A_1_1"
         (pin input line
           (at -20.32 20.32 0.0)
           (length 5.08)
@@ -1160,7 +1160,7 @@
     (uuid "29530474-4d4b-55b7-a9ff-962724a16bcf")
   )
   (symbol
-    (lib_id "Arpeggiator:AS3340AD")
+    (lib_id "Arpeggiator:AS3340A")
     (at 199.39 95.25 0.0)
     (unit 1)
     (exclude_from_sim no)
@@ -1177,7 +1177,7 @@
         (justify left)
       )
     )
-    (property "Value" "AS3340AD"
+    (property "Value" "AS3340A"
       (at 181.60999999999999 69.31 0.0)
       (effects
         (font
@@ -1186,7 +1186,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    (property "Footprint" "Package_DIP:DIP-16_W7.62mm"
       (at 181.60999999999999 67.31 0.0)
       (effects
         (font
@@ -1203,6 +1203,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "AS3340A"
+      (at 199.39 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "ALFA RPAR"
+      (at 199.39 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Infinite Machinery"
+      (at 199.39 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://infinitemachinery.com/as3340a"
+      (at 199.39 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -1578,6 +1614,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "RNCF0805TKT100K"
+      (at 35.56 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Stackpole"
+      (at 35.56 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "DigiKey"
+      (at 35.56 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0805TKT100K/5014562"
+      (at 35.56 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c707fd18-c05b-5608-99c4-bf0468c71456"
@@ -1675,6 +1747,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RNCF0805TKT100K"
+      (at 35.56 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Stackpole"
+      (at 35.56 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "DigiKey"
+      (at 35.56 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0805TKT100K/5014562"
+      (at 35.56 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2316,7 +2424,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
       (at 314.96 40.64 0.0)
       (effects
         (font
@@ -2326,13 +2434,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/3296.pdf"
       (at 314.96 40.64 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "3296W-1-501LF"
+      (at 345.44 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Bourns"
+      (at 345.44 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 345.44 49.53 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2642,7 +2777,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
       (at 314.96 135.89 0.0)
       (effects
         (font
@@ -2652,13 +2787,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/3296.pdf"
       (at 314.96 135.89 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "3296W-1-103LF"
+      (at 345.44 144.78 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Bourns"
+      (at 345.44 144.78 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 345.44 144.78 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2946,7 +3108,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
       (at 168.91 200.66000000000003 0.0)
       (effects
         (font
@@ -2956,13 +3118,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.bourns.com/docs/product-datasheets/3296.pdf"
       (at 168.91 200.66000000000003 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "3296W-1-203LF"
+      (at 199.39 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Bourns"
+      (at 199.39 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 199.39 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )

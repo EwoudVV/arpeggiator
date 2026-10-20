@@ -7,164 +7,6 @@
     (title "Logic power and decoupling")
   )
   (lib_symbols
-    (symbol "Connector_Generic:Conn_01x02"
-      (pin_names
-        (offset 1.016)
-        (hide yes)
-      )
-      (exclude_from_sim no)
-      (in_bom yes)
-      (on_board yes)
-      (in_pos_files yes)
-      (duplicate_pin_numbers_are_jumpers no)
-      (property "Reference" "J"
-        (at 0 2.54 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Value" "Conn_01x02"
-        (at 0 -5.08 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Footprint" ""
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Datasheet" ""
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "ki_keywords" "connector"
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*"
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (symbol "Conn_01x02_1_1"
-        (rectangle
-          (start -1.27 1.27)
-          (end 1.27 -3.81)
-          (stroke
-            (width 0.254)
-            (type default)
-          )
-          (fill
-            (type background)
-          )
-        )
-        (rectangle
-          (start -1.27 0.127)
-          (end 0 -0.127)
-          (stroke
-            (width 0.1524)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (rectangle
-          (start -1.27 -2.413)
-          (end 0 -2.667)
-          (stroke
-            (width 0.1524)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (pin passive line
-          (at -5.08 0 0)
-          (length 3.81)
-          (name "Pin_1"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-          (number "1"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-        )
-        (pin passive line
-          (at -5.08 -2.54 0)
-          (length 3.81)
-          (name "Pin_2"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-          (number "2"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-        )
-      )
-      (embedded_fonts no)
-    )
     (symbol "power:PWR_FLAG"
       (power global)
       (pin_numbers
@@ -870,7 +712,7 @@
     )
     (uuid "c1eb3c81-e893-595e-bfe7-89d161caffb9")
   )
-  (text "Sequencer section only. Do not connect 12 V to the logic test input."
+  (text "5V logic decoupling and power-on reset."
     (at 20.0 20.0 0.0)
     (effects
       (font
@@ -880,7 +722,7 @@
     )
     (uuid "d1fc5964-c489-564c-969a-9c095011b2c2")
   )
-  (text "Place one 100n capacitor at each IC supply pair. Final regulator and analog supply are still to be added."
+  (text "Place one 100n capacitor at each IC supply pair. RESET5_N also passes through the rail checks."
     (at 20.0 85.0 0.0)
     (effects
       (font
@@ -889,210 +731,6 @@
       (justify left)
     )
     (uuid "30204c9a-915a-5c7a-b3c3-aa036352338a")
-  )
-  (symbol
-    (lib_id "Connector_Generic:Conn_01x02")
-    (at 44.45 44.45 0.0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (uuid "d5186f85-730b-571a-adb1-459d93f9843d")
-    (property "Reference" "J101"
-      (at 48.260000000000005 41.910000000000004 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-      )
-    )
-    (property "Value" "5V logic test input"
-      (at 48.260000000000005 43.910000000000004 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-      )
-    )
-    (property "Footprint" ""
-      (at 48.260000000000005 41.910000000000004 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Datasheet" ""
-      (at 48.260000000000005 41.910000000000004 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "J101")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (wire
-    (pts
-      (xy 39.37 44.45)
-      (xy 34.29 44.45)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "2340a0e9-9402-53df-87c8-59135d0f7501")
-  )
-  (global_label "+5V"
-    (shape bidirectional)
-    (at 34.29 44.45 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "08e17da5-38c9-5e29-9bcc-879c182c0791")
-  )
-  (wire
-    (pts
-      (xy 39.37 46.99)
-      (xy 34.29 46.99)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "b888bdbe-2651-5533-b0fb-2c117feb7056")
-  )
-  (global_label "GND"
-    (shape bidirectional)
-    (at 34.29 46.99 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "76605806-3d7a-5811-bab4-af15cbc64131")
-  )
-  (symbol
-    (lib_id "power:PWR_FLAG")
-    (at 95.25 35.56 0.0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board no)
-    (dnp no)
-    (uuid "c87a9382-773f-5388-a801-16dd02dc6ad9")
-    (property "Reference" "#FLG01"
-      (at 99.06 33.02 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Value" "PWR_FLAG"
-      (at 99.06 35.02 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Footprint" ""
-      (at 99.06 33.02 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Datasheet" ""
-      (at 99.06 33.02 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#FLG01")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (wire
-    (pts
-      (xy 95.25 35.56)
-      (xy 95.25 40.64)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "f93cb88a-ebb2-5bc1-b54d-3632cd84efb5")
-  )
-  (symbol
-    (lib_id "power:+5V")
-    (at 95.25 40.64 0.0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board no)
-    (dnp no)
-    (uuid "3c981433-d7bd-53cb-bf13-69ac2013f83d")
-    (property "Reference" "#PWR7017"
-      (at 95.25 40.64 0.0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-        (hide yes)
-      )
-    )
-    (property "Value" "+5V"
-      (at 95.25 36.83 0.0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7017")
-          (unit 1)
-        )
-      )
-    )
   )
   (symbol
     (lib_id "power:PWR_FLAG")
@@ -1172,7 +810,7 @@
     (on_board no)
     (dnp no)
     (uuid "37e5af37-fa68-5cb2-be6a-2c9394f08f3f")
-    (property "Reference" "#PWR7020"
+    (property "Reference" "#PWR7012"
       (at 119.38 40.64 0.0)
       (effects
         (font
@@ -1192,7 +830,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7020")
+          (reference "#PWR7012")
           (unit 1)
         )
       )
@@ -1232,11 +870,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/11187f.pdf"
+    (property "Datasheet" "https://www.microchip.com/en-us/product/MCP100"
       (at 180.34 35.56 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "MCP100T-450I/TT"
+      (at 180.34 44.45 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Microchip"
+      (at 180.34 44.45 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 180.34 44.45 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1261,7 +926,7 @@
     )
     (uuid "26250551-afbc-5fef-bbf9-145fb273881e")
   )
-  (global_label "RESET_N"
+  (global_label "RESET5_N"
     (shape bidirectional)
     (at 193.04 44.45 0.0)
     (effects
@@ -1292,7 +957,7 @@
     (on_board no)
     (dnp no)
     (uuid "8480d01f-1821-56c9-ba4a-f5f0ae2f92f2")
-    (property "Reference" "#PWR7025"
+    (property "Reference" "#PWR7017"
       (at 177.8 29.21 0.0)
       (effects
         (font
@@ -1312,7 +977,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7025")
+          (reference "#PWR7017")
           (unit 1)
         )
       )
@@ -1338,7 +1003,7 @@
     (on_board no)
     (dnp no)
     (uuid "29919aa3-bf61-59fe-b12d-20eadc8be044")
-    (property "Reference" "#PWR7027"
+    (property "Reference" "#PWR7019"
       (at 177.8 59.69 0.0)
       (effects
         (font
@@ -1358,7 +1023,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7027")
+          (reference "#PWR7019")
           (unit 1)
         )
       )
@@ -1440,7 +1105,7 @@
     (on_board no)
     (dnp no)
     (uuid "162e4572-02e7-5f5a-a0b7-88d2ba5607e6")
-    (property "Reference" "#PWR7030"
+    (property "Reference" "#PWR7022"
       (at 270.51 35.56 0.0)
       (effects
         (font
@@ -1460,7 +1125,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7030")
+          (reference "#PWR7022")
           (unit 1)
         )
       )
@@ -1486,7 +1151,7 @@
     (on_board no)
     (dnp no)
     (uuid "222f3a9f-adb0-5304-b0cd-60b4f15513a8")
-    (property "Reference" "#PWR7032"
+    (property "Reference" "#PWR7024"
       (at 270.51 53.34 0.0)
       (effects
         (font
@@ -1506,7 +1171,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7032")
+          (reference "#PWR7024")
           (unit 1)
         )
       )
@@ -1588,7 +1253,7 @@
     (on_board no)
     (dnp no)
     (uuid "c08d537a-891e-5cbb-9340-0e4d319a06f7")
-    (property "Reference" "#PWR7035"
+    (property "Reference" "#PWR7027"
       (at 35.56 106.68 0.0)
       (effects
         (font
@@ -1608,7 +1273,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7035")
+          (reference "#PWR7027")
           (unit 1)
         )
       )
@@ -1634,7 +1299,7 @@
     (on_board no)
     (dnp no)
     (uuid "32912d8a-a970-5c73-a535-eea7f8e769ac")
-    (property "Reference" "#PWR7037"
+    (property "Reference" "#PWR7029"
       (at 35.56 124.46 0.0)
       (effects
         (font
@@ -1654,7 +1319,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7037")
+          (reference "#PWR7029")
           (unit 1)
         )
       )
@@ -1736,7 +1401,7 @@
     (on_board no)
     (dnp no)
     (uuid "7da18dd3-d82e-57bd-aa8d-ea9047aca535")
-    (property "Reference" "#PWR7040"
+    (property "Reference" "#PWR7032"
       (at 72.39 106.68 0.0)
       (effects
         (font
@@ -1756,7 +1421,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7040")
+          (reference "#PWR7032")
           (unit 1)
         )
       )
@@ -1782,7 +1447,7 @@
     (on_board no)
     (dnp no)
     (uuid "1e7e8e3f-e521-5c7f-b352-df546a9c3575")
-    (property "Reference" "#PWR7042"
+    (property "Reference" "#PWR7034"
       (at 72.39 124.46 0.0)
       (effects
         (font
@@ -1802,7 +1467,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7042")
+          (reference "#PWR7034")
           (unit 1)
         )
       )
@@ -1884,7 +1549,7 @@
     (on_board no)
     (dnp no)
     (uuid "737f7b8a-a24d-55a7-9758-fad37c191a67")
-    (property "Reference" "#PWR7045"
+    (property "Reference" "#PWR7037"
       (at 110.49 106.68 0.0)
       (effects
         (font
@@ -1904,7 +1569,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7045")
+          (reference "#PWR7037")
           (unit 1)
         )
       )
@@ -1930,7 +1595,7 @@
     (on_board no)
     (dnp no)
     (uuid "cab3262b-ff44-5b26-a74f-e046d1c7618f")
-    (property "Reference" "#PWR7047"
+    (property "Reference" "#PWR7039"
       (at 110.49 124.46 0.0)
       (effects
         (font
@@ -1950,7 +1615,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7047")
+          (reference "#PWR7039")
           (unit 1)
         )
       )
@@ -2032,7 +1697,7 @@
     (on_board no)
     (dnp no)
     (uuid "423f98dd-d5d2-537d-85e1-fce07995289c")
-    (property "Reference" "#PWR7050"
+    (property "Reference" "#PWR7042"
       (at 148.59 106.68 0.0)
       (effects
         (font
@@ -2052,7 +1717,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7050")
+          (reference "#PWR7042")
           (unit 1)
         )
       )
@@ -2078,7 +1743,7 @@
     (on_board no)
     (dnp no)
     (uuid "9416617d-180a-5a02-b43f-427bc73d06f5")
-    (property "Reference" "#PWR7052"
+    (property "Reference" "#PWR7044"
       (at 148.59 124.46 0.0)
       (effects
         (font
@@ -2098,7 +1763,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7052")
+          (reference "#PWR7044")
           (unit 1)
         )
       )
@@ -2180,7 +1845,7 @@
     (on_board no)
     (dnp no)
     (uuid "ae0c1383-5afa-5e39-a460-b47af38c3659")
-    (property "Reference" "#PWR7055"
+    (property "Reference" "#PWR7047"
       (at 186.69 106.68 0.0)
       (effects
         (font
@@ -2200,7 +1865,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7055")
+          (reference "#PWR7047")
           (unit 1)
         )
       )
@@ -2226,7 +1891,7 @@
     (on_board no)
     (dnp no)
     (uuid "d8f2116d-5b7a-5775-ada9-29ed695cea65")
-    (property "Reference" "#PWR7057"
+    (property "Reference" "#PWR7049"
       (at 186.69 124.46 0.0)
       (effects
         (font
@@ -2246,7 +1911,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7057")
+          (reference "#PWR7049")
           (unit 1)
         )
       )
@@ -2328,7 +1993,7 @@
     (on_board no)
     (dnp no)
     (uuid "fa132878-c464-56e5-bb8d-fd94bff6fa67")
-    (property "Reference" "#PWR7060"
+    (property "Reference" "#PWR7052"
       (at 224.79 106.68 0.0)
       (effects
         (font
@@ -2348,7 +2013,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7060")
+          (reference "#PWR7052")
           (unit 1)
         )
       )
@@ -2374,7 +2039,7 @@
     (on_board no)
     (dnp no)
     (uuid "60c140c0-b7be-50a9-abc3-14ef3df3da1d")
-    (property "Reference" "#PWR7062"
+    (property "Reference" "#PWR7054"
       (at 224.79 124.46 0.0)
       (effects
         (font
@@ -2394,7 +2059,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7062")
+          (reference "#PWR7054")
           (unit 1)
         )
       )
@@ -2476,7 +2141,7 @@
     (on_board no)
     (dnp no)
     (uuid "385fbd0e-61c8-5519-96fb-feee3f62c9f4")
-    (property "Reference" "#PWR7065"
+    (property "Reference" "#PWR7057"
       (at 262.89 106.68 0.0)
       (effects
         (font
@@ -2496,7 +2161,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7065")
+          (reference "#PWR7057")
           (unit 1)
         )
       )
@@ -2522,7 +2187,7 @@
     (on_board no)
     (dnp no)
     (uuid "317be363-9e43-5fbe-a15f-640a8afae539")
-    (property "Reference" "#PWR7067"
+    (property "Reference" "#PWR7059"
       (at 262.89 124.46 0.0)
       (effects
         (font
@@ -2542,7 +2207,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7067")
+          (reference "#PWR7059")
           (unit 1)
         )
       )
@@ -2624,7 +2289,7 @@
     (on_board no)
     (dnp no)
     (uuid "431f8068-d336-5014-bd78-fb446872666b")
-    (property "Reference" "#PWR7070"
+    (property "Reference" "#PWR7062"
       (at 300.99 106.68 0.0)
       (effects
         (font
@@ -2644,7 +2309,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7070")
+          (reference "#PWR7062")
           (unit 1)
         )
       )
@@ -2670,7 +2335,7 @@
     (on_board no)
     (dnp no)
     (uuid "42efe679-f833-52a4-a6af-d012ca4467e0")
-    (property "Reference" "#PWR7072"
+    (property "Reference" "#PWR7064"
       (at 300.99 124.46 0.0)
       (effects
         (font
@@ -2690,7 +2355,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7072")
+          (reference "#PWR7064")
           (unit 1)
         )
       )
@@ -2772,7 +2437,7 @@
     (on_board no)
     (dnp no)
     (uuid "b813c33f-b720-56ee-bc26-23e3c5c537f1")
-    (property "Reference" "#PWR7075"
+    (property "Reference" "#PWR7067"
       (at 339.09 106.68 0.0)
       (effects
         (font
@@ -2792,7 +2457,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7075")
+          (reference "#PWR7067")
           (unit 1)
         )
       )
@@ -2818,7 +2483,7 @@
     (on_board no)
     (dnp no)
     (uuid "3d126a53-eba7-5ccd-9528-d4b1d9bcf826")
-    (property "Reference" "#PWR7077"
+    (property "Reference" "#PWR7069"
       (at 339.09 124.46 0.0)
       (effects
         (font
@@ -2838,7 +2503,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7077")
+          (reference "#PWR7069")
           (unit 1)
         )
       )
@@ -2920,7 +2585,7 @@
     (on_board no)
     (dnp no)
     (uuid "a6770cd9-8713-57a4-9c5e-444fed199eb9")
-    (property "Reference" "#PWR7080"
+    (property "Reference" "#PWR7072"
       (at 377.19 106.68 0.0)
       (effects
         (font
@@ -2940,7 +2605,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7080")
+          (reference "#PWR7072")
           (unit 1)
         )
       )
@@ -2966,7 +2631,7 @@
     (on_board no)
     (dnp no)
     (uuid "02e322c3-17da-5c0a-b2b6-88b2c34ef4f6")
-    (property "Reference" "#PWR7082"
+    (property "Reference" "#PWR7074"
       (at 377.19 124.46 0.0)
       (effects
         (font
@@ -2986,7 +2651,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7082")
+          (reference "#PWR7074")
           (unit 1)
         )
       )
@@ -3068,7 +2733,7 @@
     (on_board no)
     (dnp no)
     (uuid "afc75e1e-d253-5860-85d1-2bb08874b93e")
-    (property "Reference" "#PWR7085"
+    (property "Reference" "#PWR7077"
       (at 35.56 143.51 0.0)
       (effects
         (font
@@ -3088,7 +2753,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7085")
+          (reference "#PWR7077")
           (unit 1)
         )
       )
@@ -3114,7 +2779,7 @@
     (on_board no)
     (dnp no)
     (uuid "a10c137b-2190-5210-9455-07c1fb8c7ae3")
-    (property "Reference" "#PWR7087"
+    (property "Reference" "#PWR7079"
       (at 35.56 161.29 0.0)
       (effects
         (font
@@ -3134,7 +2799,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7087")
+          (reference "#PWR7079")
           (unit 1)
         )
       )
@@ -3216,7 +2881,7 @@
     (on_board no)
     (dnp no)
     (uuid "e103ab92-ca32-5fa0-ab3a-f658f4f512f7")
-    (property "Reference" "#PWR7090"
+    (property "Reference" "#PWR7082"
       (at 72.39 143.51 0.0)
       (effects
         (font
@@ -3236,7 +2901,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7090")
+          (reference "#PWR7082")
           (unit 1)
         )
       )
@@ -3262,7 +2927,7 @@
     (on_board no)
     (dnp no)
     (uuid "0c12bf17-a065-54bc-86c0-72c0c078dd46")
-    (property "Reference" "#PWR7092"
+    (property "Reference" "#PWR7084"
       (at 72.39 161.29 0.0)
       (effects
         (font
@@ -3282,7 +2947,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7092")
+          (reference "#PWR7084")
           (unit 1)
         )
       )
@@ -3364,7 +3029,7 @@
     (on_board no)
     (dnp no)
     (uuid "83a03da7-0ad5-5241-aef1-4b7c1afa3ded")
-    (property "Reference" "#PWR7095"
+    (property "Reference" "#PWR7087"
       (at 110.49 143.51 0.0)
       (effects
         (font
@@ -3384,7 +3049,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7095")
+          (reference "#PWR7087")
           (unit 1)
         )
       )
@@ -3410,7 +3075,7 @@
     (on_board no)
     (dnp no)
     (uuid "b3d896f8-f58c-5f89-b7c8-a571848e7c21")
-    (property "Reference" "#PWR7097"
+    (property "Reference" "#PWR7089"
       (at 110.49 161.29 0.0)
       (effects
         (font
@@ -3430,7 +3095,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7097")
+          (reference "#PWR7089")
           (unit 1)
         )
       )
@@ -3512,7 +3177,7 @@
     (on_board no)
     (dnp no)
     (uuid "1d2c9319-7c0d-5ee0-b960-fd75fd49ddce")
-    (property "Reference" "#PWR7100"
+    (property "Reference" "#PWR7092"
       (at 148.59 143.51 0.0)
       (effects
         (font
@@ -3532,7 +3197,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7100")
+          (reference "#PWR7092")
           (unit 1)
         )
       )
@@ -3558,7 +3223,7 @@
     (on_board no)
     (dnp no)
     (uuid "209153d4-de32-58ce-b0fa-9a6bb325bbff")
-    (property "Reference" "#PWR7102"
+    (property "Reference" "#PWR7094"
       (at 148.59 161.29 0.0)
       (effects
         (font
@@ -3578,7 +3243,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7102")
+          (reference "#PWR7094")
           (unit 1)
         )
       )
@@ -3660,7 +3325,7 @@
     (on_board no)
     (dnp no)
     (uuid "1e5b442c-54ce-5468-8d1b-d226d88cdfdb")
-    (property "Reference" "#PWR7105"
+    (property "Reference" "#PWR7097"
       (at 186.69 143.51 0.0)
       (effects
         (font
@@ -3680,7 +3345,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7105")
+          (reference "#PWR7097")
           (unit 1)
         )
       )
@@ -3706,7 +3371,7 @@
     (on_board no)
     (dnp no)
     (uuid "111a0688-1ecc-56c3-a3c0-41f14923692c")
-    (property "Reference" "#PWR7107"
+    (property "Reference" "#PWR7099"
       (at 186.69 161.29 0.0)
       (effects
         (font
@@ -3726,7 +3391,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7107")
+          (reference "#PWR7099")
           (unit 1)
         )
       )
@@ -3808,7 +3473,7 @@
     (on_board no)
     (dnp no)
     (uuid "c0d06169-d7c0-5b34-8b92-e900a1988f58")
-    (property "Reference" "#PWR7110"
+    (property "Reference" "#PWR7102"
       (at 224.79 143.51 0.0)
       (effects
         (font
@@ -3828,7 +3493,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7110")
+          (reference "#PWR7102")
           (unit 1)
         )
       )
@@ -3854,7 +3519,7 @@
     (on_board no)
     (dnp no)
     (uuid "a43a9f89-12e0-5932-af33-d717934b7211")
-    (property "Reference" "#PWR7112"
+    (property "Reference" "#PWR7104"
       (at 224.79 161.29 0.0)
       (effects
         (font
@@ -3874,7 +3539,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7112")
+          (reference "#PWR7104")
           (unit 1)
         )
       )
@@ -3956,7 +3621,7 @@
     (on_board no)
     (dnp no)
     (uuid "d0a81daf-8bf1-52a7-8952-d3d068a2f475")
-    (property "Reference" "#PWR7115"
+    (property "Reference" "#PWR7107"
       (at 262.89 143.51 0.0)
       (effects
         (font
@@ -3976,7 +3641,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7115")
+          (reference "#PWR7107")
           (unit 1)
         )
       )
@@ -4002,7 +3667,7 @@
     (on_board no)
     (dnp no)
     (uuid "6416f405-21dc-5b8f-a8a9-8880566482b9")
-    (property "Reference" "#PWR7117"
+    (property "Reference" "#PWR7109"
       (at 262.89 161.29 0.0)
       (effects
         (font
@@ -4022,7 +3687,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7117")
+          (reference "#PWR7109")
           (unit 1)
         )
       )
@@ -4104,7 +3769,7 @@
     (on_board no)
     (dnp no)
     (uuid "4aebf832-5859-5c66-9cb2-412fec0314b8")
-    (property "Reference" "#PWR7120"
+    (property "Reference" "#PWR7112"
       (at 300.99 143.51 0.0)
       (effects
         (font
@@ -4124,7 +3789,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7120")
+          (reference "#PWR7112")
           (unit 1)
         )
       )
@@ -4150,7 +3815,7 @@
     (on_board no)
     (dnp no)
     (uuid "6788ab39-51a7-5110-84db-169b28b96265")
-    (property "Reference" "#PWR7122"
+    (property "Reference" "#PWR7114"
       (at 300.99 161.29 0.0)
       (effects
         (font
@@ -4170,7 +3835,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7122")
+          (reference "#PWR7114")
           (unit 1)
         )
       )
@@ -4252,7 +3917,7 @@
     (on_board no)
     (dnp no)
     (uuid "65f47f2a-1a22-5c93-933d-49ce33822b08")
-    (property "Reference" "#PWR7125"
+    (property "Reference" "#PWR7117"
       (at 339.09 143.51 0.0)
       (effects
         (font
@@ -4272,7 +3937,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7125")
+          (reference "#PWR7117")
           (unit 1)
         )
       )
@@ -4298,7 +3963,7 @@
     (on_board no)
     (dnp no)
     (uuid "73a862ac-037b-52a9-a8c2-faee18a98054")
-    (property "Reference" "#PWR7127"
+    (property "Reference" "#PWR7119"
       (at 339.09 161.29 0.0)
       (effects
         (font
@@ -4318,7 +3983,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7127")
+          (reference "#PWR7119")
           (unit 1)
         )
       )
@@ -4400,7 +4065,7 @@
     (on_board no)
     (dnp no)
     (uuid "17acdf4f-8c1c-5378-a501-3ad7ea85cb15")
-    (property "Reference" "#PWR7130"
+    (property "Reference" "#PWR7122"
       (at 377.19 143.51 0.0)
       (effects
         (font
@@ -4420,7 +4085,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7130")
+          (reference "#PWR7122")
           (unit 1)
         )
       )
@@ -4446,7 +4111,7 @@
     (on_board no)
     (dnp no)
     (uuid "6353e0ed-1304-5e88-9ba9-e6f030c0c15a")
-    (property "Reference" "#PWR7132"
+    (property "Reference" "#PWR7124"
       (at 377.19 161.29 0.0)
       (effects
         (font
@@ -4466,7 +4131,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7132")
+          (reference "#PWR7124")
           (unit 1)
         )
       )
@@ -4548,7 +4213,7 @@
     (on_board no)
     (dnp no)
     (uuid "e84b1542-c815-5d0d-8a74-88242daa517e")
-    (property "Reference" "#PWR7135"
+    (property "Reference" "#PWR7127"
       (at 35.56 181.61 0.0)
       (effects
         (font
@@ -4568,7 +4233,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7135")
+          (reference "#PWR7127")
           (unit 1)
         )
       )
@@ -4594,7 +4259,7 @@
     (on_board no)
     (dnp no)
     (uuid "18335b89-c844-5b82-8c19-0c994a4f1ad9")
-    (property "Reference" "#PWR7137"
+    (property "Reference" "#PWR7129"
       (at 35.56 199.39 0.0)
       (effects
         (font
@@ -4614,7 +4279,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7137")
+          (reference "#PWR7129")
           (unit 1)
         )
       )
@@ -4696,7 +4361,7 @@
     (on_board no)
     (dnp no)
     (uuid "2c80a4c2-f8d2-5a7f-ab4d-503c1fb7a97d")
-    (property "Reference" "#PWR7140"
+    (property "Reference" "#PWR7132"
       (at 72.39 181.61 0.0)
       (effects
         (font
@@ -4716,7 +4381,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7140")
+          (reference "#PWR7132")
           (unit 1)
         )
       )
@@ -4742,7 +4407,7 @@
     (on_board no)
     (dnp no)
     (uuid "aa2a87c9-bc31-5c58-815f-8f7c03008ae0")
-    (property "Reference" "#PWR7142"
+    (property "Reference" "#PWR7134"
       (at 72.39 199.39 0.0)
       (effects
         (font
@@ -4762,7 +4427,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7142")
+          (reference "#PWR7134")
           (unit 1)
         )
       )
@@ -4844,7 +4509,7 @@
     (on_board no)
     (dnp no)
     (uuid "255be43d-9f3d-5b70-b159-90714f8536ad")
-    (property "Reference" "#PWR7145"
+    (property "Reference" "#PWR7137"
       (at 110.49 181.61 0.0)
       (effects
         (font
@@ -4864,7 +4529,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7145")
+          (reference "#PWR7137")
           (unit 1)
         )
       )
@@ -4890,7 +4555,7 @@
     (on_board no)
     (dnp no)
     (uuid "b9563540-7f9d-55fa-a71b-7010193a855f")
-    (property "Reference" "#PWR7147"
+    (property "Reference" "#PWR7139"
       (at 110.49 199.39 0.0)
       (effects
         (font
@@ -4910,7 +4575,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7147")
+          (reference "#PWR7139")
           (unit 1)
         )
       )
@@ -4992,7 +4657,7 @@
     (on_board no)
     (dnp no)
     (uuid "90618177-5c2a-5a76-a4f8-6c721100a029")
-    (property "Reference" "#PWR7150"
+    (property "Reference" "#PWR7142"
       (at 148.59 181.61 0.0)
       (effects
         (font
@@ -5012,7 +4677,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7150")
+          (reference "#PWR7142")
           (unit 1)
         )
       )
@@ -5038,7 +4703,7 @@
     (on_board no)
     (dnp no)
     (uuid "b3d9f088-1f96-5686-b499-de50a78f20b9")
-    (property "Reference" "#PWR7152"
+    (property "Reference" "#PWR7144"
       (at 148.59 199.39 0.0)
       (effects
         (font
@@ -5058,7 +4723,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7152")
+          (reference "#PWR7144")
           (unit 1)
         )
       )
@@ -5140,7 +4805,7 @@
     (on_board no)
     (dnp no)
     (uuid "014b6da3-4db8-58b9-98ef-62fdfb0f98bd")
-    (property "Reference" "#PWR7155"
+    (property "Reference" "#PWR7147"
       (at 186.69 181.61 0.0)
       (effects
         (font
@@ -5160,7 +4825,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7155")
+          (reference "#PWR7147")
           (unit 1)
         )
       )
@@ -5186,7 +4851,7 @@
     (on_board no)
     (dnp no)
     (uuid "2aac7cb3-408d-5e18-8ddb-8fbd10ae20c5")
-    (property "Reference" "#PWR7157"
+    (property "Reference" "#PWR7149"
       (at 186.69 199.39 0.0)
       (effects
         (font
@@ -5206,7 +4871,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7157")
+          (reference "#PWR7149")
           (unit 1)
         )
       )
@@ -5288,7 +4953,7 @@
     (on_board no)
     (dnp no)
     (uuid "4dd41b97-3898-59a6-bbf8-2495244efc22")
-    (property "Reference" "#PWR7160"
+    (property "Reference" "#PWR7152"
       (at 224.79 181.61 0.0)
       (effects
         (font
@@ -5308,7 +4973,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7160")
+          (reference "#PWR7152")
           (unit 1)
         )
       )
@@ -5334,7 +4999,7 @@
     (on_board no)
     (dnp no)
     (uuid "f2f1b196-58b1-5bc5-91fe-61aa6760be8b")
-    (property "Reference" "#PWR7162"
+    (property "Reference" "#PWR7154"
       (at 224.79 199.39 0.0)
       (effects
         (font
@@ -5354,7 +5019,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7162")
+          (reference "#PWR7154")
           (unit 1)
         )
       )
@@ -5436,7 +5101,7 @@
     (on_board no)
     (dnp no)
     (uuid "9ddd83d6-44b3-52af-9279-3173c3c0d57a")
-    (property "Reference" "#PWR7165"
+    (property "Reference" "#PWR7157"
       (at 262.89 181.61 0.0)
       (effects
         (font
@@ -5456,7 +5121,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7165")
+          (reference "#PWR7157")
           (unit 1)
         )
       )
@@ -5482,7 +5147,7 @@
     (on_board no)
     (dnp no)
     (uuid "dc793ef0-2123-5242-8000-e36fb9ded432")
-    (property "Reference" "#PWR7167"
+    (property "Reference" "#PWR7159"
       (at 262.89 199.39 0.0)
       (effects
         (font
@@ -5502,7 +5167,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7167")
+          (reference "#PWR7159")
           (unit 1)
         )
       )
@@ -5584,7 +5249,7 @@
     (on_board no)
     (dnp no)
     (uuid "b5ef4963-4923-52db-851d-c3237c696e28")
-    (property "Reference" "#PWR7170"
+    (property "Reference" "#PWR7162"
       (at 300.99 181.61 0.0)
       (effects
         (font
@@ -5604,7 +5269,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7170")
+          (reference "#PWR7162")
           (unit 1)
         )
       )
@@ -5630,7 +5295,7 @@
     (on_board no)
     (dnp no)
     (uuid "f1e19ec1-d2ec-5e02-9097-259a7d7b9eff")
-    (property "Reference" "#PWR7172"
+    (property "Reference" "#PWR7164"
       (at 300.99 199.39 0.0)
       (effects
         (font
@@ -5650,7 +5315,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7172")
+          (reference "#PWR7164")
           (unit 1)
         )
       )
@@ -5732,7 +5397,7 @@
     (on_board no)
     (dnp no)
     (uuid "b5e3ecd5-31c9-5632-ae4f-27b5ae01d87e")
-    (property "Reference" "#PWR7175"
+    (property "Reference" "#PWR7167"
       (at 339.09 181.61 0.0)
       (effects
         (font
@@ -5752,7 +5417,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7175")
+          (reference "#PWR7167")
           (unit 1)
         )
       )
@@ -5778,7 +5443,7 @@
     (on_board no)
     (dnp no)
     (uuid "25e4e221-2d70-51e4-9fe4-ca95aa627c3d")
-    (property "Reference" "#PWR7177"
+    (property "Reference" "#PWR7169"
       (at 339.09 199.39 0.0)
       (effects
         (font
@@ -5798,7 +5463,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7177")
+          (reference "#PWR7169")
           (unit 1)
         )
       )
@@ -5880,7 +5545,7 @@
     (on_board no)
     (dnp no)
     (uuid "4d1b8b27-e963-5036-a801-510962f16270")
-    (property "Reference" "#PWR7180"
+    (property "Reference" "#PWR7172"
       (at 377.19 181.61 0.0)
       (effects
         (font
@@ -5900,7 +5565,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7180")
+          (reference "#PWR7172")
           (unit 1)
         )
       )
@@ -5926,7 +5591,7 @@
     (on_board no)
     (dnp no)
     (uuid "8780c838-78d8-538b-ad5b-a7a4b19df079")
-    (property "Reference" "#PWR7182"
+    (property "Reference" "#PWR7174"
       (at 377.19 199.39 0.0)
       (effects
         (font
@@ -5946,7 +5611,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7182")
+          (reference "#PWR7174")
           (unit 1)
         )
       )
@@ -6028,7 +5693,7 @@
     (on_board no)
     (dnp no)
     (uuid "d24e6ee2-f161-5123-855b-56a774cc5f62")
-    (property "Reference" "#PWR7185"
+    (property "Reference" "#PWR7177"
       (at 35.56 219.71 0.0)
       (effects
         (font
@@ -6048,7 +5713,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7185")
+          (reference "#PWR7177")
           (unit 1)
         )
       )
@@ -6074,7 +5739,7 @@
     (on_board no)
     (dnp no)
     (uuid "54e90c9f-ae80-54a2-bd20-ed6aa9aded79")
-    (property "Reference" "#PWR7187"
+    (property "Reference" "#PWR7179"
       (at 35.56 237.49 0.0)
       (effects
         (font
@@ -6094,7 +5759,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7187")
+          (reference "#PWR7179")
           (unit 1)
         )
       )
@@ -6176,7 +5841,7 @@
     (on_board no)
     (dnp no)
     (uuid "1e646669-6527-5fdd-a28b-620cb401706c")
-    (property "Reference" "#PWR7190"
+    (property "Reference" "#PWR7182"
       (at 72.39 219.71 0.0)
       (effects
         (font
@@ -6196,7 +5861,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7190")
+          (reference "#PWR7182")
           (unit 1)
         )
       )
@@ -6222,7 +5887,7 @@
     (on_board no)
     (dnp no)
     (uuid "8d5ca757-3292-52d2-9b15-159acab45965")
-    (property "Reference" "#PWR7192"
+    (property "Reference" "#PWR7184"
       (at 72.39 237.49 0.0)
       (effects
         (font
@@ -6242,7 +5907,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7192")
+          (reference "#PWR7184")
           (unit 1)
         )
       )
@@ -6324,7 +5989,7 @@
     (on_board no)
     (dnp no)
     (uuid "e56fa528-250b-54d3-8e06-fe78d9788fab")
-    (property "Reference" "#PWR7195"
+    (property "Reference" "#PWR7187"
       (at 110.49 219.71 0.0)
       (effects
         (font
@@ -6344,7 +6009,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7195")
+          (reference "#PWR7187")
           (unit 1)
         )
       )
@@ -6370,7 +6035,7 @@
     (on_board no)
     (dnp no)
     (uuid "79eebc72-459b-5528-8e33-b197870ef5d5")
-    (property "Reference" "#PWR7197"
+    (property "Reference" "#PWR7189"
       (at 110.49 237.49 0.0)
       (effects
         (font
@@ -6390,7 +6055,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7197")
+          (reference "#PWR7189")
           (unit 1)
         )
       )
@@ -6472,7 +6137,7 @@
     (on_board no)
     (dnp no)
     (uuid "2313084c-a416-5e3c-9c6a-58e34c35ce1b")
-    (property "Reference" "#PWR7200"
+    (property "Reference" "#PWR7192"
       (at 148.59 219.71 0.0)
       (effects
         (font
@@ -6492,7 +6157,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7200")
+          (reference "#PWR7192")
           (unit 1)
         )
       )
@@ -6518,7 +6183,7 @@
     (on_board no)
     (dnp no)
     (uuid "5b6f0984-a8a4-52f2-9e52-da0585df95a7")
-    (property "Reference" "#PWR7202"
+    (property "Reference" "#PWR7194"
       (at 148.59 237.49 0.0)
       (effects
         (font
@@ -6538,7 +6203,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7202")
+          (reference "#PWR7194")
           (unit 1)
         )
       )
@@ -6620,7 +6285,7 @@
     (on_board no)
     (dnp no)
     (uuid "63686b17-fe05-5598-a58a-4cc8a7d4bf55")
-    (property "Reference" "#PWR7205"
+    (property "Reference" "#PWR7197"
       (at 186.69 219.71 0.0)
       (effects
         (font
@@ -6640,7 +6305,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7205")
+          (reference "#PWR7197")
           (unit 1)
         )
       )
@@ -6666,7 +6331,7 @@
     (on_board no)
     (dnp no)
     (uuid "5a6771ef-b041-52c3-b90a-8d56a713c104")
-    (property "Reference" "#PWR7207"
+    (property "Reference" "#PWR7199"
       (at 186.69 237.49 0.0)
       (effects
         (font
@@ -6686,7 +6351,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7207")
+          (reference "#PWR7199")
           (unit 1)
         )
       )
@@ -6768,7 +6433,7 @@
     (on_board no)
     (dnp no)
     (uuid "3e108209-e068-5a3e-bcd7-dbf83e015660")
-    (property "Reference" "#PWR7210"
+    (property "Reference" "#PWR7202"
       (at 224.79 219.71 0.0)
       (effects
         (font
@@ -6788,7 +6453,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7210")
+          (reference "#PWR7202")
           (unit 1)
         )
       )
@@ -6814,7 +6479,7 @@
     (on_board no)
     (dnp no)
     (uuid "4fd57ed3-49e1-5711-bb56-a82cb000dd6a")
-    (property "Reference" "#PWR7212"
+    (property "Reference" "#PWR7204"
       (at 224.79 237.49 0.0)
       (effects
         (font
@@ -6834,7 +6499,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7212")
+          (reference "#PWR7204")
           (unit 1)
         )
       )
@@ -6916,7 +6581,7 @@
     (on_board no)
     (dnp no)
     (uuid "1e567b4d-27fa-5d2a-b4dd-163aed833910")
-    (property "Reference" "#PWR7215"
+    (property "Reference" "#PWR7207"
       (at 262.89 219.71 0.0)
       (effects
         (font
@@ -6936,7 +6601,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7215")
+          (reference "#PWR7207")
           (unit 1)
         )
       )
@@ -6962,7 +6627,7 @@
     (on_board no)
     (dnp no)
     (uuid "d6dd829e-3e5f-5082-ba8c-0431d8f18920")
-    (property "Reference" "#PWR7217"
+    (property "Reference" "#PWR7209"
       (at 262.89 237.49 0.0)
       (effects
         (font
@@ -6982,7 +6647,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7217")
+          (reference "#PWR7209")
           (unit 1)
         )
       )
@@ -7064,7 +6729,7 @@
     (on_board no)
     (dnp no)
     (uuid "58be0957-857d-53fc-93bc-1f1af270b422")
-    (property "Reference" "#PWR7220"
+    (property "Reference" "#PWR7212"
       (at 300.99 219.71 0.0)
       (effects
         (font
@@ -7084,7 +6749,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7220")
+          (reference "#PWR7212")
           (unit 1)
         )
       )
@@ -7110,7 +6775,7 @@
     (on_board no)
     (dnp no)
     (uuid "fc1c3277-c60c-525d-87b3-82c9f2af15f2")
-    (property "Reference" "#PWR7222"
+    (property "Reference" "#PWR7214"
       (at 300.99 237.49 0.0)
       (effects
         (font
@@ -7130,7 +6795,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7222")
+          (reference "#PWR7214")
           (unit 1)
         )
       )
@@ -7212,7 +6877,7 @@
     (on_board no)
     (dnp no)
     (uuid "f33b0162-cd1e-5ee1-96fa-43d569f9118f")
-    (property "Reference" "#PWR7225"
+    (property "Reference" "#PWR7217"
       (at 339.09 219.71 0.0)
       (effects
         (font
@@ -7232,7 +6897,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7225")
+          (reference "#PWR7217")
           (unit 1)
         )
       )
@@ -7258,7 +6923,7 @@
     (on_board no)
     (dnp no)
     (uuid "5582955d-857a-5be7-ba6d-9a5dc80739c3")
-    (property "Reference" "#PWR7227"
+    (property "Reference" "#PWR7219"
       (at 339.09 237.49 0.0)
       (effects
         (font
@@ -7278,7 +6943,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7227")
+          (reference "#PWR7219")
           (unit 1)
         )
       )
@@ -7360,7 +7025,7 @@
     (on_board no)
     (dnp no)
     (uuid "f2bb165d-8fb1-5c5e-b8d9-208f4c0a6ad9")
-    (property "Reference" "#PWR7230"
+    (property "Reference" "#PWR7222"
       (at 377.19 219.71 0.0)
       (effects
         (font
@@ -7380,7 +7045,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7230")
+          (reference "#PWR7222")
           (unit 1)
         )
       )
@@ -7406,7 +7071,7 @@
     (on_board no)
     (dnp no)
     (uuid "1a1fbe9d-0662-5f2d-bb85-386839d953b1")
-    (property "Reference" "#PWR7232"
+    (property "Reference" "#PWR7224"
       (at 377.19 237.49 0.0)
       (effects
         (font
@@ -7426,7 +7091,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7232")
+          (reference "#PWR7224")
           (unit 1)
         )
       )
@@ -7508,7 +7173,7 @@
     (on_board no)
     (dnp no)
     (uuid "e7cf9502-17ef-55ee-97e6-480a3aa8460b")
-    (property "Reference" "#PWR7235"
+    (property "Reference" "#PWR7227"
       (at 35.56 257.81 0.0)
       (effects
         (font
@@ -7528,7 +7193,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7235")
+          (reference "#PWR7227")
           (unit 1)
         )
       )
@@ -7554,7 +7219,7 @@
     (on_board no)
     (dnp no)
     (uuid "19fa28f1-6615-5008-b22a-88057ef7d746")
-    (property "Reference" "#PWR7237"
+    (property "Reference" "#PWR7229"
       (at 35.56 275.59 0.0)
       (effects
         (font
@@ -7574,7 +7239,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7237")
+          (reference "#PWR7229")
           (unit 1)
         )
       )
@@ -7656,7 +7321,7 @@
     (on_board no)
     (dnp no)
     (uuid "1ac4bdf5-c855-50f3-9684-e7606c120354")
-    (property "Reference" "#PWR7240"
+    (property "Reference" "#PWR7232"
       (at 72.39 257.81 0.0)
       (effects
         (font
@@ -7676,7 +7341,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7240")
+          (reference "#PWR7232")
           (unit 1)
         )
       )
@@ -7702,7 +7367,7 @@
     (on_board no)
     (dnp no)
     (uuid "e799bd97-66ad-595e-a45f-45734594d2cc")
-    (property "Reference" "#PWR7242"
+    (property "Reference" "#PWR7234"
       (at 72.39 275.59 0.0)
       (effects
         (font
@@ -7722,7 +7387,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7242")
+          (reference "#PWR7234")
           (unit 1)
         )
       )
@@ -7804,7 +7469,7 @@
     (on_board no)
     (dnp no)
     (uuid "ceb0fb4e-04c5-522e-8cc1-3726e299aeb3")
-    (property "Reference" "#PWR7245"
+    (property "Reference" "#PWR7237"
       (at 110.49 257.81 0.0)
       (effects
         (font
@@ -7824,7 +7489,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7245")
+          (reference "#PWR7237")
           (unit 1)
         )
       )
@@ -7850,7 +7515,7 @@
     (on_board no)
     (dnp no)
     (uuid "3219d1d0-a8b6-5791-a5eb-4a6ea2beb0eb")
-    (property "Reference" "#PWR7247"
+    (property "Reference" "#PWR7239"
       (at 110.49 275.59 0.0)
       (effects
         (font
@@ -7870,7 +7535,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7247")
+          (reference "#PWR7239")
           (unit 1)
         )
       )
@@ -7952,7 +7617,7 @@
     (on_board no)
     (dnp no)
     (uuid "8fd66be9-fa18-5748-b310-6f13b15c258a")
-    (property "Reference" "#PWR7250"
+    (property "Reference" "#PWR7242"
       (at 148.59 257.81 0.0)
       (effects
         (font
@@ -7972,7 +7637,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7250")
+          (reference "#PWR7242")
           (unit 1)
         )
       )
@@ -7998,7 +7663,7 @@
     (on_board no)
     (dnp no)
     (uuid "2033b288-cd34-57d0-801d-42ce8db58c0f")
-    (property "Reference" "#PWR7252"
+    (property "Reference" "#PWR7244"
       (at 148.59 275.59 0.0)
       (effects
         (font
@@ -8018,7 +7683,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7252")
+          (reference "#PWR7244")
           (unit 1)
         )
       )
@@ -8100,7 +7765,7 @@
     (on_board no)
     (dnp no)
     (uuid "71d9bac4-3574-5d64-86f1-4de82ff88117")
-    (property "Reference" "#PWR7255"
+    (property "Reference" "#PWR7247"
       (at 186.69 257.81 0.0)
       (effects
         (font
@@ -8120,7 +7785,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7255")
+          (reference "#PWR7247")
           (unit 1)
         )
       )
@@ -8146,7 +7811,7 @@
     (on_board no)
     (dnp no)
     (uuid "3dcb3e99-7517-5b5e-9d3b-e022d1a1b6f9")
-    (property "Reference" "#PWR7257"
+    (property "Reference" "#PWR7249"
       (at 186.69 275.59 0.0)
       (effects
         (font
@@ -8166,7 +7831,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/c750d47d-0431-5c42-b07b-fef4078c18cb"
-          (reference "#PWR7257")
+          (reference "#PWR7249")
           (unit 1)
         )
       )

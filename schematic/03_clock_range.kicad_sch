@@ -2714,13 +2714,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc555.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlc555.pdf"
       (at 62.230000000000004 57.15000000000001 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "TLC555IDR"
+      (at 80.01 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 80.01 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 80.01 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3466,13 +3493,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc555.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlc555.pdf"
       (at 247.65 57.15000000000001 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "TLC555IDR"
+      (at 265.43 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 265.43 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 265.43 74.93 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -5681,11 +5735,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
       (at 69.85 156.20999999999998 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC14D,653"
+      (at 69.85 165.1 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 69.85 165.1 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 69.85 165.1 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -5777,11 +5858,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
       (at 129.54 156.20999999999998 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC14D,653"
+      (at 129.54 165.1 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 129.54 165.1 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 129.54 165.1 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -5873,11 +5981,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74HC14"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT14.pdf"
       (at 234.95 241.3 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "74HC14D,653"
+      (at 234.95 250.19 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 234.95 250.19 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 234.95 250.19 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )

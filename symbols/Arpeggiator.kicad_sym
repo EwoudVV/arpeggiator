@@ -1635,7 +1635,7 @@
       )
     )
   )
-  (symbol "AS3340AD"
+  (symbol "TMUX6219DGKR"
     (pin_names
       (offset 1.016)
     )
@@ -1650,7 +1650,7 @@
         )
       )
     )
-    (property "Value" "AS3340AD"
+    (property "Value" "TMUX6219DGKR"
       (at 0.0 2.54 0.0)
       (effects
         (font
@@ -1658,7 +1658,208 @@
         )
       )
     )
-    (property "Footprint" "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
+    (property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+      (at 0.0 0.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tmux6219.pdf"
+      (at 0.0 0.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (symbol "TMUX6219DGKR_0_1"
+      (rectangle
+        (start -15.24 12.7)
+        (end 15.24 -12.7)
+        (stroke
+          (width 0.254)
+          (type default)
+        )
+        (fill
+          (type background)
+        )
+      )
+    )
+    (symbol "TMUX6219DGKR_1_1"
+      (pin passive line
+        (at -20.32 7.62 0.0)
+        (length 5.08)
+        (name "S1"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+        (number "2"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+      )
+      (pin passive line
+        (at -20.32 2.54 0.0)
+        (length 5.08)
+        (name "S2"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+        (number "8"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+      )
+      (pin input line
+        (at -20.32 -2.54 0.0)
+        (length 5.08)
+        (name "SEL"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+        (number "6"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+      )
+      (pin input line
+        (at -20.32 -7.62 0.0)
+        (length 5.08)
+        (name "EN"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+        (number "5"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+      )
+      (pin passive line
+        (at 20.32 7.62 180.0)
+        (length 5.08)
+        (name "D"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+        (number "1"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+      )
+      (pin power_in line
+        (at 20.32 2.54 180.0)
+        (length 5.08)
+        (name "VDD"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+        (number "4"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+      )
+      (pin power_in line
+        (at 20.32 -2.54 180.0)
+        (length 5.08)
+        (name "VSS"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+        (number "7"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+      )
+      (pin power_in line
+        (at 20.32 -7.62 180.0)
+        (length 5.08)
+        (name "GND"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+        (number "3"
+          (effects
+            (font
+              (size 1.0 1.0)
+            )
+          )
+        )
+      )
+    )
+  )
+  (symbol "AS3340A"
+    (pin_names
+      (offset 1.016)
+    )
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 0.0 5.08 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (property "Value" "AS3340A"
+      (at 0.0 2.54 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (property "Footprint" "Package_DIP:DIP-16_W7.62mm"
       (at 0.0 0.0 0.0)
       (effects
         (font
@@ -1676,7 +1877,7 @@
         (hide yes)
       )
     )
-    (symbol "AS3340AD_0_1"
+    (symbol "AS3340A_0_1"
       (rectangle
         (start -15.24 25.4)
         (end 15.24 -25.4)
@@ -1689,7 +1890,7 @@
         )
       )
     )
-    (symbol "AS3340AD_1_1"
+    (symbol "AS3340A_1_1"
       (pin input line
         (at -20.32 20.32 0.0)
         (length 5.08)

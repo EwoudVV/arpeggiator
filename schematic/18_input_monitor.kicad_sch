@@ -1,0 +1,2193 @@
+(kicad_sch
+  (version 20260306)
+  (generator "eeschema")
+  (uuid "cbc17baf-8854-58cc-914b-0b06253e14a3")
+  (paper "A3")
+  (title_block
+    (title "Input voltage check")
+  )
+  (lib_symbols
+    (symbol "Reference_Voltage:TL431DBZ"
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (hide yes)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "U"
+        (at -2.54 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "TL431DBZ"
+        (at 0 -2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+        (at 0 -4.826 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+            (italic yes)
+          )
+        )
+      )
+      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+        (at 1.778 -9.144 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+            (italic yes)
+          )
+        )
+      )
+      (property "Description" "Shunt Regulator, SOT-23"
+        (at 0 -7.112 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "diode device shunt regulator"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_fp_filters" "SOT?23*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "TL431DBZ_0_1"
+        (polyline
+          (pts
+            (xy -1.27 0)
+            (xy 0 0)
+            (xy 1.27 0)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -0.762 -0.762)
+            (xy -0.762 0.762)
+            (xy 0.762 0)
+            (xy -0.762 -0.762)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type outline)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.254 -0.762)
+            (xy 0.762 -0.762)
+            (xy 0.762 0.762)
+            (xy 0.762 0.762)
+          )
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "TL431DBZ_1_1"
+        (pin passive line
+          (at 2.54 0 180)
+          (length 2.54)
+          (name "K"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 0 2.54 270)
+          (length 2.54)
+          (name "REF"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at -2.54 0 0)
+          (length 2.54)
+          (name "A"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol "Device:R"
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (offset 0)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "R"
+        (at 2.032 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "R"
+        (at 0 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" ""
+        (at -1.778 0 90)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Description" "Resistor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "R res resistor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_fp_filters" "R_*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "R_0_1"
+        (rectangle
+          (start -1.016 -2.54)
+          (end 1.016 2.54)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "R_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 1.27)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol "Transistor_BJT:MMBT3906"
+      (pin_names
+        (offset 0)
+        (hide yes)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "Q"
+        (at 5.08 1.905 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (justify left)
+        )
+      )
+      (property "Value" "MMBT3906"
+        (at 5.08 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (justify left)
+        )
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+        (at 5.08 -1.905 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+            (italic yes)
+          )
+          (justify left)
+        )
+      )
+      (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (justify left)
+        )
+      )
+      (property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Sim.Device" "PNP"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Sim.Pins" "1=B 2=E 3=C"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "PNP Transistor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "MMBT3906_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy 0.635 0)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 1.905)
+            (xy 0.635 -1.905)
+          )
+          (stroke
+            (width 0.508)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 0.635)
+            (xy 2.54 2.54)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0.635 -0.635)
+            (xy 2.54 -2.54)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (circle
+          (center 1.27 0)
+          (radius 2.8194)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 2.286 -1.778)
+            (xy 1.778 -2.286)
+            (xy 1.27 -1.27)
+            (xy 2.286 -1.778)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type outline)
+          )
+        )
+      )
+      (symbol "MMBT3906_1_1"
+        (pin input line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name "B"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 2.54 -5.08 90)
+          (length 2.54)
+          (name "E"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 2.54 5.08 270)
+          (length 2.54)
+          (name "C"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+      (property "ki_fp_filters" "SOT?23*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+    )
+    (symbol "Device:C"
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (offset 0.254)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (justify left)
+        )
+      )
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+          (justify left)
+        )
+      )
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Description" "Unpolarized capacitor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "cap capacitor"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_fp_filters" "C_*"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762)
+          )
+          (stroke
+            (width 0.508)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762)
+          )
+          (stroke
+            (width 0.508)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "C_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol "power:+5V"
+      (power global)
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (offset 0)
+        (hide yes)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "#PWR"
+        (at 0 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "+5V"
+        (at 0 3.556 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Description" "Power symbol creates a global label with name \"+5V\""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "global power"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "+5V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "+5V_1_1"
+        (pin power_in line
+          (at 0 0 90)
+          (length 0)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+    (symbol "power:GND"
+      (power global)
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (offset 0)
+        (hide yes)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property "Reference" "#PWR"
+        (at 0 -6.35 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Value" "GND"
+        (at 0 -3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Footprint" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property "ki_keywords" "global power"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line
+          (at 0 0 270)
+          (length 0)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+  )
+  (text "Input voltage check"
+    (at 20.0 18.0 0.0)
+    (effects
+      (font
+        (size 1.8 1.8)
+      )
+      (justify left)
+    )
+    (uuid "a5a07b91-d4df-51b5-ae8b-70d9726295d1")
+  )
+  (text "TL431B checks the protected input. PNP output is high only when the input is high enough."
+    (at 20.0 25.0 0.0)
+    (effects
+      (font
+        (size 1.0 1.0)
+      )
+      (justify left)
+    )
+    (uuid "86bd7d20-163c-5a57-9809-400ed2cade26")
+  )
+  (text "Input trip is about 10.6V, with about 0.1V hysteresis. Thresholds include resistor and reference tolerances."
+    (at 20.0 245.0 0.0)
+    (effects
+      (font
+        (size 1.0 1.0)
+      )
+      (justify left)
+    )
+    (uuid "c7593edd-b4ae-5d8c-abf4-474852162f05")
+  )
+  (symbol
+    (lib_id "Reference_Voltage:TL431DBZ")
+    (at 165.1 105.41 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "0bbef291-380c-5c37-b893-c4c44acfc9fe")
+    (property "Reference" "U704"
+      (at 165.1 96.52 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "TL431BIDBZR"
+      (at 165.1 98.52 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+      (at 165.1 96.52 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tl431.pdf"
+      (at 165.1 96.52 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "TL431BIDBZR"
+      (at 165.1 105.41 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 165.1 105.41 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 165.1 105.41 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "U704")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 162.56 105.41)
+      (xy 157.48 105.41)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "4ad54f60-2f4e-5724-929c-d1d04c0d4db7")
+  )
+  (global_label "GND"
+    (shape bidirectional)
+    (at 157.48 105.41 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "6ae35380-1b60-5ad1-8eea-05609d5bfe57")
+  )
+  (symbol
+    (lib_id "Device:R")
+    (at 59.69 64.77 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "9c6964fe-abac-58f9-a8ad-608f5b9070a8")
+    (property "Reference" "R721"
+      (at 63.5 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "6.49k 0.1%"
+      (at 63.5 64.22999999999999 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 63.5 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 63.5 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "R721")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 59.69 60.96)
+      (xy 59.69 55.88)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "ab36b332-7ebd-5727-add4-90b5890c4306")
+  )
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 59.69 55.88 90.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "0817c857-2c03-5d29-9aff-ac0c1c42b66f")
+  )
+  (symbol
+    (lib_id "Device:R")
+    (at 59.69 144.78 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "84140dce-d007-53ed-81f0-28b364d83190")
+    (property "Reference" "R722"
+      (at 63.5 142.24 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "2k 0.1%"
+      (at 63.5 144.24 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 63.5 142.24 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 63.5 142.24 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "R722")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 59.69 148.59)
+      (xy 59.69 153.67)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d8f743aa-6102-52d2-996f-93d7aa1f2306")
+  )
+  (symbol
+    (lib_id "power:GND")
+    (at 59.69 153.67 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "422b9d03-d4a3-5259-bbac-951d1895da72")
+    (property "Reference" "#PWR26018"
+      (at 59.69 153.67 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "GND"
+      (at 59.69 157.48 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "#PWR26018")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Device:R")
+    (at 100.33 214.63 90.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "0abf00cf-ad5a-54a6-bd38-3c45d9fcab2c")
+    (property "Reference" "R723"
+      (at 100.33 208.28 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "330k 0.1%"
+      (at 100.33 210.28 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 100.33 208.28 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 100.33 208.28 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "R723")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 96.52 214.63)
+      (xy 91.44 214.63)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "06358e3e-c5c1-50e2-9f0a-c8cb902b7aff")
+  )
+  (global_label "VIN_PG"
+    (shape bidirectional)
+    (at 91.44 214.63 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "db7939a4-c21e-5bf6-a002-a1a280af9455")
+  )
+  (wire
+    (pts
+      (xy 104.14 214.63)
+      (xy 109.22 214.63)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "fe5437cd-07e6-5689-bc9b-e5905df2377f")
+  )
+  (global_label "VMON_REF"
+    (shape bidirectional)
+    (at 109.22 214.63 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "37b75b1d-101a-5dba-9719-719ad3490a7b")
+  )
+  (symbol
+    (lib_id "Device:R")
+    (at 209.55 64.77 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "fbd57d35-6135-5026-a5ea-3ab7f6224ca8")
+    (property "Reference" "R724"
+      (at 213.36 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "2.2k"
+      (at 213.36 64.22999999999999 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 213.36 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 213.36 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "R724")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 209.55 60.96)
+      (xy 209.55 55.88)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "36374e78-9308-59f3-b434-6ee3e8d2992d")
+  )
+  (symbol
+    (lib_id "power:+5V")
+    (at 209.55 55.88 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "97dd4045-258d-5ee9-b893-20c7460c48fd")
+    (property "Reference" "#PWR26026"
+      (at 209.55 55.88 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+5V"
+      (at 209.55 52.07 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "#PWR26026")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Device:R")
+    (at 260.35 105.41 90.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "ae8338ec-dbc1-5f62-bcab-6a3ed324923d")
+    (property "Reference" "R725"
+      (at 260.35 99.06 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "47k"
+      (at 260.35 101.06 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 260.35 99.06 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 260.35 99.06 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "R725")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Device:R")
+    (at 304.8 64.77 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "a1cda282-91ff-5154-8394-26bda4b11d79")
+    (property "Reference" "R726"
+      (at 308.61 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100k"
+      (at 308.61 64.22999999999999 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 308.61 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 308.61 62.23 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "R726")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 304.8 60.96)
+      (xy 304.8 55.88)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "bd2cf47b-b42f-51a0-93ac-c88ede2ca711")
+  )
+  (symbol
+    (lib_id "power:+5V")
+    (at 304.8 55.88 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "0dcce826-39c1-58dc-b974-ec9bdd7b1e06")
+    (property "Reference" "#PWR26030"
+      (at 304.8 55.88 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+5V"
+      (at 304.8 52.07 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "#PWR26030")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Device:R")
+    (at 355.6 175.26 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4d3bfa9b-44c3-5820-9951-0c49c3f82807")
+    (property "Reference" "R727"
+      (at 359.41 172.72 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "10k"
+      (at 359.41 174.72 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 359.41 172.72 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 359.41 172.72 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "R727")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 355.6 171.45)
+      (xy 355.6 166.37)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "02fcd86c-c723-5c0a-a379-4f8b295c37ad")
+  )
+  (global_label "VIN_PG"
+    (shape bidirectional)
+    (at 355.6 166.37 90.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "7757e8d3-7aae-5216-8d6c-6b75d28d15f7")
+  )
+  (wire
+    (pts
+      (xy 355.6 179.07)
+      (xy 355.6 184.15)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "25a525ab-caf1-5a2c-9c75-399073970092")
+  )
+  (symbol
+    (lib_id "power:GND")
+    (at 355.6 184.15 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "fd6b313c-0be0-5ca9-bd0b-f84023d9a8fd")
+    (property "Reference" "#PWR26035"
+      (at 355.6 184.15 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "GND"
+      (at 355.6 187.96 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "#PWR26035")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "Transistor_BJT:MMBT3906")
+    (at 330.2 105.41 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "719ebffb-aa7f-538b-b6d2-f1b738c01e47")
+    (property "Reference" "Q703"
+      (at 334.01 102.86999999999999 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "MMBT3906"
+      (at 334.01 104.86999999999999 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+      (at 334.01 102.86999999999999 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3906.pdf"
+      (at 334.01 102.86999999999999 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "MMBT3906,215"
+      (at 330.2 105.41 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 330.2 105.41 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 330.2 105.41 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "Q703")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 332.74 110.49)
+      (xy 332.74 115.57)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "83654707-ed47-589c-8e83-a2b23369baf2")
+  )
+  (symbol
+    (lib_id "power:+5V")
+    (at 332.74 115.57 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "08ec5e09-77b7-58d3-b49f-fddd42ff36df")
+    (property "Reference" "#PWR26038"
+      (at 332.74 115.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "+5V"
+      (at 332.74 111.75999999999999 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "#PWR26038")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 332.74 100.33)
+      (xy 332.74 95.25)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b3ea966c-5900-537e-82c0-cef036cd39f7")
+  )
+  (global_label "VIN_PG"
+    (shape bidirectional)
+    (at 332.74 95.25 90.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "f622088d-c3f9-5729-8485-03ad74bbeb2c")
+  )
+  (symbol
+    (lib_id "Device:C")
+    (at 309.88 175.26 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "d3d2ebc8-44b1-57ff-8a63-e3d7174e053a")
+    (property "Reference" "C714"
+      (at 313.69 172.72 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Value" "100p C0G"
+      (at 313.69 174.72 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+      )
+    )
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+      (at 313.69 172.72 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 313.69 172.72 0.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (justify left)
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "C714")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 309.88 171.45)
+      (xy 309.88 166.37)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "2d7eebca-2f17-59aa-86bc-9a946558f4a0")
+  )
+  (global_label "VIN_PG"
+    (shape bidirectional)
+    (at 309.88 166.37 90.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "3defb039-d468-552e-9c89-d897d2dec33f")
+  )
+  (wire
+    (pts
+      (xy 309.88 179.07)
+      (xy 309.88 184.15)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b03736ae-7b74-5c2b-b953-bfc4da2d6029")
+  )
+  (symbol
+    (lib_id "power:GND")
+    (at 309.88 184.15 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "1329aa01-7c91-56d9-b5bb-83de99a22726")
+    (property "Reference" "#PWR26045"
+      (at 309.88 184.15 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Value" "GND"
+      (at 309.88 187.96 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/221c1404-751d-573d-974e-078137e64fda"
+          (reference "#PWR26045")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 59.69 68.58)
+      (xy 59.69 102.87)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "faf85fbc-3886-53a6-8ce6-4367cb350fb1")
+  )
+  (wire
+    (pts
+      (xy 59.69 102.87)
+      (xy 165.1 102.87)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d245130f-c4bc-5778-850b-ebe659399fed")
+  )
+  (junction
+    (at 59.69 102.87)
+    (diameter 0.0)
+    (color 0 0 0 0)
+    (uuid "1f7919ab-0342-5ca0-8195-5be693158f1c")
+  )
+  (wire
+    (pts
+      (xy 59.69 102.87)
+      (xy 59.69 140.97)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "4dd0e90a-1c96-53f8-91be-3bb80a2e78c1")
+  )
+  (global_label "VMON_REF"
+    (shape bidirectional)
+    (at 59.69 102.87 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "1202ebc7-4afa-5425-aee6-ed580cf303ff")
+  )
+  (wire
+    (pts
+      (xy 167.64 105.41)
+      (xy 209.55 105.41)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "212e7aa3-d184-542e-8ee5-46d088008654")
+  )
+  (wire
+    (pts
+      (xy 209.55 105.41)
+      (xy 256.54 105.41)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "8d114d1c-1290-545d-a6fb-3654a95117e1")
+  )
+  (junction
+    (at 209.55 105.41)
+    (diameter 0.0)
+    (color 0 0 0 0)
+    (uuid "da2a50a3-a5fe-5744-a1f7-60d5514a8fb3")
+  )
+  (wire
+    (pts
+      (xy 209.55 68.58)
+      (xy 209.55 105.41)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "41be64ee-6221-5a75-bf7c-de4bf3ea3ba2")
+  )
+  (wire
+    (pts
+      (xy 264.16 105.41)
+      (xy 325.12 105.41)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "9ffaa065-bb2a-5f0e-8d07-ae90b389f636")
+  )
+  (wire
+    (pts
+      (xy 304.8 68.58)
+      (xy 304.8 105.41)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "b12d05d1-82d1-5cfb-89ec-aa531871755b")
+  )
+  (junction
+    (at 304.8 105.41)
+    (diameter 0.0)
+    (color 0 0 0 0)
+    (uuid "3f8cdbb4-3739-5d15-947d-b005e60c4851")
+  )
+  (embedded_fonts no)
+)

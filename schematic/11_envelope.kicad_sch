@@ -2384,6 +2384,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "OPA4192IDR"
+      (at 335.28 214.63 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 335.28 214.63 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 335.28 214.63 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2057908.html"
+      (at 335.28 214.63 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/9c41fc11-054f-50f6-9bdd-e2a135d8b814"
@@ -2430,13 +2466,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
       (at 53.34 62.23 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "2N7002,215"
+      (at 49.53 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 49.53 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 49.53 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2824,13 +2887,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlc555.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlc555.pdf"
       (at 137.16 46.99 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "TLC555IDR"
+      (at 154.94 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 154.94 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 154.94 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3612,13 +3702,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf"
       (at 323.85 62.23 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "MMBT3904,215"
+      (at 320.04 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 320.04 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 320.04 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3816,13 +3933,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
       (at 368.3 113.02999999999999 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "BSS84,215"
+      (at 364.49 115.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 364.49 115.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 364.49 115.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -4400,13 +4544,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3904-d.pdf"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf"
       (at 123.19 262.89 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "MMBT3904,215"
+      (at 119.38 265.43 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 119.38 265.43 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 119.38 265.43 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -4576,40 +4747,16 @@
     )
     (uuid "2aea6af3-b503-58cf-8788-2f8153fcc700")
   )
-  (symbol
-    (lib_id "power:+5V")
-    (at 175.26 241.3 0.0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board no)
-    (dnp no)
-    (uuid "24d048c2-05d3-5248-b68d-16f836b30d98")
-    (property "Reference" "#PWR19099"
-      (at 175.26 241.3 0.0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-        (hide yes)
+  (global_label "+12V"
+    (shape bidirectional)
+    (at 175.26 241.3 90.0)
+    (effects
+      (font
+        (size 0.95 0.95)
       )
+      (justify left)
     )
-    (property "Value" "+5V"
-      (at 175.26 237.49 0.0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/9c41fc11-054f-50f6-9bdd-e2a135d8b814"
-          (reference "#PWR19099")
-          (unit 1)
-        )
-      )
-    )
+    (uuid "ae822c76-dffc-5204-9a47-8667505e2d3b")
   )
   (wire
     (pts
@@ -4670,13 +4817,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002.pdf"
       (at 228.6 262.89 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "2N7002,215"
+      (at 224.79 265.43 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Nexperia"
+      (at 224.79 265.43 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 224.79 265.43 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )

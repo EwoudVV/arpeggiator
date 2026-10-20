@@ -26,15 +26,19 @@ the controls and connectors will fit into a printed desktop case. the plan is on
 
 ## progress
 
-the sequencer and sound schematics are drawn. the pitch circuit selects a note from the resistor ladder and adds the octave voltage. an AS3340A makes the saw and pulse waves, followed by a decay envelope, LM13700 amplifier and the tone and volume controls
+the sequencer, sound circuit and power supply are drawn. the supply has a fuse, reverse-polarity protection and separate 5 V and -5 V regulators. the logic stays in reset until the input and both rails are ready, and a switch mutes the line output while stopped
 
-i checked the note logic and ran models of the envelope and amplifier current source. KiCad ERC is clean. the main power supply still needs finishing, and the exact controls and other parts need sourcing before PCB layout. nothing has been built or tuned yet
+i checked the rail loads, regulator heat and reset thresholds, then ran the sequencer and envelope checks again. ERC is clean. nothing has been built or tuned yet
+
+[BOM.csv](BOM.csv) is the current parts list. the chips and calibration parts are selected. the front controls, a few capacitors and their footprints still need finishing, and prices have not been quoted yet
 
 ![Sequencer schematic](images/sequencer.png)
 
 ![Pitch reference and ladder](images/pitch-reference.png)
 
 ![Oscillator schematic](images/oscillator.png)
+
+![Input power and 5 V supply](images/power-supply.png)
 
 ## files
 

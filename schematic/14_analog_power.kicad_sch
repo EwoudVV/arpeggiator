@@ -4,7 +4,7 @@
   (uuid "f684e1d2-daa2-5e51-be52-f41e198d52a6")
   (paper "A3")
   (title_block
-    (title "Analog decoupling and test rails")
+    (title "Analog decoupling")
   )
   (lib_symbols
     (symbol "Arpeggiator:OPA4192IDR"
@@ -1478,313 +1478,6 @@
       )
       (embedded_fonts no)
     )
-    (symbol "Connector_Generic:Conn_01x03"
-      (pin_names
-        (offset 1.016)
-        (hide yes)
-      )
-      (exclude_from_sim no)
-      (in_bom yes)
-      (on_board yes)
-      (in_pos_files yes)
-      (duplicate_pin_numbers_are_jumpers no)
-      (property "Reference" "J"
-        (at 0 5.08 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Value" "Conn_01x03"
-        (at 0 -5.08 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Footprint" ""
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Datasheet" ""
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "ki_keywords" "connector"
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*"
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (symbol "Conn_01x03_1_1"
-        (rectangle
-          (start -1.27 3.81)
-          (end 1.27 -3.81)
-          (stroke
-            (width 0.254)
-            (type default)
-          )
-          (fill
-            (type background)
-          )
-        )
-        (rectangle
-          (start -1.27 2.667)
-          (end 0 2.413)
-          (stroke
-            (width 0.1524)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (rectangle
-          (start -1.27 0.127)
-          (end 0 -0.127)
-          (stroke
-            (width 0.1524)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (rectangle
-          (start -1.27 -2.413)
-          (end 0 -2.667)
-          (stroke
-            (width 0.1524)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (pin passive line
-          (at -5.08 2.54 0)
-          (length 3.81)
-          (name "Pin_1"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-          (number "1"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-        )
-        (pin passive line
-          (at -5.08 0 0)
-          (length 3.81)
-          (name "Pin_2"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-          (number "2"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-        )
-        (pin passive line
-          (at -5.08 -2.54 0)
-          (length 3.81)
-          (name "Pin_3"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-          (number "3"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-        )
-      )
-      (embedded_fonts no)
-    )
-    (symbol "power:PWR_FLAG"
-      (power global)
-      (pin_numbers
-        (hide yes)
-      )
-      (pin_names
-        (offset 0)
-        (hide yes)
-      )
-      (exclude_from_sim no)
-      (in_bom yes)
-      (on_board yes)
-      (in_pos_files yes)
-      (duplicate_pin_numbers_are_jumpers no)
-      (property "Reference" "#FLG"
-        (at 0 1.905 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Value" "PWR_FLAG"
-        (at 0 3.81 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Footprint" ""
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Datasheet" ""
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "Description" "Special symbol for telling ERC where power comes from"
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (property "ki_keywords" "flag power"
-        (at 0 0 0)
-        (show_name no)
-        (do_not_autoplace no)
-        (hide yes)
-        (effects
-          (font
-            (size 1.27 1.27)
-          )
-        )
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line
-          (at 0 0 90)
-          (length 0)
-          (name ""
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-          (number "1"
-            (effects
-              (font
-                (size 1.27 1.27)
-              )
-            )
-          )
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-      )
-      (embedded_fonts no)
-    )
     (symbol "Device:C"
       (pin_numbers
         (hide yes)
@@ -2205,7 +1898,7 @@
       (embedded_fonts no)
     )
   )
-  (text "Analog decoupling and test rails"
+  (text "Analog decoupling"
     (at 20.0 18.0 0.0)
     (effects
       (font
@@ -2215,7 +1908,7 @@
     )
     (uuid "e1237a78-f74f-5201-aeb8-fd362829f6ea")
   )
-  (text "Temporary test rails. Main 12V input protection, +5V regulator and negative supply are still to be drawn."
+  (text "Analog decoupling. The negative rail is regulated to -5V after the charge pump."
     (at 20.0 25.0 0.0)
     (effects
       (font
@@ -2279,6 +1972,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "OPA4192IDR"
+      (at 64.77 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 64.77 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 64.77 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2057908.html"
+      (at 64.77 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2382,6 +2111,42 @@
         (hide yes)
       )
     )
+    (property "MPN" "OPA4192IDR"
+      (at 175.26 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 175.26 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 175.26 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2057908.html"
+      (at 175.26 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
@@ -2482,6 +2247,33 @@
         (hide yes)
       )
     )
+    (property "MPN" "TL074HIDR"
+      (at 284.48 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 284.48 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 284.48 69.85 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
@@ -2572,13 +2364,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm13700.pdf"
       (at 26.67 149.86 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "LM13700M/NOPB"
+      (at 44.45 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 44.45 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 44.45 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2699,11 +2518,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm13700.pdf"
       (at 119.38 151.13 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "LM13700M/NOPB"
+      (at 119.38 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 119.38 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 119.38 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2777,11 +2623,38 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm13700.pdf"
       (at 270.51 151.13 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "LM13700M/NOPB"
+      (at 270.51 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 270.51 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 270.51 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2858,13 +2731,40 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm13700.pdf"
+    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm13700.pdf"
       (at 349.25 157.48000000000002 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "LM13700M/NOPB"
+      (at 345.44 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Texas Instruments"
+      (at 345.44 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 345.44 160.02 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2920,288 +2820,6 @@
       (justify left)
     )
     (uuid "46b929ef-af84-5c46-b2d6-db8259f2bc0a")
-  )
-  (symbol
-    (lib_id "Connector_Generic:Conn_01x03")
-    (at 379.73 54.61 0.0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom yes)
-    (on_board yes)
-    (dnp no)
-    (uuid "01797569-7c2d-59fc-af0e-a3f5d2eaaad8")
-    (property "Reference" "J501"
-      (at 383.54 52.07 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-      )
-    )
-    (property "Value" "analog test rails only"
-      (at 383.54 54.07 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-      )
-    )
-    (property "Footprint" ""
-      (at 383.54 52.07 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Datasheet" ""
-      (at 383.54 52.07 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "J501")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (wire
-    (pts
-      (xy 374.65 52.07)
-      (xy 369.57 52.07)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "b8e0455f-59af-582f-8b36-224893228d4e")
-  )
-  (global_label "+12V"
-    (shape bidirectional)
-    (at 369.57 52.07 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "c9ae946f-ea15-5ca2-89ca-06fedf7d6eac")
-  )
-  (wire
-    (pts
-      (xy 374.65 54.61)
-      (xy 369.57 54.61)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "fd3dc14d-8018-5811-8356-e8b7d3e8d72a")
-  )
-  (global_label "GND"
-    (shape bidirectional)
-    (at 369.57 54.61 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "f8342b37-dbd5-5e8f-9d30-2bb38f26cc03")
-  )
-  (wire
-    (pts
-      (xy 374.65 57.15)
-      (xy 369.57 57.15)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "0b57f8f9-5628-5588-a8b0-0b605744f2e1")
-  )
-  (global_label "-5V"
-    (shape bidirectional)
-    (at 369.57 57.15 180.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify right)
-    )
-    (uuid "37f296ec-36d1-5352-8f3d-9858daca24db")
-  )
-  (symbol
-    (lib_id "power:PWR_FLAG")
-    (at 359.41 100.33 0.0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board no)
-    (dnp no)
-    (uuid "9e5afc7b-b4c9-57ca-b1ee-68ac825f6669")
-    (property "Reference" "#FLG03"
-      (at 363.22 97.78999999999999 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Value" "PWR_FLAG"
-      (at 363.22 99.78999999999999 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Footprint" ""
-      (at 363.22 97.78999999999999 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Datasheet" ""
-      (at 363.22 97.78999999999999 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#FLG03")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (wire
-    (pts
-      (xy 359.41 100.33)
-      (xy 359.41 105.41)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "040ef7e9-14c3-5c68-b97c-d2b91866cdf4")
-  )
-  (global_label "+12V"
-    (shape bidirectional)
-    (at 359.41 105.41 270.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify left)
-    )
-    (uuid "0c2224f0-d7f7-5717-94d9-466840a7357a")
-  )
-  (symbol
-    (lib_id "power:PWR_FLAG")
-    (at 389.89 100.33 0.0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board no)
-    (dnp no)
-    (uuid "27ad2300-ab3a-5ad9-b945-f8867e05874f")
-    (property "Reference" "#FLG04"
-      (at 393.7 97.78999999999999 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Value" "PWR_FLAG"
-      (at 393.7 99.78999999999999 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Footprint" ""
-      (at 393.7 97.78999999999999 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (property "Datasheet" ""
-      (at 393.7 97.78999999999999 0.0)
-      (effects
-        (font
-          (size 1.05 1.05)
-        )
-        (justify left)
-        (hide yes)
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#FLG04")
-          (unit 1)
-        )
-      )
-    )
-  )
-  (wire
-    (pts
-      (xy 389.89 100.33)
-      (xy 389.89 105.41)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "a9a653ea-1609-521e-b765-0a600ba565d1")
-  )
-  (global_label "-5V"
-    (shape bidirectional)
-    (at 389.89 105.41 270.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify left)
-    )
-    (uuid "3b9cd81c-a286-5295-b923-d66eb480e28a")
   )
   (symbol
     (lib_id "Device:C")
@@ -3301,7 +2919,7 @@
     (on_board no)
     (dnp no)
     (uuid "b4a0b7d0-d7d5-5dcb-909f-1514846c3719")
-    (property "Reference" "#PWR22064"
+    (property "Reference" "#PWR22051"
       (at 35.56 213.36 0.0)
       (effects
         (font
@@ -3321,7 +2939,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22064")
+          (reference "#PWR22051")
           (unit 1)
         )
       )
@@ -3403,7 +3021,7 @@
     (on_board no)
     (dnp no)
     (uuid "675032d4-78fc-5811-be95-42ff1debc4d2")
-    (property "Reference" "#PWR22067"
+    (property "Reference" "#PWR22054"
       (at 35.56 226.06 0.0)
       (effects
         (font
@@ -3423,7 +3041,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22067")
+          (reference "#PWR22054")
           (unit 1)
         )
       )
@@ -3549,7 +3167,7 @@
     (on_board no)
     (dnp no)
     (uuid "9040ad65-9828-5b76-89aa-79abf7a6ec0b")
-    (property "Reference" "#PWR22074"
+    (property "Reference" "#PWR22061"
       (at 113.03 213.36 0.0)
       (effects
         (font
@@ -3569,7 +3187,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22074")
+          (reference "#PWR22061")
           (unit 1)
         )
       )
@@ -3651,7 +3269,7 @@
     (on_board no)
     (dnp no)
     (uuid "2134acc6-8eb5-5024-9a7a-d31d82bbbc77")
-    (property "Reference" "#PWR22077"
+    (property "Reference" "#PWR22064"
       (at 113.03 226.06 0.0)
       (effects
         (font
@@ -3671,7 +3289,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22077")
+          (reference "#PWR22064")
           (unit 1)
         )
       )
@@ -3797,7 +3415,7 @@
     (on_board no)
     (dnp no)
     (uuid "b71f41d5-14d1-51c2-b965-8895e330433d")
-    (property "Reference" "#PWR22084"
+    (property "Reference" "#PWR22071"
       (at 190.5 213.36 0.0)
       (effects
         (font
@@ -3817,7 +3435,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22084")
+          (reference "#PWR22071")
           (unit 1)
         )
       )
@@ -3899,7 +3517,7 @@
     (on_board no)
     (dnp no)
     (uuid "835c8129-8377-57a1-ae84-f0347c85c822")
-    (property "Reference" "#PWR22087"
+    (property "Reference" "#PWR22074"
       (at 190.5 226.06 0.0)
       (effects
         (font
@@ -3919,7 +3537,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22087")
+          (reference "#PWR22074")
           (unit 1)
         )
       )
@@ -4045,7 +3663,7 @@
     (on_board no)
     (dnp no)
     (uuid "29b4fc27-c8d1-5231-ab18-89f0ad361aaf")
-    (property "Reference" "#PWR22094"
+    (property "Reference" "#PWR22081"
       (at 269.24 213.36 0.0)
       (effects
         (font
@@ -4065,7 +3683,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22094")
+          (reference "#PWR22081")
           (unit 1)
         )
       )
@@ -4147,7 +3765,7 @@
     (on_board no)
     (dnp no)
     (uuid "3fae93a5-7e02-5f28-870e-18c259cb6ba0")
-    (property "Reference" "#PWR22097"
+    (property "Reference" "#PWR22084"
       (at 269.24 226.06 0.0)
       (effects
         (font
@@ -4167,7 +3785,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22097")
+          (reference "#PWR22084")
           (unit 1)
         )
       )
@@ -4293,7 +3911,7 @@
     (on_board no)
     (dnp no)
     (uuid "bfd2f888-86d0-5562-9ee8-d212b368d135")
-    (property "Reference" "#PWR22104"
+    (property "Reference" "#PWR22091"
       (at 346.71 213.36 0.0)
       (effects
         (font
@@ -4313,7 +3931,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22104")
+          (reference "#PWR22091")
           (unit 1)
         )
       )
@@ -4395,7 +4013,7 @@
     (on_board no)
     (dnp no)
     (uuid "a0b5f5b5-71da-5eac-8cdb-0166d38cca74")
-    (property "Reference" "#PWR22107"
+    (property "Reference" "#PWR22094"
       (at 346.71 226.06 0.0)
       (effects
         (font
@@ -4415,7 +4033,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/54eb3fd8-803e-5fbe-a85b-a6b868e862d6"
-          (reference "#PWR22107")
+          (reference "#PWR22094")
           (unit 1)
         )
       )

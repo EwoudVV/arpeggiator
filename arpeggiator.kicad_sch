@@ -14,7 +14,7 @@
     )
     (uuid "574741fd-3ded-58f8-b3ed-fd3d31f167ab")
   )
-  (text "Sequencer, pitch selection and sound circuit. Main supply, PCB and case are still in progress."
+  (text "Sequencer, sound and power circuit. PCB layout and case are still in progress."
     (at 20.0 27.0 0.0)
     (effects
       (font
@@ -26,7 +26,7 @@
   )
   (sheet
     (at 20.0 45.0)
-    (size 87.0 24.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -45,7 +45,7 @@
       )
     )
     (property "Sheetfile" "schematic/01_controls_a.kicad_sch"
-      (at 20.0 70.0 0.0)
+      (at 20.0 68.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -73,7 +73,7 @@
   )
   (sheet
     (at 118.0 45.0)
-    (size 87.0 24.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -92,7 +92,7 @@
       )
     )
     (property "Sheetfile" "schematic/02_controls_b.kicad_sch"
-      (at 118.0 70.0 0.0)
+      (at 118.0 68.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -120,7 +120,7 @@
   )
   (sheet
     (at 216.0 45.0)
-    (size 87.0 24.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -139,7 +139,7 @@
       )
     )
     (property "Sheetfile" "schematic/03_clock_range.kicad_sch"
-      (at 216.0 70.0 0.0)
+      (at 216.0 68.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -167,7 +167,7 @@
   )
   (sheet
     (at 314.0 45.0)
-    (size 87.0 24.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -186,7 +186,7 @@
       )
     )
     (property "Sheetfile" "schematic/04_input_registers.kicad_sch"
-      (at 314.0 70.0 0.0)
+      (at 314.0 68.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -213,8 +213,8 @@
     (uuid "7284c548-3aaf-5fa3-b0c6-86eacddfd3d1")
   )
   (sheet
-    (at 20.0 83.0)
-    (size 87.0 24.0)
+    (at 20.0 78.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -224,7 +224,7 @@
     )
     (uuid "6ac93ee4-0038-59ef-870b-cac375cd204c")
     (property "Sheetname" "05_search_counters"
-      (at 20.0 82.0 0.0)
+      (at 20.0 77.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -233,7 +233,7 @@
       )
     )
     (property "Sheetfile" "schematic/05_search_counters.kicad_sch"
-      (at 20.0 108.0 0.0)
+      (at 20.0 101.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -250,7 +250,7 @@
     )
   )
   (text "Search counters and state decoder"
-    (at 23.0 95.0 0.0)
+    (at 23.0 90.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -260,8 +260,8 @@
     (uuid "88553248-79ce-53e3-9ee2-728c16d3f53b")
   )
   (sheet
-    (at 118.0 83.0)
-    (size 87.0 24.0)
+    (at 118.0 78.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -271,7 +271,7 @@
     )
     (uuid "793bd5f8-1006-5d8a-a969-3c846ee1d7a7")
     (property "Sheetname" "06_pitch_register"
-      (at 118.0 82.0 0.0)
+      (at 118.0 77.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -280,7 +280,7 @@
       )
     )
     (property "Sheetfile" "schematic/06_pitch_register.kicad_sch"
-      (at 118.0 108.0 0.0)
+      (at 118.0 101.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -297,7 +297,7 @@
     )
   )
   (text "Sounding pitch register and indicators"
-    (at 121.0 95.0 0.0)
+    (at 121.0 90.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -307,8 +307,8 @@
     (uuid "4f2bcc5f-cb51-5e99-a07e-5018734c97e9")
   )
   (sheet
-    (at 216.0 83.0)
-    (size 87.0 24.0)
+    (at 216.0 78.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -318,7 +318,7 @@
     )
     (uuid "c750d47d-0431-5c42-b07b-fef4078c18cb")
     (property "Sheetname" "07_power"
-      (at 216.0 82.0 0.0)
+      (at 216.0 77.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -327,7 +327,7 @@
       )
     )
     (property "Sheetfile" "schematic/07_power.kicad_sch"
-      (at 216.0 108.0 0.0)
+      (at 216.0 101.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -344,7 +344,7 @@
     )
   )
   (text "Logic power and decoupling"
-    (at 219.0 95.0 0.0)
+    (at 219.0 90.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -354,8 +354,8 @@
     (uuid "c683a96f-aef0-5fc3-8fbb-0bab8aecc397")
   )
   (sheet
-    (at 314.0 83.0)
-    (size 87.0 24.0)
+    (at 314.0 78.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -365,7 +365,7 @@
     )
     (uuid "8e446f9f-853e-5dc3-aed5-d7db298bdb2c")
     (property "Sheetname" "logic_01"
-      (at 314.0 82.0 0.0)
+      (at 314.0 77.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -374,7 +374,7 @@
       )
     )
     (property "Sheetfile" "schematic/logic_01.kicad_sch"
-      (at 314.0 108.0 0.0)
+      (at 314.0 101.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -391,7 +391,7 @@
     )
   )
   (text "Sequencer control gates 01"
-    (at 317.0 95.0 0.0)
+    (at 317.0 90.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -401,8 +401,8 @@
     (uuid "d2c59121-1037-520e-b6e0-1b7f045d1388")
   )
   (sheet
-    (at 20.0 121.0)
-    (size 87.0 24.0)
+    (at 20.0 111.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -412,7 +412,7 @@
     )
     (uuid "bd86ffd0-ccf9-50cc-8174-e4e00513c198")
     (property "Sheetname" "logic_02"
-      (at 20.0 120.0 0.0)
+      (at 20.0 110.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -421,7 +421,7 @@
       )
     )
     (property "Sheetfile" "schematic/logic_02.kicad_sch"
-      (at 20.0 146.0 0.0)
+      (at 20.0 134.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -438,7 +438,7 @@
     )
   )
   (text "Sequencer control gates 02"
-    (at 23.0 133.0 0.0)
+    (at 23.0 123.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -448,8 +448,8 @@
     (uuid "31fb1aa1-b7a6-53ca-b3de-9dc8e2665cd1")
   )
   (sheet
-    (at 118.0 121.0)
-    (size 87.0 24.0)
+    (at 118.0 111.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -459,7 +459,7 @@
     )
     (uuid "bc10b5c0-c5ef-5510-b86a-c987f027fb8d")
     (property "Sheetname" "logic_03"
-      (at 118.0 120.0 0.0)
+      (at 118.0 110.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -468,7 +468,7 @@
       )
     )
     (property "Sheetfile" "schematic/logic_03.kicad_sch"
-      (at 118.0 146.0 0.0)
+      (at 118.0 134.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -485,7 +485,7 @@
     )
   )
   (text "Sequencer control gates 03"
-    (at 121.0 133.0 0.0)
+    (at 121.0 123.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -495,8 +495,8 @@
     (uuid "9f0c4486-5058-5ca9-95de-a3ce0026bff7")
   )
   (sheet
-    (at 216.0 121.0)
-    (size 87.0 24.0)
+    (at 216.0 111.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -506,7 +506,7 @@
     )
     (uuid "298e9d5d-d4c9-54a1-a795-9ab22961f190")
     (property "Sheetname" "logic_04"
-      (at 216.0 120.0 0.0)
+      (at 216.0 110.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -515,7 +515,7 @@
       )
     )
     (property "Sheetfile" "schematic/logic_04.kicad_sch"
-      (at 216.0 146.0 0.0)
+      (at 216.0 134.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -532,7 +532,7 @@
     )
   )
   (text "Sequencer control gates 04"
-    (at 219.0 133.0 0.0)
+    (at 219.0 123.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -542,8 +542,8 @@
     (uuid "8e6b83d0-4987-54ca-9371-d1a0b55d5ea8")
   )
   (sheet
-    (at 314.0 121.0)
-    (size 87.0 24.0)
+    (at 314.0 111.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -553,7 +553,7 @@
     )
     (uuid "5f66bcb5-83fd-577c-917d-f2adb17b4a7b")
     (property "Sheetname" "logic_05"
-      (at 314.0 120.0 0.0)
+      (at 314.0 110.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -562,7 +562,7 @@
       )
     )
     (property "Sheetfile" "schematic/logic_05.kicad_sch"
-      (at 314.0 146.0 0.0)
+      (at 314.0 134.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -579,7 +579,7 @@
     )
   )
   (text "Sequencer control gates 05"
-    (at 317.0 133.0 0.0)
+    (at 317.0 123.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -589,8 +589,8 @@
     (uuid "a01b5baa-1ae4-5191-9173-c99f1376e7ea")
   )
   (sheet
-    (at 20.0 159.0)
-    (size 87.0 24.0)
+    (at 20.0 144.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -600,7 +600,7 @@
     )
     (uuid "ef54dc9a-74df-5839-a8e8-fa97bbe5789d")
     (property "Sheetname" "logic_06"
-      (at 20.0 158.0 0.0)
+      (at 20.0 143.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -609,7 +609,7 @@
       )
     )
     (property "Sheetfile" "schematic/logic_06.kicad_sch"
-      (at 20.0 184.0 0.0)
+      (at 20.0 167.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -626,7 +626,7 @@
     )
   )
   (text "Sequencer control gates 06"
-    (at 23.0 171.0 0.0)
+    (at 23.0 156.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -636,8 +636,8 @@
     (uuid "1ca217df-75de-5adf-a5ae-30c23cb82d47")
   )
   (sheet
-    (at 118.0 159.0)
-    (size 87.0 24.0)
+    (at 118.0 144.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -647,7 +647,7 @@
     )
     (uuid "c79f4253-7072-5222-b1fa-f2c67fce914b")
     (property "Sheetname" "logic_07"
-      (at 118.0 158.0 0.0)
+      (at 118.0 143.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -656,7 +656,7 @@
       )
     )
     (property "Sheetfile" "schematic/logic_07.kicad_sch"
-      (at 118.0 184.0 0.0)
+      (at 118.0 167.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -673,7 +673,7 @@
     )
   )
   (text "Sequencer control gates 07"
-    (at 121.0 171.0 0.0)
+    (at 121.0 156.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -683,8 +683,8 @@
     (uuid "bbb429e4-f027-576e-97f9-180c87d7fbf8")
   )
   (sheet
-    (at 216.0 159.0)
-    (size 87.0 24.0)
+    (at 216.0 144.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -694,7 +694,7 @@
     )
     (uuid "964435e8-3666-5cee-b5ce-4ffe22c0f98c")
     (property "Sheetname" "events"
-      (at 216.0 158.0 0.0)
+      (at 216.0 143.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -703,7 +703,7 @@
       )
     )
     (property "Sheetfile" "schematic/events.kicad_sch"
-      (at 216.0 184.0 0.0)
+      (at 216.0 167.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -720,7 +720,7 @@
     )
   )
   (text "Start, stop and note-valid registers"
-    (at 219.0 171.0 0.0)
+    (at 219.0 156.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -730,8 +730,8 @@
     (uuid "dd5db9f2-cba7-5378-9beb-f05e725e42c4")
   )
   (sheet
-    (at 314.0 159.0)
-    (size 87.0 24.0)
+    (at 314.0 144.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -741,7 +741,7 @@
     )
     (uuid "182e9b80-2645-590e-8742-564c0f5c7c92")
     (property "Sheetname" "08_reference"
-      (at 314.0 158.0 0.0)
+      (at 314.0 143.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -750,7 +750,7 @@
       )
     )
     (property "Sheetfile" "schematic/08_reference.kicad_sch"
-      (at 314.0 184.0 0.0)
+      (at 314.0 167.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -767,7 +767,7 @@
     )
   )
   (text "Pitch reference and ladder"
-    (at 317.0 171.0 0.0)
+    (at 317.0 156.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -777,8 +777,8 @@
     (uuid "2f489c56-a237-509e-86d7-0c1d9fb2c0aa")
   )
   (sheet
-    (at 20.0 197.0)
-    (size 87.0 24.0)
+    (at 20.0 177.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -788,7 +788,7 @@
     )
     (uuid "fefddb1d-5d84-57bc-96d2-ab23a1a70f69")
     (property "Sheetname" "09_pitch_select"
-      (at 20.0 196.0 0.0)
+      (at 20.0 176.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -797,7 +797,7 @@
       )
     )
     (property "Sheetfile" "schematic/09_pitch_select.kicad_sch"
-      (at 20.0 222.0 0.0)
+      (at 20.0 200.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -814,7 +814,7 @@
     )
   )
   (text "Note and octave voltage selection"
-    (at 23.0 209.0 0.0)
+    (at 23.0 189.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -824,8 +824,8 @@
     (uuid "7ca3c458-0472-5ef1-9bba-5ef4662c3c7a")
   )
   (sheet
-    (at 118.0 197.0)
-    (size 87.0 24.0)
+    (at 118.0 177.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -835,7 +835,7 @@
     )
     (uuid "c707fd18-c05b-5608-99c4-bf0468c71456")
     (property "Sheetname" "10_oscillator"
-      (at 118.0 196.0 0.0)
+      (at 118.0 176.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -844,7 +844,7 @@
       )
     )
     (property "Sheetfile" "schematic/10_oscillator.kicad_sch"
-      (at 118.0 222.0 0.0)
+      (at 118.0 200.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -861,7 +861,7 @@
     )
   )
   (text "Oscillator and tuning"
-    (at 121.0 209.0 0.0)
+    (at 121.0 189.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -871,8 +871,8 @@
     (uuid "41271fa2-47cb-5fda-a033-cdc7e5943763")
   )
   (sheet
-    (at 216.0 197.0)
-    (size 87.0 24.0)
+    (at 216.0 177.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -882,7 +882,7 @@
     )
     (uuid "9c41fc11-054f-50f6-9bdd-e2a135d8b814")
     (property "Sheetname" "11_envelope"
-      (at 216.0 196.0 0.0)
+      (at 216.0 176.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -891,7 +891,7 @@
       )
     )
     (property "Sheetfile" "schematic/11_envelope.kicad_sch"
-      (at 216.0 222.0 0.0)
+      (at 216.0 200.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -908,7 +908,7 @@
     )
   )
   (text "Note envelope and stop mute"
-    (at 219.0 209.0 0.0)
+    (at 219.0 189.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -918,8 +918,8 @@
     (uuid "f369fa32-bc8e-54aa-a42a-e08fae4ff943")
   )
   (sheet
-    (at 314.0 197.0)
-    (size 87.0 24.0)
+    (at 314.0 177.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -929,7 +929,7 @@
     )
     (uuid "09acecc4-0399-5f5d-9062-3a1c076f653e")
     (property "Sheetname" "12_amplifier"
-      (at 314.0 196.0 0.0)
+      (at 314.0 176.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -938,7 +938,7 @@
       )
     )
     (property "Sheetfile" "schematic/12_amplifier.kicad_sch"
-      (at 314.0 222.0 0.0)
+      (at 314.0 200.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -955,7 +955,7 @@
     )
   )
   (text "Envelope current source and amplifier"
-    (at 317.0 209.0 0.0)
+    (at 317.0 189.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -965,8 +965,8 @@
     (uuid "a032286b-7f59-5409-aed5-b52770dc76b9")
   )
   (sheet
-    (at 20.0 235.0)
-    (size 87.0 24.0)
+    (at 20.0 210.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -976,7 +976,7 @@
     )
     (uuid "b5a5f94a-db0b-5750-bf2e-932028180051")
     (property "Sheetname" "13_line_output"
-      (at 20.0 234.0 0.0)
+      (at 20.0 209.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -985,7 +985,7 @@
       )
     )
     (property "Sheetfile" "schematic/13_line_output.kicad_sch"
-      (at 20.0 260.0 0.0)
+      (at 20.0 233.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -1002,7 +1002,7 @@
     )
   )
   (text "Waveform, tone and line output"
-    (at 23.0 247.0 0.0)
+    (at 23.0 222.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -1012,8 +1012,8 @@
     (uuid "729ef409-9158-5dca-8ddf-3c900d4e8b6b")
   )
   (sheet
-    (at 118.0 235.0)
-    (size 87.0 24.0)
+    (at 118.0 210.0)
+    (size 87.0 22.0)
     (stroke
       (width 0.254)
       (type default)
@@ -1023,7 +1023,7 @@
     )
     (uuid "54eb3fd8-803e-5fbe-a85b-a6b868e862d6")
     (property "Sheetname" "14_analog_power"
-      (at 118.0 234.0 0.0)
+      (at 118.0 209.0 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -1032,7 +1032,7 @@
       )
     )
     (property "Sheetfile" "schematic/14_analog_power.kicad_sch"
-      (at 118.0 260.0 0.0)
+      (at 118.0 233.0 0.0)
       (effects
         (font
           (size 0.85 0.85)
@@ -1048,8 +1048,8 @@
       )
     )
   )
-  (text "Analog decoupling and test rails"
-    (at 121.0 247.0 0.0)
+  (text "Analog decoupling"
+    (at 121.0 222.0 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -1057,6 +1057,241 @@
       (justify left)
     )
     (uuid "a62cc292-8207-5a55-9e3d-93c8340217d6")
+  )
+  (sheet
+    (at 216.0 210.0)
+    (size 87.0 22.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "f143a725-6d40-5f87-8907-39f8149b1fbd")
+    (property "Sheetname" "15_input_power"
+      (at 216.0 209.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/15_input_power.kicad_sch"
+      (at 216.0 233.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "24")
+        )
+      )
+    )
+  )
+  (text "12V input and 5V regulator"
+    (at 219.0 222.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "a371d723-43f9-58f3-87ae-5b108b286c84")
+  )
+  (sheet
+    (at 314.0 210.0)
+    (size 87.0 22.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "48242dcb-a2d4-5e75-9642-60b76b00c40d")
+    (property "Sheetname" "16_negative_supply"
+      (at 314.0 209.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/16_negative_supply.kicad_sch"
+      (at 314.0 233.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "25")
+        )
+      )
+    )
+  )
+  (text "Regulated negative supply"
+    (at 317.0 222.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "e5b51a6a-16f6-59bf-bb4b-851cc51d6d0a")
+  )
+  (sheet
+    (at 20.0 243.0)
+    (size 87.0 22.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "a98588a5-9efe-52ad-8139-f19e87bb30a3")
+    (property "Sheetname" "17_negative_monitor"
+      (at 20.0 242.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/17_negative_monitor.kicad_sch"
+      (at 20.0 266.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "26")
+        )
+      )
+    )
+  )
+  (text "Negative rail check"
+    (at 23.0 255.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "9fd6ea31-4ec2-5426-885a-4d41814ed749")
+  )
+  (sheet
+    (at 118.0 243.0)
+    (size 87.0 22.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "221c1404-751d-573d-974e-078137e64fda")
+    (property "Sheetname" "18_input_monitor"
+      (at 118.0 242.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/18_input_monitor.kicad_sch"
+      (at 118.0 266.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "27")
+        )
+      )
+    )
+  )
+  (text "Input voltage check"
+    (at 121.0 255.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "13cf4070-601b-5cd9-9d1a-fc7733b65c2b")
+  )
+  (sheet
+    (at 216.0 243.0)
+    (size 87.0 22.0)
+    (stroke
+      (width 0.254)
+      (type default)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "0245fa71-60a6-568a-9174-665e8bd2a450")
+    (property "Sheetname" "19_reset_output"
+      (at 216.0 242.0 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (justify left bottom)
+      )
+    )
+    (property "Sheetfile" "schematic/19_reset_output.kicad_sch"
+      (at 216.0 266.0 0.0)
+      (effects
+        (font
+          (size 0.85 0.85)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321"
+          (page "28")
+        )
+      )
+    )
+  )
+  (text "Rail reset and output mute"
+    (at 219.0 255.0 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "0c013031-c617-5daa-84ba-5eefcf310bac")
   )
   (sheet_instances
     (path "/"
