@@ -23,21 +23,46 @@ OPA4192IDR,2,"U501, U602",OPA4192IDR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Texas 
 TL074HIDR,1,U603,TL074HIDR,Package_SO:SOIC-14_3.9x8.7mm_P1.27mm,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tl074.pdf,"part selected, quote pending"
 TL431BIDBZR,2,"U703, U704",TL431BIDBZR,Package_TO_SOT_SMD:SOT-23,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tl431.pdf,"part selected, quote pending"
 TLC555IDR,3,"U101, U102, U601",TLC555IDR,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tlc555.pdf,"part selected, quote pending"
-TMUX6219DGKR,1,U705,TMUX6219DGKR,Package_SO:VSSOP-8_3x3mm_P0.65mm,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tmux6219.pdf,"part selected, quote pending"
+TMUX6219DGKR,1,U705,TMUX6219DGKR,Arpeggiator:VSSOP-8_DGK0008A_TI,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/tmux6219.pdf,"part selected, quote pending"
+1 / 2 / 3 octaves,1,SW114,SR2612F-0403-18R0B-D8-N,Arpeggiator:SW_Alpha_SR2612F_4P3T,Taiwan Alpha,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/rotary-switch/rotary-switch-4-pole-3-position-alpha-sr2612f.html,https://www.taydaelectronics.com/datasheets/A-1892.pdf,"part selected, quote pending"
+1000u 25V,1,C708,EEU-FR1E102,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,Panasonic,Mouser,https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FR1E102?qs=Ao3mORb5HCARq2G4MnAlEQ%3D%3D,,"part selected, quote pending"
 100k 0.01% 25ppm/C,4,"R531, R532, R622, R623",RNCF0805TKT100K,Resistor_SMD:R_0805_2012Metric,Stackpole,DigiKey,https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RNCF0805TKT100K/5014562,,"part selected, quote pending"
+100k audio volume,1,RV604,RD901F-40-15F-A100K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,Taiwan Alpha,Tayda,https://www.taydaelectronics.com/100k-ohm-logarithmic-taper-potentiometer-d-shaft-pcb-9mm.html,https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf,"part selected, quote pending"
 100k coarse trim,1,RV606,3296W-1-104LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
 100k offset null,1,RV602,3296W-1-104LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+100k tone,1,RV603,RD901F-40-15F-B100K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,Taiwan Alpha,Tayda,https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html,https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf,"part selected, quote pending"
+100k tune,1,RV605,RD901F-40-15F-B100K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,Taiwan Alpha,Tayda,https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html,https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf,"part selected, quote pending"
+100n film 100V 5%,2,"C631, C632",R82EC3100DQ70J,Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm,KEMET,Tayda,https://www.taydaelectronics.com/0-1uf-100v-5-kemet-polyester-film-box-type-capacitor.html,,"part selected, quote pending"
 100u 25V,2,"C701, C707",EEU-FR1E101,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,Panasonic,Mouser,https://www.mouser.com/en/ProductDetail/Panasonic-Industry/EEU-FR1E101?qs=Ao3mORb5HCDieoJwtkb8Dw%3D%3D,,"part selected, quote pending"
 10k 0.01% 25ppm/C,4,"R504, R505, R621, R624",RNCF0805TKY10K0,Resistor_SMD:R_0805_2012Metric,Stackpole,Mouser,https://www.mouser.com/ProductDetail/SEI-Stackpole/RNCF0805TKY10K0?qs=FESYatJ8odKPVkqigBJMsg%3D%3D,,"part selected, quote pending"
 10k tempco,1,RV502,3296W-1-103LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+1M decay,1,RV601,RD901F-40-15F-B1M,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,Taiwan Alpha,Tayda,https://www.taydaelectronics.com/potentiometer-variable-resistors/rotary-potentiometer/linear/1m-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html,https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf,"part selected, quote pending"
+1u film 63V 5%,1,C603,R82DC4100DQ60J,Capacitor_THT:C_Rect_L7.2mm_W5.0mm_P5.00mm,KEMET,Tayda,https://www.taydaelectronics.com/1uf-63v-5-kemet-polyester-film-box-type-capacitor.html,,"part selected, quote pending"
+2.2u film 100V 10%,1,C181,MKS4D042204F00KSSD,Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3,WIMA,Tayda,https://www.taydaelectronics.com/capacitors/polyester-film-box-type-capacitors/wima-2200nf-2-2uf-100v-10-polyester-film-box-type-capacitor.html,,"part selected, quote pending"
 20k HF track,1,RV503,3296W-1-203LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+250k linear,1,RV101,RD901F-40-15F-B250K,Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical,Taiwan Alpha,Tayda,https://www.taydaelectronics.com/potentiometer-variable-resistors/250k-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html,https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf,"part selected, quote pending"
 2N7002,2,"Q601, Q605","2N7002,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/2N7002.pdf,"part selected, quote pending"
+3.5mm mono line out,1,J601,PJ-3001F,Arpeggiator:Jack_PJ-3001F_Vertical,Tayda,Tayda,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,https://www.taydaelectronics.com/datasheets/files/PJ35586.pdf,"part selected, quote pending"
+470n film 63V 5%,1,C633,R82DC3470AA60J,Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm,KEMET,DigiKey,https://www.digikey.com/en/products/detail/kemet/R82DC3470AA60J/2839160,,"part selected, quote pending"
+47u 25V,3,"C704, C705, C711",25YXJ47M5X11,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,Rubycon,DigiKey,https://www.digikey.com/en/products/detail/rubycon/25YXJ47M5X11/3562900,,"part selected, quote pending"
 500 scale,1,RV501,3296W-1-501LF,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/3296.pdf,"part selected, quote pending"
+A,1,SW110,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+A sharp,1,SW111,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
 AO3401A,1,Q701,AO3401A,Package_TO_SOT_SMD:SOT-23,Alpha & Omega,LCSC,,https://www.aosmd.com/res/data_sheets/AO3401A.pdf,"part selected, quote pending"
+B,1,SW112,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
 BAT54GW,2,"D601, D708","BAT54GW,115",Diode_SMD:D_SOD-123,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/BAT54GW.pdf,"part selected, quote pending"
 "BAT54S,215",1,D706,"BAT54S,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/BAT54_SER.pdf,"part selected, quote pending"
 BSS84,1,Q603,"BSS84,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/BSS84.pdf,"part selected, quote pending"
 BZT52C8V2,1,D701,"BZT52-C8V2,115",Diode_SMD:D_SOD-123,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/BZT52_SER.pdf,"part selected, quote pending"
+C,1,SW101,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+C sharp,1,SW102,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+D,1,SW103,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+D sharp,1,SW104,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+E,1,SW105,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+F,1,SW106,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+F sharp,1,SW107,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+G,1,SW108,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+G sharp,1,SW109,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
 LM4040A25IDBZR,1,D501,LM4040A25IDBZR,Package_TO_SOT_SMD:SOT-23,Texas Instruments,LCSC,,https://www.ti.com/lit/ds/symlink/lm4040.pdf,"part selected, quote pending"
 MF-MSMF025-2 / 250mA,1,F701,MF-MSMF025-2,Fuse:Fuse_1812_4532Metric,Bourns,LCSC,,https://www.bourns.com/docs/product-datasheets/mfmsmf.pdf,"part selected, quote pending"
 MMBT3904,2,"Q602, Q604","MMBT3904,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf,"part selected, quote pending"
@@ -46,12 +71,14 @@ MMBT3906,3,"Q606, Q702, Q703","MMBT3906,215",Package_TO_SOT_SMD:SOT-23,Nexperia,
 PJ-102AH / 12V DC centre +,1,J701,PJ-102AH,Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal,Same Sky,Mouser,,https://www.sameskydevices.com/product/resource/pj-102ah.pdf,"part selected, quote pending"
 SMBJ12A,1,D702,SMBJ12A,Diode_SMD:D_SMB,Littelfuse,LCSC,https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smbj/smbj12a,,"part selected, quote pending"
 SS14,3,"D703, D707, D704",SS14-13-F,Diode_SMD:D_SMA,Diodes Incorporated,LCSC,,https://www.diodes.com/assets/Datasheets/ds23001.pdf,"part selected, quote pending"
+saw / pulse,1,SW601,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
+start / stop,1,SW113,B3F-4055,Button_Switch_THT:SW_SPST_Omron_B3F-40xx,Omron,LCSC,https://www.lcsc.com/product-detail/C84931.html,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf,"part selected, quote pending"
 1.1M 1%,1,R633,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 1.5M 1%,2,"R534, R542",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 1.5k 1%,1,R537,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 1.82M 0.1%,1,R620,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
+1.8M 1%,1,R163,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 100 0.1%,1,R540,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
-1000u 25V,1,C708,,Capacitor_THT:CP_Radial_D10.0mm_P5.00mm,,,,,"generic component, supplier pending"
 100k 1%,11,"R130, R216, R535, R601, R602, R605, R637, R701, R716, R726, R728",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 100n 5%,1,C601,,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
 100n 50V X7R 10%,68,"C130, C140, C141, C901, C902, C903, C904, C905, C906, C907, C908, C909, C910, C911, C912, C913, C914, C915, C916, C917, C918, C919, C920, C921, C922, C923, C924, C925, C926, C927, C928, C929, C930, C931, C932, C933, C934, C935, C936, C937, C938, C939, C940, C941, C942, C943, C944, C945, C501, C532, C551, C552, C553, C554, C555, C556, C557, C558, C559, C560, C561, C562, C661, C703, C706, C717, C715, C716",,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
@@ -76,8 +103,6 @@ SS14,3,"D703, D707, D704",SS14-13-F,Diode_SMD:D_SMA,Diodes Incorporated,LCSC,,ht
 20k 0.1%,1,R703,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 220 1%,2,"R607, R611",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 22k 1%,1,R608,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
-22u 16V,2,"C704, C711",,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,,,,,"generic component, supplier pending"
-22u 25V,1,C705,,Capacitor_THT:CP_Radial_D5.0mm_P2.00mm,,,,,"generic component, supplier pending"
 24k 1%,1,R538,,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 2k 0.1%,2,"R711, R722",,Resistor_SMD:R_0805_2012Metric,,,,,"generic component, supplier pending"
 2n C0G,1,C709,,Capacitor_SMD:C_0805_2012Metric,,,,,"generic component, supplier pending"
@@ -100,31 +125,6 @@ SS14,3,"D703, D707, D704",SS14-13-F,Diode_SMD:D_SMA,Diodes Incorporated,LCSC,,ht
 copper test pad,6,"TP701, TP702, TP703, TP704, TP705, TP706",,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,,,,,"PCB pad, no component"
 logic test header,1,J202,,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,,,,,"generic component, supplier pending"
 "note LED, 0805",12,"D221, D222, D223, D224, D225, D226, D227, D228, D229, D230, D231, D232",,LED_SMD:LED_0805_2012Metric,,,,,"generic component, supplier pending"
-100k audio volume,1,RV604,,,,,,,exact part and footprint pending
-100k tone,1,RV603,,,,,,,exact part and footprint pending
-100k tune,1,RV605,,,,,,,exact part and footprint pending
-100n 50V X7R 10%,2,"C631, C632",,,,,,,exact part and footprint pending
-1M decay,1,RV601,,,,,,,exact part and footprint pending
-1u film,1,C603,,,,,,,exact part and footprint pending
-2.2u film,1,C181,,,,,,,exact part and footprint pending
-220k linear,1,RV101,,,,,,,exact part and footprint pending
-3.5mm mono line out,1,J601,,,,,,,exact part and footprint pending
-470n film,1,C633,,,,,,,exact part and footprint pending
-A,1,SW110,,,,,,,exact part and footprint pending
-A sharp,1,SW111,,,,,,,exact part and footprint pending
-B,1,SW112,,,,,,,exact part and footprint pending
-C,1,SW101,,,,,,,exact part and footprint pending
-C sharp,1,SW102,,,,,,,exact part and footprint pending
-D,1,SW103,,,,,,,exact part and footprint pending
-D sharp,1,SW104,,,,,,,exact part and footprint pending
-E,1,SW105,,,,,,,exact part and footprint pending
-F,1,SW106,,,,,,,exact part and footprint pending
-F sharp,1,SW107,,,,,,,exact part and footprint pending
-G,1,SW108,,,,,,,exact part and footprint pending
-G sharp,1,SW109,,,,,,,exact part and footprint pending
-octaves: stop at 3,1,SW114,,,,,,,exact part and footprint pending
-saw / pulse,1,SW601,,,,,,,exact part and footprint pending
-start / stop,1,SW113,,,,,,,exact part and footprint pending
 two-layer PCB,1,PCB,,,,,,,layout and quote pending
 printed case,1,CASE,,,,,,,CAD pending
 printed knobs,6,KNOBS,,,,,,,CAD pending

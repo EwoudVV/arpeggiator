@@ -4887,7 +4887,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "Package_SO:VSSOP-8_3x3mm_P0.65mm"
+    (property "Footprint" "Arpeggiator:VSSOP-8_DGK0008A_TI"
       (at 82.55 160.01999999999998 0.0)
       (effects
         (font

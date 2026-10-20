@@ -1076,7 +1076,7 @@
       )
       (embedded_fonts no)
     )
-    (symbol "Connector_Audio:AudioJack2"
+    (symbol "Connector_Audio:AudioJack2_SwitchT"
       (exclude_from_sim no)
       (in_bom yes)
       (on_board yes)
@@ -1092,7 +1092,7 @@
           )
         )
       )
-      (property "Value" "AudioJack2"
+      (property "Value" "AudioJack2_SwitchT"
         (at 0 6.35 0)
         (show_name no)
         (do_not_autoplace no)
@@ -1124,7 +1124,7 @@
           )
         )
       )
-      (property "Description" "Audio Jack, 2 Poles (Mono / TS)"
+      (property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
         (at 0 0 0)
         (show_name no)
         (do_not_autoplace no)
@@ -1135,7 +1135,7 @@
           )
         )
       )
-      (property "ki_keywords" "audio jack receptacle mono phone headphone TS connector"
+      (property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
         (at 0 0 0)
         (show_name no)
         (do_not_autoplace no)
@@ -1157,27 +1157,16 @@
           )
         )
       )
-      (symbol "AudioJack2_0_1"
+      (symbol "AudioJack2_SwitchT_0_1"
         (rectangle
-          (start -3.81 0)
-          (end -2.54 -2.54)
+          (start -2.54 0)
+          (end -3.81 -2.54)
           (stroke
             (width 0.254)
             (type default)
           )
           (fill
             (type outline)
-          )
-        )
-        (rectangle
-          (start -2.54 3.81)
-          (end 2.54 -2.54)
-          (stroke
-            (width 0.254)
-            (type default)
-          )
-          (fill
-            (type background)
           )
         )
         (polyline
@@ -1197,6 +1186,30 @@
         )
         (polyline
           (pts
+            (xy 1.778 -0.254)
+            (xy 2.032 -0.762)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (rectangle
+          (start 2.54 3.81)
+          (end -2.54 -5.08)
+          (stroke
+            (width 0.254)
+            (type default)
+          )
+          (fill
+            (type background)
+          )
+        )
+        (polyline
+          (pts
             (xy 2.54 2.54)
             (xy -0.635 2.54)
             (xy -0.635 0)
@@ -1211,8 +1224,23 @@
             (type none)
           )
         )
+        (polyline
+          (pts
+            (xy 2.54 -2.54)
+            (xy 1.778 -2.54)
+            (xy 1.778 -0.254)
+            (xy 1.524 -0.762)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
       )
-      (symbol "AudioJack2_1_1"
+      (symbol "AudioJack2_SwitchT_1_1"
         (pin passive line
           (at 5.08 2.54 180)
           (length 2.54)
@@ -1242,6 +1270,24 @@
             )
           )
           (number "T"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at 5.08 -2.54 180)
+          (length 2.54)
+          (name ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "TN"
             (effects
               (font
                 (size 1.27 1.27)
@@ -1944,7 +1990,7 @@
         )
       )
     )
-    (property "Value" "100n film"
+    (property "Value" "100n film 100V 5%"
       (at 35.56 50.26 90.0)
       (effects
         (font
@@ -1952,7 +1998,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
       (at 35.56 48.26 90.0)
       (effects
         (font
@@ -1966,6 +2012,42 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "R82EC3100DQ70J"
+      (at 35.56 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "KEMET"
+      (at 35.56 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 35.56 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/0-1uf-100v-5-kemet-polyester-film-box-type-capacitor.html"
+      (at 35.56 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2172,7 +2254,7 @@
         )
       )
     )
-    (property "Value" "100n film"
+    (property "Value" "100n film 100V 5%"
       (at 35.56 125.19 90.0)
       (effects
         (font
@@ -2180,7 +2262,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W2.5mm_P5.00mm"
       (at 35.56 123.19 90.0)
       (effects
         (font
@@ -2194,6 +2276,42 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "R82EC3100DQ70J"
+      (at 35.56 129.54 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "KEMET"
+      (at 35.56 129.54 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 35.56 129.54 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/0-1uf-100v-5-kemet-polyester-film-box-type-capacitor.html"
+      (at 35.56 129.54 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2408,7 +2526,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Arpeggiator:SW_Dailywell_1M_SPDT_M2"
       (at 199.39 85.09 0.0)
       (effects
         (font
@@ -2417,11 +2535,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/1M_series.pdf"
       (at 199.39 85.09 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "1MS1T1B1M2QES"
+      (at 199.39 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Dailywell"
+      (at 199.39 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 199.39 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html"
+      (at 199.39 95.25 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2474,7 +2628,7 @@
         )
       )
     )
-    (property "Value" "470n film"
+    (property "Value" "470n film 63V 5%"
       (at 275.59 50.26 90.0)
       (effects
         (font
@@ -2482,7 +2636,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.5mm_P5.00mm"
       (at 275.59 48.26 90.0)
       (effects
         (font
@@ -2496,6 +2650,42 @@
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "R82DC3470AA60J"
+      (at 275.59 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "KEMET"
+      (at 275.59 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "DigiKey"
+      (at 275.59 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.digikey.com/en/products/detail/kemet/R82DC3470AA60J/2839160"
+      (at 275.59 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2610,7 +2800,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
       (at 349.25 45.72 0.0)
       (effects
         (font
@@ -2620,13 +2810,49 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf"
       (at 349.25 45.72 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RD901F-40-15F-B100K"
+      (at 379.73 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Taiwan Alpha"
+      (at 379.73 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 379.73 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html"
+      (at 379.73 54.61 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2768,7 +2994,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
       (at 245.10999999999999 115.57 0.0)
       (effects
         (font
@@ -2778,13 +3004,49 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf"
       (at 245.10999999999999 115.57 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RD901F-40-15F-A100K"
+      (at 275.59 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Taiwan Alpha"
+      (at 275.59 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 275.59 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/100k-ohm-logarithmic-taper-potentiometer-d-shaft-pcb-9mm.html"
+      (at 275.59 124.46 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -2799,26 +3061,26 @@
   )
   (wire
     (pts
-      (xy 275.59 128.27)
-      (xy 275.59 133.35)
+      (xy 275.59 120.65)
+      (xy 275.59 115.57)
     )
     (stroke
       (width 0)
       (type default)
     )
-    (uuid "285f721f-136c-5161-bef1-8ef9b435745a")
+    (uuid "e1d59e4c-e41e-5b18-8ca1-93207bb47d1e")
   )
   (symbol
     (lib_id "power:GND")
-    (at 275.59 133.35 0.0)
+    (at 275.59 115.57 0.0)
     (unit 1)
     (exclude_from_sim no)
     (in_bom no)
     (on_board no)
     (dnp no)
-    (uuid "25904e44-066e-5ad3-a9e1-a26bb13c1eb3")
+    (uuid "18e7399a-efd4-531d-9932-ed62cfc8fbb1")
     (property "Reference" "#PWR21047"
-      (at 275.59 133.35 0.0)
+      (at 275.59 115.57 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -2827,7 +3089,7 @@
       )
     )
     (property "Value" "GND"
-      (at 275.59 137.16 0.0)
+      (at 275.59 119.38 0.0)
       (effects
         (font
           (size 1.0 1.0)
@@ -3072,7 +3334,7 @@
     )
   )
   (symbol
-    (lib_id "Connector_Audio:AudioJack2")
+    (lib_id "Connector_Audio:AudioJack2_SwitchT")
     (at 379.73 204.47 0.0)
     (unit 1)
     (exclude_from_sim no)
@@ -3098,7 +3360,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Arpeggiator:Jack_PJ-3001F_Vertical"
       (at 358.14 215.9 0.0)
       (effects
         (font
@@ -3108,13 +3370,49 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/PJ35586.pdf"
       (at 358.14 215.9 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "PJ-3001F"
+      (at 379.73 204.47 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Tayda"
+      (at 379.73 204.47 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 379.73 204.47 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html"
+      (at 379.73 204.47 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3148,6 +3446,10 @@
       (justify left)
     )
     (uuid "cbe6f9b2-666f-58a4-818f-0d619b40eb02")
+  )
+  (no_connect
+    (at 384.81 207.01)
+    (uuid "413c30e9-aee3-541f-a723-f314ef1b46e5")
   )
   (symbol
     (lib_id "Device:R")
@@ -3281,7 +3583,7 @@
     (on_board no)
     (dnp no)
     (uuid "820a5d92-0fb3-5478-8180-663ceee664f5")
-    (property "Reference" "#PWR21061"
+    (property "Reference" "#PWR21062"
       (at 35.56 271.78 0.0)
       (effects
         (font
@@ -3301,7 +3603,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/b5a5f94a-db0b-5750-bf2e-932028180051"
-          (reference "#PWR21061")
+          (reference "#PWR21062")
           (unit 1)
         )
       )
@@ -3334,7 +3636,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
       (at 134.62 241.3 0.0)
       (effects
         (font
@@ -3344,13 +3646,49 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf"
       (at 134.62 241.3 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RD901F-40-15F-B100K"
+      (at 165.1 250.19 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Taiwan Alpha"
+      (at 165.1 250.19 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 165.1 250.19 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html"
+      (at 165.1 250.19 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -3374,16 +3712,40 @@
     )
     (uuid "343ae44c-b48a-5810-9f64-0c2dd8f7306a")
   )
-  (global_label "REF2V5"
-    (shape bidirectional)
-    (at 165.1 241.3 90.0)
-    (effects
-      (font
-        (size 0.95 0.95)
+  (symbol
+    (lib_id "power:GND")
+    (at 165.1 241.3 0.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "7c43e4e7-c352-51a0-8613-7fab4fa92bea")
+    (property "Reference" "#PWR21065"
+      (at 165.1 241.3 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
       )
-      (justify left)
     )
-    (uuid "c6f13f96-a162-54ac-8f5d-e0c32ba78960")
+    (property "Value" "GND"
+      (at 165.1 245.11 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/b5a5f94a-db0b-5750-bf2e-932028180051"
+          (reference "#PWR21065")
+          (unit 1)
+        )
+      )
+    )
   )
   (wire
     (pts
@@ -3418,40 +3780,16 @@
     )
     (uuid "4a3bc5ef-f65a-5463-af3b-2ad168ace69c")
   )
-  (symbol
-    (lib_id "power:GND")
-    (at 165.1 259.08 0.0)
-    (unit 1)
-    (exclude_from_sim no)
-    (in_bom no)
-    (on_board no)
-    (dnp no)
-    (uuid "fd70fed3-c9db-5cb9-a2c5-520f21481d64")
-    (property "Reference" "#PWR21068"
-      (at 165.1 259.08 0.0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-        (hide yes)
+  (global_label "REF2V5"
+    (shape bidirectional)
+    (at 165.1 259.08 270.0)
+    (effects
+      (font
+        (size 0.95 0.95)
       )
+      (justify left)
     )
-    (property "Value" "GND"
-      (at 165.1 262.89 0.0)
-      (effects
-        (font
-          (size 1.0 1.0)
-        )
-      )
-    )
-    (instances
-      (project "arpeggiator"
-        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/b5a5f94a-db0b-5750-bf2e-932028180051"
-          (reference "#PWR21068")
-          (unit 1)
-        )
-      )
-    )
+    (uuid "3203566c-160a-5855-aa82-2f0cddd46a8e")
   )
   (symbol
     (lib_id "Device:R_Potentiometer")
@@ -3556,7 +3894,7 @@
     (on_board no)
     (dnp no)
     (uuid "0c3a02de-89ed-527a-a972-8dfd7c378864")
-    (property "Reference" "#PWR21071"
+    (property "Reference" "#PWR21072"
       (at 294.64 241.3 0.0)
       (effects
         (font
@@ -3576,7 +3914,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/b5a5f94a-db0b-5750-bf2e-932028180051"
-          (reference "#PWR21071")
+          (reference "#PWR21072")
           (unit 1)
         )
       )
@@ -3795,7 +4133,7 @@
   (wire
     (pts
       (xy 355.6 54.61)
-      (xy 355.6 35.56)
+      (xy 355.6 73.66)
     )
     (stroke
       (width 0)
@@ -3805,8 +4143,8 @@
   )
   (wire
     (pts
-      (xy 355.6 35.56)
-      (xy 379.73 35.56)
+      (xy 355.6 73.66)
+      (xy 379.73 73.66)
     )
     (stroke
       (width 0)
@@ -3816,8 +4154,8 @@
   )
   (wire
     (pts
-      (xy 379.73 35.56)
-      (xy 379.73 50.8)
+      (xy 379.73 73.66)
+      (xy 379.73 58.42)
     )
     (stroke
       (width 0)
@@ -3827,8 +4165,8 @@
   )
   (wire
     (pts
-      (xy 383.54 54.61)
-      (xy 400.05 54.61)
+      (xy 379.73 50.8)
+      (xy 405.13 50.8)
     )
     (stroke
       (width 0)
@@ -3838,8 +4176,8 @@
   )
   (wire
     (pts
-      (xy 400.05 54.61)
-      (xy 400.05 81.28)
+      (xy 405.13 50.8)
+      (xy 405.13 81.28)
     )
     (stroke
       (width 0)
@@ -3849,8 +4187,8 @@
   )
   (wire
     (pts
+      (xy 405.13 81.28)
       (xy 400.05 81.28)
-      (xy 379.73 81.28)
     )
     (stroke
       (width 0)
@@ -3860,8 +4198,8 @@
   )
   (wire
     (pts
-      (xy 379.73 81.28)
-      (xy 379.73 58.42)
+      (xy 400.05 81.28)
+      (xy 400.05 54.61)
     )
     (stroke
       (width 0)
@@ -3871,8 +4209,25 @@
   )
   (wire
     (pts
-      (xy 379.73 81.28)
-      (xy 379.73 101.6)
+      (xy 400.05 54.61)
+      (xy 383.54 54.61)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d004d124-0e09-5d60-bcd2-bb919da03e22")
+  )
+  (junction
+    (at 400.05 81.28)
+    (diameter 0.0)
+    (color 0 0 0 0)
+    (uuid "a83a1ce9-792e-585d-b896-81659b973d3b")
+  )
+  (wire
+    (pts
+      (xy 400.05 81.28)
+      (xy 400.05 101.6)
     )
     (stroke
       (width 0)
@@ -3880,16 +4235,21 @@
     )
     (uuid "67cc0163-ec4e-5835-a112-df81c37260f0")
   )
-  (junction
-    (at 379.73 81.28)
-    (diameter 0.0)
-    (color 0 0 0 0)
-    (uuid "9e7b6263-c8a8-5cff-94b1-39b48988ff31")
+  (wire
+    (pts
+      (xy 400.05 101.6)
+      (xy 379.73 101.6)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "6e6ee143-7885-5a45-82d0-f9a6dbafd93b")
   )
   (wire
     (pts
-      (xy 379.73 81.28)
-      (xy 275.59 81.28)
+      (xy 400.05 81.28)
+      (xy 288.29 81.28)
     )
     (stroke
       (width 0)
@@ -3899,14 +4259,36 @@
   )
   (wire
     (pts
-      (xy 275.59 81.28)
-      (xy 275.59 120.65)
+      (xy 288.29 81.28)
+      (xy 288.29 135.89)
     )
     (stroke
       (width 0)
       (type default)
     )
     (uuid "13bebbb2-fab9-5c4c-bb47-380c078801bf")
+  )
+  (wire
+    (pts
+      (xy 288.29 135.89)
+      (xy 275.59 135.89)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "2fadc5c5-5af4-592a-b99c-0c3fff664d92")
+  )
+  (wire
+    (pts
+      (xy 275.59 135.89)
+      (xy 275.59 128.27)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "c4b8a686-c298-547e-9d56-12d2824c8fdc")
   )
   (wire
     (pts

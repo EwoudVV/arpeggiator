@@ -933,7 +933,7 @@
       )
       (embedded_fonts no)
     )
-    (symbol "Switch:SW_Rotary_2x6"
+    (symbol "Switch:SW_Rotary_4x3"
       (pin_names
         (offset 1.016)
         (hide yes)
@@ -944,7 +944,7 @@
       (in_pos_files yes)
       (duplicate_pin_numbers_are_jumpers no)
       (property "Reference" "SW"
-        (at 0 17.78 0)
+        (at 0 20.32 0)
         (show_name no)
         (do_not_autoplace no)
         (effects
@@ -953,8 +953,8 @@
           )
         )
       )
-      (property "Value" "SW_Rotary_2x6"
-        (at 0 -17.78 0)
+      (property "Value" "SW_Rotary_4x3"
+        (at 0 -20.32 0)
         (show_name no)
         (do_not_autoplace no)
         (effects
@@ -964,7 +964,7 @@
         )
       )
       (property "Footprint" ""
-        (at -2.54 15.24 0)
+        (at -2.54 22.86 0)
         (show_name no)
         (do_not_autoplace no)
         (hide yes)
@@ -975,7 +975,7 @@
         )
       )
       (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
-        (at 0 -20.32 0)
+        (at -2.54 22.86 0)
         (show_name no)
         (do_not_autoplace no)
         (hide yes)
@@ -985,7 +985,7 @@
           )
         )
       )
-      (property "Description" "2 rotary switch with 6 positions"
+      (property "Description" "4 rotary switches with 3 positions"
         (at 0 0 0)
         (show_name no)
         (do_not_autoplace no)
@@ -996,7 +996,7 @@
           )
         )
       )
-      (property "ki_keywords" "rotary switch 2x6"
+      (property "ki_keywords" "rotary switch 4x3"
         (at 0 0 0)
         (show_name no)
         (do_not_autoplace no)
@@ -1007,9 +1007,9 @@
           )
         )
       )
-      (symbol "SW_Rotary_2x6_0_0"
+      (symbol "SW_Rotary_4x3_0_0"
         (circle
-          (center -4.445 7.62)
+          (center -4.445 15.24)
           (radius 0.635)
           (stroke
             (width 0)
@@ -1020,7 +1020,7 @@
           )
         )
         (circle
-          (center -4.445 -10.16)
+          (center -4.445 5.08)
           (radius 0.635)
           (stroke
             (width 0)
@@ -1030,129 +1030,9 @@
             (type none)
           )
         )
-        (polyline
-          (pts
-            (xy -4.064 -9.652)
-            (xy 0.2032 -4.318)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy -4.0132 8.128)
-            (xy 0.2032 13.462)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy -2.54 7.62)
-            (xy -2.54 8.89)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy -2.54 5.08)
-            (xy -2.54 6.35)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy -2.54 2.54)
-            (xy -2.54 3.81)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy -2.54 1.27)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy -2.54 -2.54)
-            (xy -2.54 -1.27)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy -2.54 -5.08)
-            (xy -2.54 -3.81)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy -2.54 -7.62)
-            (xy -2.54 -6.35)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy 0.635 14.605)
-            (xy 0.635 15.24)
-            (xy 8.89 15.24)
-          )
+        (circle
+          (center -4.445 -5.08)
+          (radius 0.635)
           (stroke
             (width 0)
             (type default)
@@ -1162,7 +1042,7 @@
           )
         )
         (circle
-          (center 0.635 13.97)
+          (center -4.445 -15.24)
           (radius 0.635)
           (stroke
             (width 0)
@@ -1174,77 +1054,8 @@
         )
         (polyline
           (pts
-            (xy 0.635 -3.175)
-            (xy 0.635 -2.54)
-            (xy 8.89 -2.54)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (circle
-          (center 0.635 -3.81)
-          (radius 0.635)
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (circle
-          (center 3.81 12.7)
-          (radius 0.635)
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (circle
-          (center 3.81 2.54)
-          (radius 0.635)
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (circle
-          (center 3.81 -5.08)
-          (radius 0.635)
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (circle
-          (center 3.81 -15.24)
-          (radius 0.635)
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
-        (polyline
-          (pts
-            (xy 4.445 12.7)
-            (xy 8.89 12.7)
+            (xy -3.81 15.3924)
+            (xy 4.4196 17.6276)
           )
           (stroke
             (width 0)
@@ -1256,8 +1067,242 @@
         )
         (polyline
           (pts
-            (xy 4.445 -5.08)
-            (xy 8.89 -5.08)
+            (xy -3.81 5.2324)
+            (xy 4.4704 7.4168)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -3.81 -4.9276)
+            (xy 4.4704 -2.7432)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -3.81 -15.0876)
+            (xy 4.4704 -12.9032)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 15.24)
+            (xy 0 16.4084)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 12.7)
+            (xy 0 13.97)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 10.16)
+            (xy 0 11.43)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 10.16)
+            (xy 0 11.43)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 7.62)
+            (xy 0 8.89)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 5.08)
+            (xy 0 6.35)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0 3.81)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 -2.54)
+            (xy 0 -1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 -5.08)
+            (xy 0 -3.81)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 -7.62)
+            (xy 0 -6.35)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 -10.16)
+            (xy 0 -8.89)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 -10.16)
+            (xy 0 -8.89)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 -12.7)
+            (xy 0 -11.43)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 0 -14.0716)
+            (xy 0 -13.8176)
           )
           (stroke
             (width 0)
@@ -1268,7 +1313,7 @@
           )
         )
         (circle
-          (center 5.08 10.16)
+          (center 5.08 17.78)
           (radius 0.635)
           (stroke
             (width 0)
@@ -1279,7 +1324,40 @@
           )
         )
         (circle
-          (center 5.08 5.08)
+          (center 5.08 12.7)
+          (radius 0.635)
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (circle
+          (center 5.08 7.62)
+          (radius 0.635)
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (circle
+          (center 5.08 2.54)
+          (radius 0.635)
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (circle
+          (center 5.08 -2.54)
           (radius 0.635)
           (stroke
             (width 0)
@@ -1311,21 +1389,8 @@
             (type none)
           )
         )
-        (polyline
-          (pts
-            (xy 5.715 10.16)
-            (xy 8.89 10.16)
-          )
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
         (circle
-          (center 5.715 7.62)
+          (center 5.08 -17.78)
           (radius 0.635)
           (stroke
             (width 0)
@@ -1337,9 +1402,94 @@
         )
         (polyline
           (pts
-            (xy 5.715 5.08)
-            (xy 8.89 5.08)
+            (xy 5.715 17.78)
+            (xy 8.89 17.78)
           )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (circle
+          (center 5.715 15.24)
+          (radius 0.635)
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 5.715 12.7)
+            (xy 8.89 12.7)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 5.715 7.62)
+            (xy 8.89 7.62)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (circle
+          (center 5.715 5.08)
+          (radius 0.635)
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 5.715 2.54)
+            (xy 8.89 2.54)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 5.715 -2.54)
+            (xy 8.89 -2.54)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (circle
+          (center 5.715 -5.08)
+          (radius 0.635)
           (stroke
             (width 0)
             (type default)
@@ -1361,17 +1511,6 @@
             (type none)
           )
         )
-        (circle
-          (center 5.715 -10.16)
-          (radius 0.635)
-          (stroke
-            (width 0)
-            (type default)
-          )
-          (fill
-            (type none)
-          )
-        )
         (polyline
           (pts
             (xy 5.715 -12.7)
@@ -1385,10 +1524,21 @@
             (type none)
           )
         )
+        (circle
+          (center 5.715 -15.24)
+          (radius 0.635)
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
         (polyline
           (pts
-            (xy 6.35 7.62)
-            (xy 8.89 7.62)
+            (xy 5.715 -17.78)
+            (xy 8.89 -17.78)
           )
           (stroke
             (width 0)
@@ -1400,8 +1550,8 @@
         )
         (polyline
           (pts
-            (xy 6.35 -10.16)
-            (xy 8.89 -10.16)
+            (xy 6.35 15.24)
+            (xy 8.89 15.24)
           )
           (stroke
             (width 0)
@@ -1413,8 +1563,8 @@
         )
         (polyline
           (pts
-            (xy 8.89 2.54)
-            (xy 4.445 2.54)
+            (xy 6.35 5.08)
+            (xy 8.89 5.08)
           )
           (stroke
             (width 0)
@@ -1426,8 +1576,21 @@
         )
         (polyline
           (pts
+            (xy 6.35 -5.08)
+            (xy 8.89 -5.08)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy 6.35 -15.24)
             (xy 8.89 -15.24)
-            (xy 4.445 -15.24)
           )
           (stroke
             (width 0)
@@ -1438,11 +1601,11 @@
           )
         )
       )
-      (symbol "SW_Rotary_2x6_0_1"
+      (symbol "SW_Rotary_4x3_0_1"
         (polyline
           (pts
-            (xy -5.1308 -10.16)
-            (xy -8.89 -10.16)
+            (xy -5.08 15.24)
+            (xy -8.89 15.24)
           )
           (stroke
             (width 0)
@@ -1454,8 +1617,34 @@
         )
         (polyline
           (pts
-            (xy -5.08 7.62)
-            (xy -8.89 7.62)
+            (xy -5.08 5.08)
+            (xy -8.89 5.08)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -5.08 -5.08)
+            (xy -8.89 -5.08)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+        (polyline
+          (pts
+            (xy -5.08 -15.24)
+            (xy -8.89 -15.24)
           )
           (stroke
             (width 0)
@@ -1466,10 +1655,10 @@
           )
         )
       )
-      (symbol "SW_Rotary_2x6_1_1"
+      (symbol "SW_Rotary_4x3_1_1"
         (rectangle
-          (start -8.89 16.51)
-          (end 8.89 -16.51)
+          (start -8.89 19.05)
+          (end 8.89 -19.05)
           (stroke
             (width 0)
             (type default)
@@ -1479,7 +1668,7 @@
           )
         )
         (pin passive line
-          (at 12.7 15.24 180)
+          (at 12.7 17.78 180)
           (length 3.81)
           (name "1"
             (effects
@@ -1497,7 +1686,7 @@
           )
         )
         (pin passive line
-          (at 12.7 12.7 180)
+          (at 12.7 15.24 180)
           (length 3.81)
           (name "2"
             (effects
@@ -1515,7 +1704,7 @@
           )
         )
         (pin passive line
-          (at 12.7 10.16 180)
+          (at 12.7 12.7 180)
           (length 3.81)
           (name "3"
             (effects
@@ -1641,7 +1830,7 @@
           )
         )
         (pin passive line
-          (at 12.7 -10.16 180)
+          (at 12.7 -12.7 180)
           (length 3.81)
           (name "10"
             (effects
@@ -1659,7 +1848,7 @@
           )
         )
         (pin passive line
-          (at 12.7 -12.7 180)
+          (at 12.7 -15.24 180)
           (length 3.81)
           (name "11"
             (effects
@@ -1677,7 +1866,7 @@
           )
         )
         (pin passive line
-          (at 12.7 -15.24 180)
+          (at 12.7 -17.78 180)
           (length 3.81)
           (name "12"
             (effects
@@ -1695,7 +1884,7 @@
           )
         )
         (pin passive line
-          (at -12.7 7.62 0)
+          (at -12.7 15.24 0)
           (length 3.81)
           (name "13"
             (effects
@@ -1713,7 +1902,7 @@
           )
         )
         (pin passive line
-          (at -12.7 -10.16 0)
+          (at -12.7 5.08 0)
           (length 3.81)
           (name "14"
             (effects
@@ -1723,6 +1912,42 @@
             )
           )
           (number "14"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at -12.7 -5.08 0)
+          (length 3.81)
+          (name "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "15"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+        (pin passive line
+          (at -12.7 -15.24 0)
+          (length 3.81)
+          (name "16"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number "16"
             (effects
               (font
                 (size 1.27 1.27)
@@ -4005,7 +4230,7 @@
         (justify left)
       )
     )
-    (property "Value" "220k linear"
+    (property "Value" "250k linear"
       (at 223.52 115.02999999999999 0.0)
       (effects
         (font
@@ -4014,7 +4239,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
       (at 223.52 113.02999999999999 0.0)
       (effects
         (font
@@ -4024,13 +4249,49 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf"
       (at 223.52 113.02999999999999 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RD901F-40-15F-B250K"
+      (at 219.71 115.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Taiwan Alpha"
+      (at 219.71 115.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 219.71 115.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/potentiometer-variable-resistors/250k-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html"
+      (at 219.71 115.57 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -4054,7 +4315,7 @@
     )
     (uuid "81bcc213-60fb-5a5b-b70f-5b22a3898972")
   )
-  (global_label "TEMPO_W"
+  (global_label "TIM161"
     (shape bidirectional)
     (at 219.71 106.68 90.0)
     (effects
@@ -4098,7 +4359,7 @@
     )
     (uuid "d7e3abcd-cf11-5485-a2bf-fd7de7c945e9")
   )
-  (global_label "TIM161"
+  (global_label "TEMPO_W"
     (shape bidirectional)
     (at 219.71 124.46 270.0)
     (effects
@@ -4127,7 +4388,7 @@
         (justify left)
       )
     )
-    (property "Value" "2.2u film"
+    (property "Value" "2.2u film 100V 10%"
       (at 308.61 99.78999999999999 0.0)
       (effects
         (font
@@ -4136,7 +4397,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Capacitor_THT:C_Rect_L18.0mm_W8.0mm_P15.00mm_FKS3_FKP3"
       (at 308.61 97.78999999999999 0.0)
       (effects
         (font
@@ -4153,6 +4414,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "MKS4D042204F00KSSD"
+      (at 304.8 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "WIMA"
+      (at 304.8 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 304.8 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/capacitors/polyester-film-box-type-capacitors/wima-2200nf-2-2uf-100v-10-polyester-film-box-type-capacitor.html"
+      (at 304.8 100.33 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -4359,6 +4656,102 @@
   )
   (symbol
     (lib_id "Device:R")
+    (at 270.51 139.7 90.0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "204af390-eae9-58ec-9983-821b1c3542b8")
+    (property "Reference" "R163"
+      (at 270.51 133.35 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Value" "1.8M"
+      (at 270.51 135.35 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+      )
+    )
+    (property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+      (at 270.51 133.35 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 270.51 133.35 90.0)
+      (effects
+        (font
+          (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (instances
+      (project "arpeggiator"
+        (path "/b74f2899-8338-4c76-a1a7-8fd841787321/1d6b0aab-8c51-534e-9000-bc6f11622b6d"
+          (reference "R163")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (wire
+    (pts
+      (xy 266.7 139.7)
+      (xy 261.62 139.7)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "d2ca99bf-ad95-5662-9e3d-04b9433c78cd")
+  )
+  (global_label "TEMPO_W"
+    (shape bidirectional)
+    (at 261.62 139.7 180.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify right)
+    )
+    (uuid "ec6635c0-b9d2-519a-8e77-43c427dd1512")
+  )
+  (wire
+    (pts
+      (xy 274.32 139.7)
+      (xy 279.4 139.7)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "2d193357-9de0-570b-8f50-5c8bc5fa24bd")
+  )
+  (global_label "TIM161"
+    (shape bidirectional)
+    (at 279.4 139.7 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "9145a49b-3a52-5b7e-861d-11ec8b415d9e")
+  )
+  (symbol
+    (lib_id "Device:R")
     (at 59.69 229.87 0.0)
     (unit 1)
     (exclude_from_sim no)
@@ -4433,7 +4826,7 @@
     (on_board no)
     (dnp no)
     (uuid "06f6c672-96df-55d8-b87d-d664d63911d0")
-    (property "Reference" "#PWR3093"
+    (property "Reference" "#PWR3098"
       (at 59.69 220.98 0.0)
       (effects
         (font
@@ -4453,7 +4846,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/1d6b0aab-8c51-534e-9000-bc6f11622b6d"
-          (reference "#PWR3093")
+          (reference "#PWR3098")
           (unit 1)
         )
       )
@@ -4579,7 +4972,7 @@
     (on_board no)
     (dnp no)
     (uuid "c0e7553d-bf27-5828-8208-c7d273bff3ec")
-    (property "Reference" "#PWR3100"
+    (property "Reference" "#PWR3105"
       (at 90.17 238.76 0.0)
       (effects
         (font
@@ -4599,7 +4992,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/1d6b0aab-8c51-534e-9000-bc6f11622b6d"
-          (reference "#PWR3100")
+          (reference "#PWR3105")
           (unit 1)
         )
       )
@@ -4726,7 +5119,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Button_Switch_THT:SW_SPST_Omron_B3F-40xx"
       (at 154.94 219.71 0.0)
       (effects
         (font
@@ -4735,11 +5128,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-b3f.pdf"
       (at 154.94 219.71 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "B3F-4055"
+      (at 154.94 229.87 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Omron"
+      (at 154.94 229.87 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "LCSC"
+      (at 154.94 229.87 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C84931.html"
+      (at 154.94 229.87 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -4798,7 +5227,7 @@
     (uuid "3f696e79-4816-537d-b99d-47ee9c39ba6e")
   )
   (symbol
-    (lib_id "Switch:SW_Rotary_2x6")
+    (lib_id "Switch:SW_Rotary_4x3")
     (at 309.88 190.5 0.0)
     (unit 1)
     (exclude_from_sim no)
@@ -4807,23 +5236,23 @@
     (dnp no)
     (uuid "74f6b7a0-ef30-5fe9-8097-67cc29281c8c")
     (property "Reference" "SW114"
-      (at 309.88 167.64 0.0)
+      (at 309.88 165.1 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
       )
     )
-    (property "Value" "octaves: stop at 3"
-      (at 309.88 169.64 0.0)
+    (property "Value" "1 / 2 / 3 octaves"
+      (at 309.88 167.1 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
       )
     )
-    (property "Footprint" ""
-      (at 309.88 167.64 0.0)
+    (property "Footprint" "Arpeggiator:SW_Alpha_SR2612F_4P3T"
+      (at 309.88 165.1 0.0)
       (effects
         (font
           (size 1.05 1.05)
@@ -4831,11 +5260,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/C200/DS-Serie%23LOR.pdf"
-      (at 309.88 167.64 0.0)
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/A-1892.pdf"
+      (at 309.88 165.1 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "SR2612F-0403-18R0B-D8-N"
+      (at 309.88 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Taiwan Alpha"
+      (at 309.88 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 309.88 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/electromechanical/switches-key-pad/rotary-switch/rotary-switch-4-pole-3-position-alpha-sr2612f.html"
+      (at 309.88 190.5 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -4851,8 +5316,8 @@
   )
   (wire
     (pts
-      (xy 322.58 175.26)
-      (xy 327.66 175.26)
+      (xy 322.58 172.72)
+      (xy 327.66 172.72)
     )
     (stroke
       (width 0)
@@ -4862,7 +5327,7 @@
   )
   (global_label "GND"
     (shape bidirectional)
-    (at 327.66 175.26 0.0)
+    (at 327.66 172.72 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -4872,13 +5337,13 @@
     (uuid "d8bc2fb7-8561-5e5a-bdfd-5c6d06c8a4c1")
   )
   (no_connect
-    (at 322.58 177.8)
+    (at 322.58 175.26)
     (uuid "6736c634-8c67-58b1-a063-bf5cf547bb48")
   )
   (wire
     (pts
-      (xy 322.58 180.34)
-      (xy 327.66 180.34)
+      (xy 322.58 177.8)
+      (xy 327.66 177.8)
     )
     (stroke
       (width 0)
@@ -4888,7 +5353,7 @@
   )
   (global_label "GND"
     (shape bidirectional)
-    (at 327.66 180.34 0.0)
+    (at 327.66 177.8 0.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -4897,82 +5362,82 @@
     )
     (uuid "3f0f0ca7-40cd-548a-9772-bbe60a7c3ff6")
   )
-  (no_connect
-    (at 322.58 182.88)
-    (uuid "9a24223c-c5e3-5377-a05d-7ca8e2d3a453")
+  (wire
+    (pts
+      (xy 322.58 182.88)
+      (xy 327.66 182.88)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "375e0310-91af-5eb9-a608-3904e555bc1c")
   )
-  (no_connect
-    (at 322.58 185.42)
-    (uuid "0f1bb102-1540-5c11-a16d-1d3df9fa26cf")
+  (global_label "GND"
+    (shape bidirectional)
+    (at 327.66 182.88 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "b0e98f89-9ec8-5e48-b4ee-30a37b5eac59")
+  )
+  (wire
+    (pts
+      (xy 322.58 185.42)
+      (xy 327.66 185.42)
+    )
+    (stroke
+      (width 0)
+      (type default)
+    )
+    (uuid "73e50d2a-6b72-5519-845e-96a66909ba0e")
+  )
+  (global_label "GND"
+    (shape bidirectional)
+    (at 327.66 185.42 0.0)
+    (effects
+      (font
+        (size 0.95 0.95)
+      )
+      (justify left)
+    )
+    (uuid "5bb1b5f1-44fd-5e48-8047-e6a02147ef52")
   )
   (no_connect
     (at 322.58 187.96)
     (uuid "a84a7cf2-9a16-53a9-ac72-01026b0cf8a2")
   )
-  (wire
-    (pts
-      (xy 322.58 193.04)
-      (xy 327.66 193.04)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "a8ace358-82fb-5839-b6f1-10a156732be3")
+  (no_connect
+    (at 322.58 193.04)
+    (uuid "93bb6a5c-8756-5932-888f-820478075742")
   )
-  (global_label "GND"
-    (shape bidirectional)
-    (at 327.66 193.04 0.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify left)
-    )
-    (uuid "0dbcdf91-0d3b-5eab-bcd4-1803000de101")
-  )
-  (wire
-    (pts
-      (xy 322.58 195.58)
-      (xy 327.66 195.58)
-    )
-    (stroke
-      (width 0)
-      (type default)
-    )
-    (uuid "ff016ed4-3038-5227-964f-78cdcfd93171")
-  )
-  (global_label "GND"
-    (shape bidirectional)
-    (at 327.66 195.58 0.0)
-    (effects
-      (font
-        (size 0.95 0.95)
-      )
-      (justify left)
-    )
-    (uuid "9bb193d1-85a6-531a-a28c-6f3a78da1cd3")
+  (no_connect
+    (at 322.58 195.58)
+    (uuid "bbdb0456-2da9-54e4-ac40-ccca70ce3865")
   )
   (no_connect
     (at 322.58 198.12)
     (uuid "2135323b-8205-55cf-a206-f8be9a2a252b")
   )
   (no_connect
-    (at 322.58 200.66)
+    (at 322.58 203.2)
     (uuid "33ea8d8c-2df4-524c-a6c5-4455fab3137b")
   )
   (no_connect
-    (at 322.58 203.2)
+    (at 322.58 205.74)
     (uuid "5707f3af-3c7b-55b6-b57a-6ff02fc791b2")
   )
   (no_connect
-    (at 322.58 205.74)
+    (at 322.58 208.28)
     (uuid "53807c9f-0313-54e9-961c-171410bb7d48")
   )
   (wire
     (pts
-      (xy 297.18 182.88)
-      (xy 292.1 182.88)
+      (xy 297.18 175.26)
+      (xy 292.1 175.26)
     )
     (stroke
       (width 0)
@@ -4982,7 +5447,7 @@
   )
   (global_label "RANGE_SW0"
     (shape bidirectional)
-    (at 292.1 182.88 180.0)
+    (at 292.1 175.26 180.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -4993,8 +5458,8 @@
   )
   (wire
     (pts
-      (xy 297.18 200.66)
-      (xy 292.1 200.66)
+      (xy 297.18 185.42)
+      (xy 292.1 185.42)
     )
     (stroke
       (width 0)
@@ -5004,7 +5469,7 @@
   )
   (global_label "RANGE_SW1"
     (shape bidirectional)
-    (at 292.1 200.66 180.0)
+    (at 292.1 185.42 180.0)
     (effects
       (font
         (size 0.95 0.95)
@@ -5012,6 +5477,14 @@
       (justify right)
     )
     (uuid "961bbbe1-3525-5657-aca3-d903d9fcbeb5")
+  )
+  (no_connect
+    (at 297.18 195.58)
+    (uuid "29c8b4ca-d86b-5076-9eb5-03e115ad8bed")
+  )
+  (no_connect
+    (at 297.18 205.74)
+    (uuid "4f7441eb-548a-5fd3-9633-7771955cf777")
   )
   (symbol
     (lib_id "Device:R")
@@ -5089,7 +5562,7 @@
     (on_board no)
     (dnp no)
     (uuid "67f1e66f-7502-5a24-82e3-8f04b1a0c570")
-    (property "Reference" "#PWR3134"
+    (property "Reference" "#PWR3141"
       (at 245.11 161.29 0.0)
       (effects
         (font
@@ -5109,7 +5582,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/1d6b0aab-8c51-534e-9000-bc6f11622b6d"
-          (reference "#PWR3134")
+          (reference "#PWR3141")
           (unit 1)
         )
       )
@@ -5331,7 +5804,7 @@
     (on_board no)
     (dnp no)
     (uuid "c4213cfe-89ec-5d46-8bc8-cbfd0f3fd3b9")
-    (property "Reference" "#PWR3146"
+    (property "Reference" "#PWR3153"
       (at 175.26 179.07 0.0)
       (effects
         (font
@@ -5351,7 +5824,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/1d6b0aab-8c51-534e-9000-bc6f11622b6d"
-          (reference "#PWR3146")
+          (reference "#PWR3153")
           (unit 1)
         )
       )
@@ -5433,7 +5906,7 @@
     (on_board no)
     (dnp no)
     (uuid "9ab8f98f-0dfa-5576-9193-68f0b30042c8")
-    (property "Reference" "#PWR3149"
+    (property "Reference" "#PWR3156"
       (at 245.11 210.82 0.0)
       (effects
         (font
@@ -5453,7 +5926,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/1d6b0aab-8c51-534e-9000-bc6f11622b6d"
-          (reference "#PWR3149")
+          (reference "#PWR3156")
           (unit 1)
         )
       )
@@ -5675,7 +6148,7 @@
     (on_board no)
     (dnp no)
     (uuid "6a2165a1-f400-5a43-93c3-0f992ed3f7e7")
-    (property "Reference" "#PWR3161"
+    (property "Reference" "#PWR3168"
       (at 175.26 228.6 0.0)
       (effects
         (font
@@ -5695,7 +6168,7 @@
     (instances
       (project "arpeggiator"
         (path "/b74f2899-8338-4c76-a1a7-8fd841787321/1d6b0aab-8c51-534e-9000-bc6f11622b6d"
-          (reference "#PWR3161")
+          (reference "#PWR3168")
           (unit 1)
         )
       )

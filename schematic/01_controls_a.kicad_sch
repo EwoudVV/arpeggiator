@@ -1419,7 +1419,7 @@
     )
     (uuid "dcbd5591-ba13-593b-a83e-377ffbc239de")
   )
-  (text "SPDT on/off note switches. Grounded throw selects the note."
+  (text "SPDT on/off note switches. Grounded throw selects the note; lever up connects terminals 2-1."
     (at 20.0 25.0 0.0)
     (effects
       (font
@@ -1429,7 +1429,7 @@
     )
     (uuid "e999b56f-f741-50b2-9a0f-20c1cf0bfaf1")
   )
-  (text "10k / 1u filters feed Schmitt inputs. Exact switch footprint is still to be sourced."
+  (text "10k / 1u filters feed Schmitt inputs. Dailywell M2 PC pins, 4.70mm pitch."
     (at 20.0 270.0 0.0)
     (effects
       (font
@@ -1464,7 +1464,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Arpeggiator:SW_Dailywell_1M_SPDT_M2"
       (at 44.45 54.61 0.0)
       (effects
         (font
@@ -1473,11 +1473,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/1M_series.pdf"
       (at 44.45 54.61 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "1MS1T1B1M2QES"
+      (at 44.45 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Dailywell"
+      (at 44.45 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 44.45 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html"
+      (at 44.45 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1502,7 +1538,7 @@
     )
     (uuid "214f7436-b9f5-55a9-92ec-63dfc13d6e60")
   )
-  (global_label "+5V"
+  (global_label "GND"
     (shape bidirectional)
     (at 54.61 62.23 0.0)
     (effects
@@ -1546,7 +1582,7 @@
     )
     (uuid "f332a2e0-09fb-51ed-bb64-a8826b5b319f")
   )
-  (global_label "GND"
+  (global_label "+5V"
     (shape bidirectional)
     (at 54.61 67.31 0.0)
     (effects
@@ -1802,7 +1838,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Arpeggiator:SW_Dailywell_1M_SPDT_M2"
       (at 170.18 54.61 0.0)
       (effects
         (font
@@ -1811,11 +1847,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/1M_series.pdf"
       (at 170.18 54.61 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "1MS1T1B1M2QES"
+      (at 170.18 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Dailywell"
+      (at 170.18 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 170.18 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html"
+      (at 170.18 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -1840,7 +1912,7 @@
     )
     (uuid "c153ec84-17f7-5429-8bb5-694642f0300f")
   )
-  (global_label "+5V"
+  (global_label "GND"
     (shape bidirectional)
     (at 180.34 62.23 0.0)
     (effects
@@ -1884,7 +1956,7 @@
     )
     (uuid "59a21258-c9cf-54a9-9808-f9288f32b2e0")
   )
-  (global_label "GND"
+  (global_label "+5V"
     (shape bidirectional)
     (at 180.34 67.31 0.0)
     (effects
@@ -2140,7 +2212,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Arpeggiator:SW_Dailywell_1M_SPDT_M2"
       (at 294.64 54.61 0.0)
       (effects
         (font
@@ -2149,11 +2221,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/1M_series.pdf"
       (at 294.64 54.61 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "1MS1T1B1M2QES"
+      (at 294.64 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Dailywell"
+      (at 294.64 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 294.64 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html"
+      (at 294.64 64.77 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2178,7 +2286,7 @@
     )
     (uuid "9c4cd98c-5acb-50bf-b744-6962e8f25774")
   )
-  (global_label "+5V"
+  (global_label "GND"
     (shape bidirectional)
     (at 304.8 62.23 0.0)
     (effects
@@ -2222,7 +2330,7 @@
     )
     (uuid "f9c76adf-daeb-50ee-8fa4-e8d6df89ef05")
   )
-  (global_label "GND"
+  (global_label "+5V"
     (shape bidirectional)
     (at 304.8 67.31 0.0)
     (effects
@@ -2478,7 +2586,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Arpeggiator:SW_Dailywell_1M_SPDT_M2"
       (at 44.45 165.1 0.0)
       (effects
         (font
@@ -2487,11 +2595,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/1M_series.pdf"
       (at 44.45 165.1 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "1MS1T1B1M2QES"
+      (at 44.45 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Dailywell"
+      (at 44.45 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 44.45 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html"
+      (at 44.45 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2516,7 +2660,7 @@
     )
     (uuid "a907d249-eee7-52f3-9b14-8b35089347f8")
   )
-  (global_label "+5V"
+  (global_label "GND"
     (shape bidirectional)
     (at 54.61 172.72 0.0)
     (effects
@@ -2560,7 +2704,7 @@
     )
     (uuid "eb39c269-4b7b-5fce-af4a-96cc1950b01e")
   )
-  (global_label "GND"
+  (global_label "+5V"
     (shape bidirectional)
     (at 54.61 177.8 0.0)
     (effects
@@ -2816,7 +2960,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Arpeggiator:SW_Dailywell_1M_SPDT_M2"
       (at 170.18 165.1 0.0)
       (effects
         (font
@@ -2825,11 +2969,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/1M_series.pdf"
       (at 170.18 165.1 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "1MS1T1B1M2QES"
+      (at 170.18 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Dailywell"
+      (at 170.18 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 170.18 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html"
+      (at 170.18 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -2854,7 +3034,7 @@
     )
     (uuid "5687b291-14c7-52c3-8ef8-6b5f06240787")
   )
-  (global_label "+5V"
+  (global_label "GND"
     (shape bidirectional)
     (at 180.34 172.72 0.0)
     (effects
@@ -2898,7 +3078,7 @@
     )
     (uuid "fe97233f-b1d3-5975-98ae-d06714972a94")
   )
-  (global_label "GND"
+  (global_label "+5V"
     (shape bidirectional)
     (at 180.34 177.8 0.0)
     (effects
@@ -3154,7 +3334,7 @@
         )
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Arpeggiator:SW_Dailywell_1M_SPDT_M2"
       (at 294.64 165.1 0.0)
       (effects
         (font
@@ -3163,11 +3343,47 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/1M_series.pdf"
       (at 294.64 165.1 0.0)
       (effects
         (font
           (size 1.05 1.05)
+        )
+        (hide yes)
+      )
+    )
+    (property "MPN" "1MS1T1B1M2QES"
+      (at 294.64 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Dailywell"
+      (at 294.64 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 294.64 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html"
+      (at 294.64 175.26 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
         )
         (hide yes)
       )
@@ -3192,7 +3408,7 @@
     )
     (uuid "c3112949-503f-572e-9178-7a2b9bddfc52")
   )
-  (global_label "+5V"
+  (global_label "GND"
     (shape bidirectional)
     (at 304.8 172.72 0.0)
     (effects
@@ -3236,7 +3452,7 @@
     )
     (uuid "8892b734-1b40-5e1a-b25f-23d0d1aae32b")
   )
-  (global_label "GND"
+  (global_label "+5V"
     (shape bidirectional)
     (at 304.8 177.8 0.0)
     (effects

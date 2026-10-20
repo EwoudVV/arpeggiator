@@ -26,11 +26,13 @@ the controls and connectors will fit into a printed desktop case. the plan is on
 
 ## progress
 
-the sequencer, sound circuit and power supply are drawn. the supply has a fuse, reverse-polarity protection and separate 5 V and -5 V regulators. the logic stays in reset until the input and both rails are ready, and a switch mutes the line output while stopped
+the schematic is drawn and the first PCB placement is saved. the board is 220 x 170 mm with two copper layers. the controls go on the front, with most of the small circuit parts on the back
 
-i checked the rail loads, regulator heat and reset thresholds, then ran the sequencer and envelope checks again. ERC is clean. nothing has been built or tuned yet
+i picked the controls and film capacitors, checked the knob directions and made the missing footprints. ERC is clean. routing, the case and ordering are next. nothing has been built or tuned yet
 
-[BOM.csv](BOM.csv) is the current parts list. the chips and calibration parts are selected. the front controls, a few capacitors and their footprints still need finishing, and prices have not been quoted yet
+[BOM.csv](BOM.csv) is the current parts list. the main chips, controls, connectors and film capacitors are selected. the remaining passives still need supplier part numbers, and prices have not been quoted yet
+
+![First PCB placement, front](images/pcb-placement.png)
 
 ![Sequencer schematic](images/sequencer.png)
 
@@ -44,7 +46,7 @@ i checked the rail loads, regulator heat and reset thresholds, then ran the sequ
 
 open [arpeggiator.kicad_pro](arpeggiator.kicad_pro) in KiCad. the [main schematic](arpeggiator.kicad_sch) links the circuit sheets in [schematic](schematic)
 
-the files are still a schematic design in progress. there is no PCB layout, case or fabrication package yet
+[arpeggiator.kicad_pcb](arpeggiator.kicad_pcb) is the first placement. it has no routed tracks yet. the case and fabrication files are still to come
 
 [design notes](DESIGN.md)
 

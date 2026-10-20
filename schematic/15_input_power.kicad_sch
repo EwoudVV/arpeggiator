@@ -3447,7 +3447,7 @@
         (justify left)
       )
     )
-    (property "Value" "22u 16V"
+    (property "Value" "47u 25V"
       (at 303.53000000000003 224.25 0.0)
       (effects
         (font
@@ -3473,6 +3473,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "25YXJ47M5X11"
+      (at 299.72 224.79 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Rubycon"
+      (at 299.72 224.79 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "DigiKey"
+      (at 299.72 224.79 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.digikey.com/en/products/detail/rubycon/25YXJ47M5X11/3562900"
+      (at 299.72 224.79 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )

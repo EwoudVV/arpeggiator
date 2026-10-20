@@ -4121,7 +4121,7 @@
         (justify left)
       )
     )
-    (property "Value" "1u film"
+    (property "Value" "1u film 63V 5%"
       (at 288.29 209.01000000000002 0.0)
       (effects
         (font
@@ -4130,7 +4130,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W5.0mm_P5.00mm"
       (at 288.29 207.01000000000002 0.0)
       (effects
         (font
@@ -4147,6 +4147,42 @@
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "R82DC4100DQ60J"
+      (at 284.48 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "KEMET"
+      (at 284.48 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 284.48 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/1uf-63v-5-kemet-polyester-film-box-type-capacitor.html"
+      (at 284.48 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
@@ -4310,7 +4346,7 @@
         (justify left)
       )
     )
-    (property "Footprint" ""
+    (property "Footprint" "Potentiometer_THT:Potentiometer_Alpha_RD901F-40-00D_Single_Vertical"
       (at 64.77 200.66000000000003 0.0)
       (effects
         (font
@@ -4320,13 +4356,49 @@
         (hide yes)
       )
     )
-    (property "Datasheet" ""
+    (property "Datasheet" "https://www.taydaelectronics.com/datasheets/files/A-4728-1.pdf"
       (at 64.77 200.66000000000003 0.0)
       (effects
         (font
           (size 1.05 1.05)
         )
         (justify left)
+        (hide yes)
+      )
+    )
+    (property "MPN" "RD901F-40-15F-B1M"
+      (at 95.25 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "Taiwan Alpha"
+      (at 95.25 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier" "Tayda"
+      (at 95.25 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
+        (hide yes)
+      )
+    )
+    (property "Supplier URL" "https://www.taydaelectronics.com/potentiometer-variable-resistors/rotary-potentiometer/linear/1m-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html"
+      (at 95.25 209.55 0.0)
+      (effects
+        (font
+          (size 1.0 1.0)
+        )
         (hide yes)
       )
     )
