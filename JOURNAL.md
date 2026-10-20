@@ -87,3 +87,35 @@ started the BOM and found sources for the main chips and calibration parts. the 
 ![arpeggiator-14_analog_power](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/7929b9fdf7af5a387d7b738c1dfa5ed854fb42b0122a98155c06f6b6b1fd3986.png)
 
 ![arpeggiator-10_oscillator](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/4f4f061a44c2efcb1fd14aaf8ec614e3ade9b1835135bb8b9761813f937bf0bf.png)
+
+## October 20, 2026
+
+8 hours
+
+Devlog 04: controls and first PCB placement
+
+picked the switches, pots, jack and film capacitors and finished their footprints. checked the knob directions too. clockwise now means faster tempo, higher pitch, longer decay, brighter tone and more volume. the note switches select a note when pushed up
+
+the octave selector has exactly three positions. it uses two poles to encode the range, with the other two left open. the tempo pot is 250k with a resistor across it to keep the nominal range around 38-240 BPM
+
+started the PCB. it is 220 x 170 mm with two copper layers and four mounting holes. the controls are on the front in two piano-style rows, with most of the small circuit parts on the back. the supply parts are grouped at the rear, away from the controls
+
+made a footprint for the mute switch using TI's recommended land pattern. the wider pads in the generic footprint were too close for the board's clearance setting. also checked the switch commons, jack contacts and the pot support tabs against their drawings
+
+the schematic passes ERC and the sequencer checks still pass. the board is only a first placement, with no routed tracks yet. routing and the case are next, and the physical fits will still need checking when the parts arrive
+
+![pcb-front](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/d1430bd60abe9f16a4ff80788b6ddac7b1d13c56b76134d916b561e98d895fd1.png)
+
+![pcb-back](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/be67c89e98d06269851a886d34f120a06b1119de495c2ecc61106ef87632ab73.png)
+
+![arpeggiator-01_controls_a](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/d9acd6562ebefc1cd68ed6f564b808aafabb5981d954aeaf7366dd43a90a8edf.png)
+
+![arpeggiator-03_clock_range](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/3a093d27f9f737c21df968a8f4e31fabd56738ed4908a8fc8222f5a8b8fba5fb.png)
+
+![arpeggiator-13_line_output](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/2422564696796e6ec03cdd001a613b74614bd8a3df5ee146bc4b75705dc3d640.png)
+
+![SW_Alpha_SR2612F_4P3T](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/b41c6427348492d015bf67428a205c4193071bc58343033a9fbf72713d888c98.png)
+
+![VSSOP-8_DGK0008A_TI](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/10f372be477f54509234188033f5feb86e3a66e521318592169102adc819470b.png)
+
+![Jack_PJ-3001F_Vertical](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/15e063576e81efe703225acb3939c4bf910327c5263569e24ecb896f5e9fcda2.png)
