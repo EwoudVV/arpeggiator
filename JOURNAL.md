@@ -57,3 +57,33 @@ next is finishing the power supply and choosing the actual controls and parts be
 ![arpeggiator-12_amplifier](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/6f09bcc8a226bab84e07c7f3538d816fd879706715352afc52755cfc94dbd909.png)
 
 ![arpeggiator-08_reference](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/4422dca6d49914f7962e57559342c27781d8f3708900a712ffeabb2d0b5f53d7.png)
+
+## October 20, 2026
+
+8 hours
+
+Devlog 03: power supply and reset
+
+added the power supply. the 12 V input has a fuse and reverse-polarity protection. a 7805 supplies the logic, and an LT1054 charge pump feeds a 7905 for the negative analog rail
+
+added checks for the input voltage and negative rail alongside the existing 5 V reset. the sequencer stays reset until the supplies are ready. a switch mutes the line output while stopped, and the envelope discharge circuit now runs from 12 V so it still works if 5 V disappears
+
+checked the current and heat estimates and reset thresholds, and ran models of a few startup and power-loss cases. also checked stopping partway through the envelope's charge pulse and restarting without an extra note. the sequencer checks still pass and ERC is clean. the switching supply and startup behaviour still need checking on the real board
+
+started the BOM and found sources for the main chips and calibration parts. the AS3340A will use a DIP package, which should be easier to solder and replace. the front controls, a few capacitors and their footprints are next, then PCB placement
+
+![arpeggiator-15_input_power](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/f50ef49e945bdad348842ec502f81468a8e66bae65f8fc4c75fab42bb9e29e3b.png)
+
+![arpeggiator-16_negative_supply](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/e0fde0ace1f0c04a7e49872f1b97824ca7c0d8c27958c778b57cc2724a81eacf.png)
+
+![arpeggiator-17_negative_monitor](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/636c4eb3daaf48815080ba7652c8ab976aa370900ee7965f8e162b8d9af06aa4.png)
+
+![arpeggiator-18_input_monitor](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/3ade83e2e5f28bfea5e24a91f7b15248669a27e8a476eb42547a6c99cbb8f57d.png)
+
+![arpeggiator-19_reset_output](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/525372d6761e2710cc0c26f53c5683271351f1b72b82012fd06a2f68435d2e14.png)
+
+![arpeggiator-13_line_output](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/198f803fa44ece243822d13664c7f574c6b14bd1fa4b723a5868be44bf71f1af.png)
+
+![arpeggiator-14_analog_power](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/7929b9fdf7af5a387d7b738c1dfa5ed854fb42b0122a98155c06f6b6b1fd3986.png)
+
+![arpeggiator-10_oscillator](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/4f4f061a44c2efcb1fd14aaf8ec614e3ade9b1835135bb8b9761813f937bf0bf.png)
