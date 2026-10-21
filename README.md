@@ -26,9 +26,9 @@ the controls and connectors will fit into a printed desktop case. the plan is on
 
 ## progress
 
-the schematic is drawn and the first PCB placement is saved. the board is 220 x 170 mm with two copper layers. the controls go on the front, with most of the small circuit parts on the back
+the schematic is drawn and i'm routing the 220 x 170 mm, two-layer PCB. the controls are on the front, with most of the circuit on the back. i moved the bypass capacitors next to their chips and brought the output circuit closer to the jack
 
-i picked the controls and film capacitors, checked the knob directions and made the missing footprints. ERC is clean. routing, the case and ordering are next. nothing has been built or tuned yet
+routing and ground returns still need finishing. the case and ordering come after that. nothing has been built or tuned yet
 
 [BOM.csv](BOM.csv) is the current parts list. the main chips, controls, connectors and film capacitors are selected. the remaining passives still need supplier part numbers, and prices have not been quoted yet
 
@@ -46,7 +46,7 @@ i picked the controls and film capacitors, checked the knob directions and made 
 
 open [arpeggiator.kicad_pro](arpeggiator.kicad_pro) in KiCad. the [main schematic](arpeggiator.kicad_sch) links the circuit sheets in [schematic](schematic)
 
-[arpeggiator.kicad_pcb](arpeggiator.kicad_pcb) is the first placement. it has no routed tracks yet. the case and fabrication files are still to come
+[arpeggiator.kicad_pcb](arpeggiator.kicad_pcb) is the current board layout. routing is in progress. the case and fabrication files are still to come
 
 [design notes](DESIGN.md)
 
