@@ -162,3 +162,21 @@ the board passes DRC now. next is making a case for it, then getting the parts a
 
 ![switch inputs](images/routing/switch-inputs.png)
 
+
+## October 22, 2026
+
+2 hours
+
+Devlog 06: the case
+
+made the case around the PCB. the controls stay in the same layout, with a low front panel and a taller cover over the power supply. the rear cover comes off so i can reach the tuning trimmers
+
+added the board mounts, screw pockets and six printed knobs. the note LEDs use short pieces of clear acrylic rod to reach the panel. there's also a small fit sample to print before the bigger parts
+
+caught the DC jack facing into the board while checking the case. turned it toward the back so the plug can actually reach it. the power trace stayed in place, and the board still passes DRC
+
+![case](https://raw.githubusercontent.com/EwoudVV/arpeggiator/main/images/case-assembly.png)
+
+![controls](https://raw.githubusercontent.com/EwoudVV/arpeggiator/main/images/case-top.png)
+
+![inside](https://raw.githubusercontent.com/EwoudVV/arpeggiator/main/images/case-open.png)
