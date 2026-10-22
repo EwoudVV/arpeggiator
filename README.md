@@ -28,7 +28,7 @@ the controls and connectors will fit into a printed desktop case. the plan is on
 
 the schematic is drawn and i'm routing the 220 x 170 mm, two-layer PCB. the controls are on the front, with most of the circuit on the back. i moved the bypass capacitors next to their chips and brought the output circuit closer to the jack
 
-routing and ground returns still need finishing. i cleaned up the small routing jogs and connected more of the ground pours. the case and ordering come after that. nothing has been built or tuned yet
+all signal routes are connected. i cleaned up the jagged traces and joined more of the ground pours. seven ground connections still need finishing before the case and ordering. nothing has been built or tuned yet
 
 [BOM.csv](BOM.csv) is the current parts list. the main chips, controls, connectors and film capacitors are selected. the remaining passives still need supplier part numbers, and prices have not been quoted yet
 
