@@ -22,13 +22,13 @@ a clock sets the pace. a counter and logic circuit find the next selected note, 
 
 a precision voltage reference and resistor ladder set the note voltages. the selected voltage, plus an octave offset, controls an analog oscillator. an envelope controls each note's volume, followed by the tone control and output buffer
 
-the controls and connectors will fit into a printed desktop case. the plan is one custom two-layer PCB, with through-hole controls and larger surface-mount parts where practical
+the controls and connectors will fit into a printed desktop case. the plan is one custom four-layer PCB, with through-hole controls and larger surface-mount parts where practical
 
 ## progress
 
-the schematic is drawn and i'm routing the 220 x 170 mm, two-layer PCB. the controls are on the front, with most of the circuit on the back. i moved the bypass capacitors next to their chips and brought the output circuit closer to the jack
+the 220 x 170 mm PCB is routed, with four copper layers. the controls are on the front, with most of the circuit on the back. i moved the bypass capacitors next to their chips and brought the output circuit closer to the jack
 
-all signal routes are connected. i cleaned up the jagged traces and joined more of the ground pours. five ground connections still need finishing before the case and ordering. nothing has been built or tuned yet
+the two inner layers are ground planes. i cleaned up the jagged traces and removed redundant routing. the board passes DRC with no unconnected nets. the case and parts quotes are next. nothing has been built or tuned yet
 
 [BOM.csv](BOM.csv) is the current parts list. the main chips, controls, connectors and film capacitors are selected. the remaining passives still need supplier part numbers, and prices have not been quoted yet
 
@@ -50,7 +50,7 @@ some of the controls don't have 3D models yet
 
 open [arpeggiator.kicad_pro](arpeggiator.kicad_pro) in KiCad. the [main schematic](arpeggiator.kicad_sch) links the circuit sheets in [schematic](schematic)
 
-[arpeggiator.kicad_pcb](arpeggiator.kicad_pcb) is the current board layout. routing is in progress. the case and fabrication files are still to come
+[arpeggiator.kicad_pcb](arpeggiator.kicad_pcb) is the routed board. the case and fabrication files are next
 
 [design notes](DESIGN.md)
 

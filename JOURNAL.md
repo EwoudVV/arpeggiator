@@ -119,3 +119,21 @@ the schematic passes ERC and the sequencer checks still pass. the board is only 
 ![VSSOP-8_DGK0008A_TI](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/10f372be477f54509234188033f5feb86e3a66e521318592169102adc819470b.png)
 
 ![Jack_PJ-3001F_Vertical](https://halflife.hackclub-assets.com/hackclub-half-life/sessions/6gi99sjgqS9PS6AP7HOtnbXmi9NgjIY3/15e063576e81efe703225acb3939c4bf910327c5263569e24ecb896f5e9fcda2.png)
+
+## October 22, 2026
+
+15 hours
+
+Devlog 05: routing the board
+
+finished routing the PCB, including the power, analog and logic sections. moved the bypass capacitors closer to their chips and brought the output circuit closer to the jack
+
+some of the routing had lots of tiny zigzags. cleaned those up and removed redundant tracks and vias. kept the note switches and the rest of the controls in the same places
+
+the two-layer layout still had isolated bits of ground, so i changed it to four layers. both inner layers are ground planes. that connected the remaining ground returns without moving the controls or redoing the signal routes
+
+the board now passes DRC with no unconnected nets. checked the board against the schematic again too. nothing has been built or tuned yet. next is the case, finishing the parts list and getting the order files ready
+
+![routed PCB, front](images/pcb-front.png)
+
+![routed PCB, back](images/pcb-back.png)

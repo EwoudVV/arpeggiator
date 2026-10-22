@@ -34,7 +34,7 @@ use an external regulated 12 V DC adapter with a centre-positive barrel connecto
 
 reset checks the 5 V rail, input voltage and negative rail. a TMUX6219 mutes the line output while stopped or held in reset. the output has a series resistor, clamp diodes and an ESD diode at the jack. the envelope mute is powered from 12 V so it can discharge the capacitor if the logic rail fails
 
-one two-layer PCB carries the circuit and controls. the first placement is 220 x 170 mm, with four M3 mounting holes. the power connector is at the rear edge, the line output is on the right, and the note switches form two piano-style rows below the knobs. most of the small parts are on the back
+one four-layer PCB carries the circuit and controls. it is 220 x 170 mm, with four M3 mounting holes. signals and power are on the outside layers, with ground planes on both inner layers. the power connector is at the rear edge, the line output is on the right, and the note switches form two piano-style rows below the knobs. most of the small parts are on the back
 
 the five continuous controls use Alpha RD901F pots. clockwise increases tempo, tuning, decay length, brightness and volume. the tempo pot is 250k with 1.8M across it, keeping the nominal range around 38-240 BPM. the three-position Alpha selector uses two of its four poles for the octave code
 
