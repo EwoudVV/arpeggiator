@@ -126,14 +126,39 @@ the schematic passes ERC and the sequencer checks still pass. the board is only 
 
 Devlog 05: routing the board
 
-finished routing the PCB, including the power, analog and logic sections. moved the bypass capacitors closer to their chips and brought the output circuit closer to the jack
+finally got the PCB routed. the power section and analog circuit went in first, followed by all the connections between the logic chips. kept the note switches and the rest of the controls where they were
 
-some of the routing had lots of tiny zigzags. cleaned those up and removed redundant tracks and vias. kept the note switches and the rest of the controls in the same places
+i started with two layers, but the ground connections were getting stuck between all the signal tracks. changed it to four layers, with both inner layers used for ground. that sorted out the remaining connections without having to move everything around again
 
-the two-layer layout still had isolated bits of ground, so i changed it to four layers. both inner layers are ground planes. that connected the remaining ground returns without moving the controls or redoing the signal routes
-
-the board now passes DRC with no unconnected nets. checked the board against the schematic again too. nothing has been built or tuned yet. next is the case, finishing the parts list and getting the order files ready
+the board passes DRC now. next is making a case for it, then getting the parts and board ordered
 
 ![routed PCB, front](images/pcb-front.png)
 
 ![routed PCB, back](images/pcb-back.png)
+
+![5v supply](images/routing/5v-supply.png)
+
+![clock and start](images/routing/clock-and-start.png)
+
+![envelope and vca](images/routing/envelope-and-vca.png)
+
+![input power](images/routing/input-power.png)
+
+![input registers](images/routing/input-registers.png)
+
+![line output](images/routing/line-output.png)
+
+![negative supply](images/routing/negative-supply.png)
+
+![note multiplexer](images/routing/note-multiplexer.png)
+
+![oscillator](images/routing/oscillator.png)
+
+![pitch reference](images/routing/pitch-reference.png)
+
+![rail monitors](images/routing/rail-monitors.png)
+
+![search counters](images/routing/search-counters.png)
+
+![switch inputs](images/routing/switch-inputs.png)
+

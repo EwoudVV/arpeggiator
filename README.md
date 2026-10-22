@@ -26,11 +26,13 @@ the controls and connectors will fit into a printed desktop case. the plan is on
 
 ## progress
 
-the 220 x 170 mm PCB is routed, with four copper layers. the controls are on the front, with most of the circuit on the back. i moved the bypass capacitors next to their chips and brought the output circuit closer to the jack
+the PCB is routed. it's 220 x 170 mm, with four layers. the controls are on the front and most of the circuit is on the back
 
-the two inner layers are ground planes. i cleaned up the jagged traces and removed redundant routing. the board passes DRC with no unconnected nets. the case and parts quotes are next. nothing has been built or tuned yet
+i started with two layers, but fitting all the ground connections around the signal tracks was getting awkward. the two inner ground planes made that much easier
 
-[BOM.csv](BOM.csv) is the current parts list. the main chips, controls, connectors and film capacitors are selected. the remaining passives still need supplier part numbers, and prices have not been quoted yet
+the case is next, then i can get the board and parts ordered
+
+[parts list](BOM.csv)
 
 ![PCB render, front](images/pcb-front.png)
 
