@@ -68,7 +68,7 @@ MF-MSMF025-2 / 250mA,1,F701,MF-MSMF025-2,Fuse:Fuse_1812_4532Metric,Bourns,LCSC,,
 MMBT3904,2,"Q602, Q604","MMBT3904,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/MMBT3904.pdf,"part selected, quote pending"
 MMBT3906,3,"Q606, Q702, Q703","MMBT3906,215",Package_TO_SOT_SMD:SOT-23,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/MMBT3906.pdf,"part selected, quote pending"
 "PESD5V0S1BA,115",1,D705,"PESD5V0S1BA,115",Diode_SMD:D_SOD-323,Nexperia,LCSC,,https://assets.nexperia.com/documents/data-sheet/PESD5V0S1BA_BB_BL.pdf,"part selected, quote pending"
-PJ-102AH / 12V DC centre +,1,J701,PJ-102AH,Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal,Same Sky,Mouser,,https://www.sameskydevices.com/product/resource/pj-102ah.pdf,"part selected, quote pending"
+PJ-102AH / 12V DC centre +,1,J701,PJ-102AH,Arpeggiator:BarrelJack_PJ102AH_Rear,Same Sky,Mouser,,https://www.sameskydevices.com/product/resource/pj-102ah.pdf,"part selected, quote pending"
 SMBJ12A,1,D702,SMBJ12A,Diode_SMD:D_SMB,Littelfuse,LCSC,https://www.littelfuse.com/products/overvoltage-protection/tvs-diodes/surface-mount/smbj/smbj12a,,"part selected, quote pending"
 SS14,3,"D703, D707, D704",SS14-13-F,Diode_SMD:D_SMA,Diodes Incorporated,LCSC,,https://www.diodes.com/assets/Datasheets/ds23001.pdf,"part selected, quote pending"
 saw / pulse,1,SW601,1MS1T1B1M2QES,Arpeggiator:SW_Dailywell_1M_SPDT_M2,Dailywell,Tayda,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,https://www.taydaelectronics.com/datasheets/files/1M_series.pdf,"part selected, quote pending"
@@ -125,7 +125,17 @@ start / stop,1,SW113,B3F-4055,Button_Switch_THT:SW_SPST_Omron_B3F-40xx,Omron,LCS
 copper test pad,6,"TP701, TP702, TP703, TP704, TP705, TP706",,TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm,,,,,"PCB pad, no component"
 logic test header,1,J202,,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,,,,,"generic component, supplier pending"
 "note LED, 0805",12,"D221, D222, D223, D224, D225, D226, D227, D228, D229, D230, D231, D232",,LED_SMD:LED_0805_2012Metric,,,,,"generic component, supplier pending"
-two-layer PCB,1,PCB,,,,,,,layout and quote pending
-printed case,1,CASE,,,,,,,CAD pending
-printed knobs,6,KNOBS,,,,,,,CAD pending
+"four-layer PCB, 220 x 170 mm, 1.6 mm FR4",1,PCB,,,,,,,"routed, quote next"
+"printed tray, control panel, rear cover and octave collar",1,CASE,,case/base.stl; case/control-panel.stl; case/rear-cover.stl; case/octave-collar.stl,,,,,"PETG-CF tray and rear cover, PLA panel and collar"
+printed pot knob,5,KNOBS,,case/pot-knob.stl,,,,,PLA
 "regulated 12V DC adapter, >=0.5A, centre +, 5.5/2.1mm",1,PSU,,external,,,,,exact adapter pending
+printed octave knob,1,OCTAVE_KNOB,,case/octave-knob.stl,,,,,PLA
+M3 x 8 mm socket-head screw,18,CASE_SCREWS,,ISO 4762 M3 x 8,,,,,"12 for board and covers, 6 for knobs"
+M3 hex nut,18,CASE_NUTS,,"ISO 4032 M3, 5.5 mm across flats",,,,,2.4 mm nominal thickness
+"stick-on rubber foot, about 12 mm diameter",4,FEET,,external,,,,,source next
+"clear 3 mm acrylic rod, at least 200 mm stock",1,LIGHT_PIPES,,external,,,,,"cut 12 pieces, each 11.6 mm long"
+round black button cap,1,START_CAP,B32-1610,Omron B3F-4055 compatible,Omron,,,https://omronfs.omron.com/en_US/ecb/products/pdf/en-b32.pdf,9.5 mm diameter
+M7 x 0.75 thin pot nut and washer,5,POT_MOUNTS,,"nut at most 2 mm thick, washer at most 0.5 mm",,,,,check whether included with pots
+1/4-40 toggle nut and washer,13,TOGGLE_MOUNTS,,"nut about 2 mm thick, washer 0.5 mm",,,,,check whether included with switches
+3/8-32 NEF rotary nut and lockwasher,1,ROTARY_MOUNT,,"nut at most 3 mm thick, washer at most 0.8 mm",,,,,included with Alpha SR2612F
+M6 x 0.5 jack nut and washer,1,JACK_MOUNT,,"nut 1 mm thick, washer at most 0.5 mm",,,,,check whether included with jack

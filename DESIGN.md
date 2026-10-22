@@ -20,7 +20,7 @@ the PCB is 220 x 170 mm with four layers. the two inner layers are ground. most 
 
 ## case and power
 
-the case will have a removable panel and room above the taller supply parts at the back. the switches and knobs stay in their current layout
+the case has a low front panel and a taller rear cover for the supply parts. the rear cover comes off for tuning. the switches and knobs stay in their current layout
 
 it takes regulated 12 V DC through a centre-positive 5.5/2.1 mm connector. the board makes its own 5 V and -5 V supplies. the two regulator tabs are on different nets, so they can't share bare metal mounting hardware
 

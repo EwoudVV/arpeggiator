@@ -30,9 +30,11 @@ the PCB is routed. it's 220 x 170 mm, with four layers. the controls are on the 
 
 i started with two layers, but fitting all the ground connections around the signal tracks was getting awkward. the two inner ground planes made that much easier
 
-the case is next, then i can get the board and parts ordered
+the printed case is drawn too, with a removable rear cover for tuning. board and parts quotes are next
 
 [parts list](BOM.csv)
+
+![case](images/case-assembly.png)
 
 ![PCB render, front](images/pcb-front.png)
 
@@ -52,7 +54,7 @@ some of the controls don't have 3D models yet
 
 open [arpeggiator.kicad_pro](arpeggiator.kicad_pro) in KiCad. the [main schematic](arpeggiator.kicad_sch) links the circuit sheets in [schematic](schematic)
 
-[arpeggiator.kicad_pcb](arpeggiator.kicad_pcb) is the routed board. the case and fabrication files are next
+[arpeggiator.kicad_pcb](arpeggiator.kicad_pcb) is the routed board. the [case files and assembly notes](case) include the FreeCAD model, STEP assembly and printable STLs
 
 [design notes](DESIGN.md)
 

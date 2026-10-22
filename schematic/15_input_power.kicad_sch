@@ -2382,7 +2382,7 @@
         (justify left)
       )
     )
-    (property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal"
+    (property "Footprint" "Arpeggiator:BarrelJack_PJ102AH_Rear"
       (at 25.4 40.64 0.0)
       (effects
         (font
