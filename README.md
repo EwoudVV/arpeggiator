@@ -70,6 +70,8 @@ open [arpeggiator.kicad_pro](arpeggiator.kicad_pro) in KiCad. the [main schemati
 
 [BOM.csv](BOM.csv) lists what goes into one build. [PURCHASES.csv](PURCHASES.csv) has the pack sizes and minimum quantities from the shops. the case and knobs use my own filament
 
+the current quotes add up to about $359. that includes estimated postage for the oscillator and acrylic rods, but not any LCSC import charges
+
 <details>
 <summary>full parts list</summary>
 

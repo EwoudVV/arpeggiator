@@ -205,3 +205,28 @@ exported the Gerbers and drill files from the saved board and checked the connec
 ![JLC quote](images/quotes/jlc.png)
 
 ![Mouser quote](images/quotes/mouser.png)
+
+
+## October 23, 2026
+
+5 hours
+
+Devlog 08: getting it ready to submit
+
+put the submission together. checked the saved board against the Gerbers and drill files, and went through the case files, parts list and shop quantities again
+
+looked at cheaper ways to make it, including a two-layer board and different LEDs. those changes needed more work on the layout, so i kept the four-layer board and the existing controls. the cost is still higher than i wanted
+
+filled in the website BOM with the quoted prices and delivery costs. grouped the small parts together so the whole list fits on the site, with every value and part number still in the repo
+
+got the cart screenshots together and made the closing video from the PCB and case renders. next is ordering the parts and building it
+
+![website BOM](images/quotes/website-bom.png)
+
+![Tayda cart](images/quotes/tayda.png)
+
+![acrylic rod cart](images/quotes/harfington.png)
+
+![case](images/case-assembly.png)
+
+![inside](images/case-open.png)
