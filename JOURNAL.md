@@ -180,3 +180,28 @@ caught the DC jack facing into the board while checking the case. turned it towa
 ![controls](https://raw.githubusercontent.com/EwoudVV/arpeggiator/main/images/case-top.png)
 
 ![inside](https://raw.githubusercontent.com/EwoudVV/arpeggiator/main/images/case-open.png)
+
+
+## October 23, 2026
+
+5 hours
+
+Devlog 07: parts and quotes
+
+spent this session picking parts and trying to get the price down. a few of the original part numbers were unavailable, so i checked replacements and updated the BOM. the mute switch is now the automotive version of the same TI chip, and the fuse is a 350mA Bourns part
+
+the PCB quotes were expensive. changed the via drills to 0.3mm and used 0.5 oz copper for the two inner ground planes. five boards and a bottom stencil now quote at $62.27 before delivery and tax
+
+put together the parts carts too. moved the fuse and mute switch into the other orders so there is no separate DigiKey shipment. found a $7 stencil coupon and got $9 off the LCSC shipping. the postage and US fees still add quite a bit
+
+exported the Gerbers and drill files from the saved board and checked the connections again. added the full parts list to the README, plus a separate list with the quantities the shops actually sell. the oscillator supplier's site is still getting stuck on its verification page
+
+![PCB, back](images/pcb-back.png)
+
+![LCSC cart](images/quotes/lcsc.png)
+
+![PCB, front](images/pcb-front.png)
+
+![JLC quote](images/quotes/jlc.png)
+
+![Mouser quote](images/quotes/mouser.png)

@@ -1,0 +1,119 @@
+Supplier,Supplier part number,MPN,Manufacturer,Needed quantity,Buy quantity,Unit price (USD),Line total (USD),URL,Stock checked,Units per pack
+LCSC,C5590,"74HC04D,653",Nexperia,4,5,0.1235,0.62,https://www.lcsc.com/product-detail/C5590.html,"in stock, 23 oct 2026",1
+LCSC,C5593,"74HC08D,653",Nexperia,8,10,0.1078,1.08,https://www.lcsc.com/product-detail/C5593.html,"in stock, 23 oct 2026",1
+LCSC,C5602,"74HC138D,653",Nexperia,1,5,0.2004,1,https://www.lcsc.com/product-detail/C5602.html,"in stock, 23 oct 2026",1
+LCSC,C5605,"74HC14D,653",Nexperia,4,5,0.0781,0.39,https://www.lcsc.com/product-detail/C5605.html,"in stock, 23 oct 2026",1
+LCSC,C5632,"74HC32D,653",Nexperia,7,10,0.1201,1.2,https://www.lcsc.com/product-detail/C5632.html,"in stock, 23 oct 2026",1
+LCSC,C5639,"74HC377D,653",Nexperia,3,3,0.7876,2.36,https://www.lcsc.com/product-detail/C5639.html,"in stock, 23 oct 2026",1
+LCSC,C9386,"74HC4051D,653",Nexperia,1,5,0.2193,1.1,https://www.lcsc.com/product-detail/C9386.html,"in stock, 23 oct 2026",1
+LCSC,C16501,"74HC574D,653",Nexperia,4,5,0.3229,1.61,https://www.lcsc.com/product-detail/C16501.html,"in stock, 23 oct 2026",1
+LCSC,C27597,"74HC74D,653",Nexperia,3,5,0.1682,0.84,https://www.lcsc.com/product-detail/C27597.html,"in stock, 23 oct 2026",1
+LCSC,C5955,"74HC86D,653",Nexperia,2,5,0.1472,0.74,https://www.lcsc.com/product-detail/C5955.html,"in stock, 23 oct 2026",1
+LCSC,C408400,ADG706BRUZ-REEL7,ADI,1,1,10.7603,10.76,https://www.lcsc.com/product-detail/C408400.html,"in stock, 23 oct 2026",1
+LCSC,C1545936,CD74HC4067M,TI,1,1,1.2067,1.21,https://www.lcsc.com/product-detail/C1545936.html,"in stock, 23 oct 2026",1
+LCSC,C111887,L7805CV,ST,1,5,0.3063,1.53,https://www.lcsc.com/product-detail/C111887.html,"in stock, 23 oct 2026",1
+LCSC,C111884,L7905CV,ST,1,5,0.3919,1.96,https://www.lcsc.com/product-detail/C111884.html,"in stock, 23 oct 2026",1
+LCSC,C1346265,LM13700M/NOPB,TI,1,1,1.3684,1.37,https://www.lcsc.com/product-detail/C1346265.html,"in stock, 23 oct 2026",1
+LCSC,C134467,MCP100T-450I/TT,MICROCHIP,1,1,0.6769,0.68,https://www.lcsc.com/product-detail/C134467.html,"in stock, 23 oct 2026",1
+LCSC,C2057908,OPA4192IDR,TI,2,2,2.9891,5.98,https://www.lcsc.com/product-detail/C2057908.html,"in stock, 23 oct 2026",1
+LCSC,C2878713,TL074HIDR,TI,1,5,0.2582,1.29,https://www.lcsc.com/product-detail/C2878713.html,"in stock, 23 oct 2026",1
+LCSC,C41283,TL431BIDBZR,TI,2,5,0.0717,0.36,https://www.lcsc.com/product-detail/C41283.html,"in stock, 23 oct 2026",1
+LCSC,C6987,TLC555IDR,TI,3,5,0.3787,1.89,https://www.lcsc.com/product-detail/C6987.html,"in stock, 23 oct 2026",1
+LCSC,C48084,3296W-1-104LF,BOURNS,2,2,0.846,1.69,https://www.lcsc.com/product-detail/C48084.html,"in stock, 23 oct 2026",1
+LCSC,C34845,3296W-1-203LF,BOURNS,1,1,0.8369,0.84,https://www.lcsc.com/product-detail/C34845.html,"in stock, 23 oct 2026",1
+LCSC,C65189,"2N7002,215",Nexperia,2,50,0.0174,0.87,https://www.lcsc.com/product-detail/C65189.html,"in stock, 23 oct 2026",1
+LCSC,C47546,"BAT54S,215",Nexperia,1,20,0.0285,0.57,https://www.lcsc.com/product-detail/C47546.html,"in stock, 23 oct 2026",1
+LCSC,C493579,"BSS84,215",Nexperia,1,10,0.0716,0.72,https://www.lcsc.com/product-detail/C493579.html,"in stock, 23 oct 2026",1
+LCSC,C9421,LM4040A25IDBZR,TI,1,2,1.7533,3.51,https://www.lcsc.com/product-detail/C9421.html,"in stock, 23 oct 2026",1
+LCSC,C426835,"MMBT3904,215",Nexperia,2,20,0.0281,0.56,https://www.lcsc.com/product-detail/C426835.html,"in stock, 23 oct 2026",1
+LCSC,C75549,"MMBT3906,215",Nexperia,3,20,0.0223,0.45,https://www.lcsc.com/product-detail/C75549.html,"in stock, 23 oct 2026",1
+LCSC,C19224,"PESD5V0S1BA,115",Nexperia,1,5,0.0793,0.4,https://www.lcsc.com/product-detail/C19224.html,"in stock, 23 oct 2026",1
+LCSC,C84931,B3F-4055,OMRON,1,5,0.1393,0.7,https://www.lcsc.com/product-detail/C84931.html,"in stock, 23 oct 2026",1
+LCSC,C2832236,CD74HC154M96,TI,1,1,1.0333,1.03,https://www.lcsc.com/product-detail/C2832236.html,"in stock, 23 oct 2026",1
+LCSC,C338758,SN74HC163DR,TI,4,4,0.3982,1.59,https://www.lcsc.com/product-detail/C338758.html,"in stock, 23 oct 2026",1
+LCSC,C15127,AO3401A,AOS,1,5,0.0967,0.48,https://www.lcsc.com/product-detail/C15127.html,"in stock, 23 oct 2026",1
+LCSC,C5952163,BAT54GWX,Nexperia,2,10,0.0642,0.64,https://www.lcsc.com/product-detail/C5952163.html,"in stock, 23 oct 2026",1
+LCSC,C49678,CC0805KRX7R9BB104,YAGEO,68,80,0.0206,1.65,https://www.lcsc.com/product-detail/C49678.html,"in stock, 23 oct 2026",1
+LCSC,C2167597,C0805C103J5GACTU,KEMET,6,10,0.2975,2.98,https://www.lcsc.com/product-detail/C2167597.html,"in stock, 23 oct 2026",1
+LCSC,C77075,GRM21BR61C106KE15L,muRata,1,10,0.0415,0.42,https://www.lcsc.com/product-detail/C77075.html,"in stock, 23 oct 2026",1
+LCSC,C162427,GRM21BR71E475KA73L,muRata,1,5,0.1365,0.68,https://www.lcsc.com/product-detail/C162427.html,"in stock, 23 oct 2026",1
+Mouser,595-LT1054CP,LT1054CP,Texas Instruments,1,1,4.94,4.94,https://www.mouser.com/en/ProductDetail/Texas-Instruments/LT1054CP?qs=p6YqzpSxLIw2yA3OFyb6XA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,667-EEU-FR1E102,EEU-FR1E102,Panasonic,1,1,1.16,1.16,https://www.mouser.com/en/ProductDetail/Panasonic/EEU-FR1E102?qs=Ao3mORb5HCARq2G4MnAlEQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,708-RNCF0805TKT100K,RNCF0805TKT100K,SEI Stackpole,4,4,1.43,5.72,https://www.mouser.com/en/ProductDetail/SEI-Stackpole/RNCF0805TKT100K?qs=IPgv5n7u5QbwSiCWZtnkOw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,708-RNCF0805TKY10K0,RNCF0805TKY10K0,SEI Stackpole,4,4,1.61,6.44,https://www.mouser.com/en/ProductDetail/SEI-Stackpole/RNCF0805TKY10K0?qs=FESYatJ8odKPVkqigBJMsg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,652-3296W-1-103LF,3296W-1-103LF,Bourns,1,1,2.43,2.43,https://www.mouser.com/en/ProductDetail/Bourns/3296W-1-103LF?qs=CL3xLxiry19Id6AEaxYcng%3D%3D,"in stock, 22 oct 2026",1
+Mouser,80-R82DC3470AA60J,R82DC3470AA60J,KEMET,1,1,0.42,0.42,https://www.mouser.com/en/ProductDetail/KEMET/R82DC3470AA60J?qs=06HLYMEcjuWhk0f5YvbbSQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,232-25YXJ47M5X11,25YXJ47M5X11,Rubycon,3,3,0.27,0.81,https://www.mouser.com/en/ProductDetail/Rubycon/25YXJ47M5X11?qs=T3oQrply3y%2F3J8S0Pc4Y1g%3D%3D,"in stock, 22 oct 2026",1
+Mouser,652-3296W-1-501LF,3296W-1-501LF,Bourns,1,1,2.39,2.39,https://www.mouser.com/en/ProductDetail/Bourns/3296W-1-501LF?qs=jv1NtkgVBglZfwkzTzmOUg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,490-PJ-102AH,PJ-102AH,Same Sky,1,1,0.77,0.77,https://www.mouser.com/en/ProductDetail/Same-Sky/PJ-102AH?qs=WyjlAZoYn50Yq4CrVLCXLw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,653-B32-1610,B32-1610,Aratas,1,1,0.5,0.5,https://www.mouser.com/en/ProductDetail/Aratas/B32-1610?qs=1tDaWCEHQQ6l3s6oDrKSiA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-071M1L,RC0805FR-071M1L,YAGEO,1,1,0.12,0.12,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-071M1L?qs=g6xwsc4j%252B%2FrRMnxWx%2Fruqg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-071M5L,RC0805FR-071M5L,YAGEO,2,2,0.1,0.2,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-071M5L?qs=g6xwsc4j%252B%2FoVoMODI3Rz0Q%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-071K5L,RC0805FR-071K5L,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-071K5L?qs=8Y8p%252BasKcI6LbaohOVk4HA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,279-CPF0805B1M82E,CPF0805B1M82E,TE Connectivity,1,1,0.42,0.42,https://www.mouser.com/en/ProductDetail/TE-Connectivity/CPF0805B1M82E?qs=CXI0wBT1M2hvtJld3NhfsA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD07100RL,RT0805BRD07100RL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD07100RL?qs=%2Ff7pOCXLR5dUTF5MWPONjg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-07100KL,RC0805FR-07100KL,YAGEO,11,11,0.022,0.24,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-07100KL?qs=8Y8p%252BasKcI7rEWn6FcVdAA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,80-C0805C104J5R,C0805C104J5RACTU,KEMET,1,1,0.22,0.22,https://www.mouser.com/en/ProductDetail/KEMET/C0805C104J5RACTU?qs=gbgtKHXraGH15GhoNPXHBg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,80-C0805C101J5G,C0805C101J5GACTU,KEMET,5,5,0.19,0.95,https://www.mouser.com/en/ProductDetail/KEMET/C0805C101J5GACTU?qs=6pfgPk%252B7Yz7wCPQSSQ%2FBjg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD0710KL,RT0805BRD0710KL,YAGEO,3,3,0.1,0.3,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD0710KL?qs=87%2Fgv35YuOdOfU%252BBkLDVxA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-0710KL,RC0805FR-0710KL,YAGEO,25,25,0.02,0.5,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0710KL?qs=7bY8808IzHq6vrU3BeiiYw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD0715KL,RT0805BRD0715KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD0715KL?qs=%2Ff7pOCXLR5foXQ1VlhQYhQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD07174KL,RT0805BRD07174KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD07174KL?qs=4CyHz7GXqSj4xC7rYoRg0A%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-071ML,RC0805FR-071ML,YAGEO,2,2,0.1,0.2,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-071ML?qs=8Y8p%252BasKcI6wvSL4jxV1pQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD071KL,RT0805BRD071KL,YAGEO,12,12,0.071,0.85,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD071KL?qs=%2Ff7pOCXLR5e3FpClshTdPA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-071KL,RC0805FR-071KL,YAGEO,6,6,0.1,0.6,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-071KL?qs=1ogmaHw32WJjeGY0DHXakQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,80-C0805C102J5G,C0805C102J5GACTU,KEMET,2,2,0.16,0.32,https://www.mouser.com/en/ProductDetail/KEMET/C0805C102J5GACTU?qs=yrVqjCObULOWvTzsHVJg1Q%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-CC805KKX7R8BB105,CC0805KKX7R8BB105,YAGEO,12,12,0.095,1.14,https://www.mouser.com/en/ProductDetail/YAGEO/CC0805KKX7R8BB105?qs=QENzi4TkIJ0C75LKGblEtw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-072K2L,RC0805FR-072K2L,YAGEO,14,14,0.021,0.29,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-072K2L?qs=CSLd874fYV2eT6iKTza3nw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD072K32L,RT0805BRD072K32L,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD072K32L?qs=4CyHz7GXqSgSJcxnTJ8TbQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-072K49L,RC0805FR-072K49L,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-072K49L?qs=QrWOOBGzeCbaR%2FeulLJohg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-07200KL,RC0805FR-07200KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-07200KL?qs=8Y8p%252BasKcI4ufYuYh%252BmyZQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD0720KL,RT0805BRD0720KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD0720KL?qs=87%2Fgv35YuOd%2FdRM1LyX3Lg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-07220RL,RC0805FR-07220RL,YAGEO,2,2,0.1,0.2,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-07220RL?qs=KCkj9j0IqmXa4o%252BHKR6RGw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-0722KL,RC0805FR-0722KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0722KL?qs=ngJqVwYVsdVbc7Rh0xIeHw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-0724KL,RC0805FR-0724KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0724KL?qs=0OpHuDRjTADBsy5P0J6k2w%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD072KL,RT0805BRD072KL,YAGEO,2,2,0.1,0.2,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD072KL?qs=7JGxMcfkPok2189RXPA53g%3D%3D,"in stock, 22 oct 2026",1
+Mouser,80-C0805C202J5G,C0805C202J5GACTU,KEMET,1,1,0.7,0.7,https://www.mouser.com/en/ProductDetail/KEMET/C0805C202J5GACTU?qs=W4SVoLh3QChWIjbVvPwmQg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD07330KL,RT0805BRD07330KL,YAGEO,2,2,0.1,0.2,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD07330KL?qs=aZCcseWLxnuj6nToWrZKFA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-0733KL,RC0805FR-0733KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0733KL?qs=BrN8wpjQTgGzZxKgikrwvw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,80-C0805C330J5G,C0805C330J5GACTU,KEMET,1,1,0.13,0.13,https://www.mouser.com/en/ProductDetail/KEMET/C0805C330J5GACTU?qs=PVnqbTyV3SUE6Uu%252BkD9Iyg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD07360KL,RT0805BRD07360KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD07360KL?qs=aZCcseWLxnvpELpsSQnh8g%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-0736KL,RC0805FR-0736KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0736KL?qs=g6xwsc4j%252B%2Fq3CmSeyDlL7g%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC1206FR-074R7L,RC1206FR-074R7L,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC1206FR-074R7L?qs=bz%2FLPVPAsTK5WyYax3BLuA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-07470RL,RC0805FR-07470RL,YAGEO,2,2,0.1,0.2,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-07470RL?qs=CSLd874fYV2wsnqMGLpcHA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-0747KL,RC0805FR-0747KL,YAGEO,5,5,0.1,0.5,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0747KL?qs=sfaR5EV1ye7DERH7OnC2Gg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD075K62L,RT0805BRD075K62L,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD075K62L?qs=ylEn6CkgxuiWDc5aTJ638g%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-0751KL,RC0805FR-0751KL,YAGEO,1,1,0.11,0.11,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-0751KL?qs=g6xwsc4j%252B%2FrUFmy6S6ALYQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD076K04L,RT0805BRD076K04L,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD076K04L?qs=8SI67b7NHM5NwjLBwcP%252BXQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RT0805BRD076K49L,RT0805BRD076K49L,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RT0805BRD076K49L?qs=4CyHz7GXqSiLdN4y1MhhhQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-07820KL,RC0805FR-07820KL,YAGEO,1,1,0.1,0.1,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-07820KL?qs=g6xwsc4j%252B%2FozLzDoZP6Szg%3D%3D,"in stock, 22 oct 2026",1
+Mouser,603-RC0805FR-07910RL,RC0805FR-07910RL,YAGEO,2,2,0.1,0.2,https://www.mouser.com/en/ProductDetail/YAGEO/RC0805FR-07910RL?qs=g6xwsc4j%252B%2FoZ2NamZOKACA%3D%3D,"in stock, 22 oct 2026",1
+Mouser,576-SMBJ12A,SMBJ12A,Littelfuse,1,1,0.49,0.49,https://www.mouser.com/en/ProductDetail/Littelfuse/SMBJ12A?qs=JJML70Qc14s9i3D6UUa43Q%3D%3D,"in stock, 22 oct 2026",1
+Mouser,667-ERJ-6ENF1804V,ERJ-6ENF1804V,Panasonic,1,1,0.11,0.11,https://www.mouser.com/en/ProductDetail/Panasonic/ERJ-6ENF1804V?qs=JjxTDIFmKPTXgJmgM%2FyOiQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,604-APT2012SYCK,APT2012SYCK,Kingbright,12,12,0.144,1.73,https://www.mouser.com/en/ProductDetail/Kingbright/APT2012SYCK?qs=y3UkhjaxUTb%252BLZXQu8d2yw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,855-M20-9990846,M20-9990846,Harwin,1,1,0.34,0.34,https://www.mouser.com/en/ProductDetail/Harwin/M20-9990846?qs=ulE8k0yEMYb37YKanNqd%2FQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,490-SMI6B-12-4-P5,SMI6B-12-4-P5,CUI Inc.,1,1,12.64,12.64,https://www.mouser.com/en/ProductDetail/CUI-Inc/SMI6B-12-4-P5?qs=mAH9sUMRCtt8%252BS4f4Sapgw%3D%3D,"in stock, 22 oct 2026",1
+Mouser,80-C0805C334K5R,C0805C334K5RACTU,KEMET,1,1,0.22,0.22,https://www.mouser.com/en/ProductDetail/KEMET/C0805C334K5RACTU?qs=nRD1PKnFC2Hh3tSy%2FGeH2Q%3D%3D,"in stock, 22 oct 2026",1
+Mouser,771-BZT52-C8V2J,BZT52-C8V2J,Nexperia,1,1,0.27,0.27,https://www.mouser.com/en/ProductDetail/Nexperia/BZT52-C8V2J?qs=%252BEew9%252B0nqrCU1UOFPtFF2A%3D%3D,"in stock, 22 oct 2026",1
+Mouser,625-SS14-E3,SS14-E3/61T,Vishay,3,3,0.47,1.41,https://www.mouser.com/en/ProductDetail/Vishay/SS14-E3-61T?qs=x2jpVgRnAtMLNL7KZbtr8g%3D%3D,"in stock, 22 oct 2026",1
+Mouser,667-EEU-FC1E101S,EEU-FC1E101S,Panasonic,2,2,0.46,0.92,https://www.mouser.com/en/ProductDetail/Panasonic/EEU-FC1E101S?qs=XZT10BZ%2FaGG7SbPLggsp3w%3D%3D,"in stock, 22 oct 2026",1
+Mouser,652-MF-MSMF035/33X-2,MF-MSMF035/33X-2,Bourns,1,1,0.48,0.48,https://www.mouser.com/en/ProductDetail/Bourns/MF-MSMF035-33X-2?qs=CoAU%2FpHVZXxuOeHMuQc7RQ%3D%3D,"in stock, 22 oct 2026",1
+Mouser,667-ERJ-6ENF1822V,ERJ-6ENF1822V,Panasonic,1,1,0.13,0.13,https://www.mouser.com/en/ProductDetail/Panasonic/ERJ-6ENF1822V?qs=JjxTDIFmKPRzh6ImPVU9cQ%3D%3D,"in stock, 22 oct 2026",1
+Tayda,A-1892,SR2612F-0403-18R0B-D8-N,Taiwan Alpha,1,1,1.69,1.69,https://www.taydaelectronics.com/electromechanical/switches-key-pad/rotary-switch/rotary-switch-4-pole-3-position-alpha-sr2612f.html,"in stock, 22 oct 2026",1
+Tayda,A-6486,RD901F-40-15F-A100K,Taiwan Alpha,1,1,1.21,1.21,https://www.taydaelectronics.com/100k-ohm-logarithmic-taper-potentiometer-d-shaft-pcb-9mm.html,"in stock, 22 oct 2026",1
+Tayda,A-5591,RD901F-40-15F-B100K,Taiwan Alpha,2,2,1.21,2.42,https://www.taydaelectronics.com/100k-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html,"in stock, 22 oct 2026",1
+Tayda,A-951,R82EC3100DQ70J,KEMET,2,2,0.1,0.2,https://www.taydaelectronics.com/0-1uf-100v-5-kemet-polyester-film-box-type-capacitor.html,"in stock, 22 oct 2026",1
+Tayda,A-8558,RD901F-40-15F-B1M,Taiwan Alpha,1,1,1.21,1.21,https://www.taydaelectronics.com/potentiometer-variable-resistors/rotary-potentiometer/linear/1m-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html,"in stock, 22 oct 2026",1
+Tayda,A-4755,R82DC4100DQ60J,KEMET,1,1,0.3,0.3,https://www.taydaelectronics.com/1uf-63v-5-kemet-polyester-film-box-type-capacitor.html,"in stock, 22 oct 2026",1
+Tayda,A-6500,MKS4D042204F00KSSD,WIMA,1,1,1.28,1.28,https://www.taydaelectronics.com/capacitors/polyester-film-box-type-capacitors/wima-2200nf-2-2uf-100v-10-polyester-film-box-type-capacitor.html,"in stock, 22 oct 2026",1
+Tayda,A-8557,RD901F-40-15F-B250K,Taiwan Alpha,1,1,1.21,1.21,https://www.taydaelectronics.com/potentiometer-variable-resistors/250k-ohm-linear-taper-potentiometer-d-shaft-pcb-9mm.html,"in stock, 22 oct 2026",1
+Tayda,A-2563,PJ-3001F,Tayda Electronics,1,1,0.184,0.18,https://www.taydaelectronics.com/pj-3001f-3-5-mm-mono-phone-jack.html,"in stock, 22 oct 2026",1
+Tayda,A-5387,1MS1T1B1M2QES,Dailywell,13,13,0.68,8.84,https://www.taydaelectronics.com/electromechanical/switches-key-pad/toggle-switch/mini-toggle-switch-spdt-on-none-on-pc-thru-hole.html,"in stock, 22 oct 2026",1
+Tayda,A-6393,A-6393,Tayda Electronics,18,18,0.1,1.8,https://www.taydaelectronics.com/hardware-tools/nuts-washers-screws-spacers-and-more/screws/m3-hexagon-socket-head-cap-screw-3x8mm-grade-12-9.html,"in stock, 22 oct 2026",1
+Tayda,A-1247,Nut M3,Tayda Electronics,18,18,0.02,0.36,https://www.taydaelectronics.com/nut-3mm-for-screw-m3.html,"in stock, 22 oct 2026",1
+Infinite Machinery,IM-IC-AS3340A,AS3340A,ALFA RPAR,1,1,8.59,8.59,https://infinitemachinery.com/as3340a,"listed in stock, cart blocked by verification",1
+Tayda,A-7506,RF-1204,Tayda Electronics,4,1,5.9,5.9,https://www.taydaelectronics.com/rubber-feet-black-64pcs-block-size-12mmx4mm-for-enclosure.html,"in stock, 23 oct 2026; one sheet of 64 feet",64
+LCSC,C3657022,TMUX6219DGKRQ1,Texas Instruments,1,1,4.1133,4.11,https://www.lcsc.com/product-detail/C3657022.html,"in stock, 23 oct 2026",1
+JLCPCB,custom 4-layer 220 x 170 mm,arpeggiator-jlcpcb,JLCPCB,1,1,55.05,55.05,https://jlcpcb.com/pcb-fabrication/fr4-pcb,"quoted 23 oct 2026; five boards, including production-file review",5
+JLCPCB,"custom bottom stencil, 380 x 280 x 0.12 mm",arpeggiator-bottom-stencil,JLCPCB,1,1,7.22,7.22,https://jlcpcb.com/pcb-stencil,"quoted 23 oct 2026, before coupon",1
+Harfington,a24061900ux1460,a24061900ux1460,Harfington,1,1,8.03,8.03,https://www.harfington.com/products/p-1536182,"in stock, 23 oct 2026; listed as 3 x 300 mm, 30 rods per pack",30

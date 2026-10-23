@@ -3561,7 +3561,7 @@
         (hide yes)
       )
     )
-    (property "MPN" "BAT54GW,115"
+    (property "MPN" "BAT54GWX"
       (at 384.81 100.33 0.0)
       (effects
         (font

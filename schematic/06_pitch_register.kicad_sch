@@ -2627,7 +2627,7 @@
         (hide yes)
       )
     )
-    (property "MPN" "74HC154D,653"
+    (property "MPN" "CD74HC154M96"
       (at 209.55 85.09 0.0)
       (effects
         (font
@@ -2636,7 +2636,7 @@
         (hide yes)
       )
     )
-    (property "Manufacturer" "Nexperia"
+    (property "Manufacturer" "TI"
       (at 209.55 85.09 0.0)
       (effects
         (font
@@ -2654,7 +2654,7 @@
         (hide yes)
       )
     )
-    (property "Supplier URL" "https://www.lcsc.com/product-detail/C13758.html"
+    (property "Supplier URL" "https://www.lcsc.com/product-detail/C2832236.html"
       (at 209.55 85.09 0.0)
       (effects
         (font
